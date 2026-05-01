@@ -48,13 +48,13 @@ body:
       label: Source location
       placeholder: Table 1, Appendix B, page 7, official leaderboard row
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: notes
+    id: Details
     attributes:
-      label: Notes
-      description: Optional. Add score breakdown, evaluation setting, or correction details.
+      label: Details
+      description: Optional. Add score breakdown, evaluation setting, or correction details. This field will be displayed as overlay
       placeholder: "Spatial 97.6, object 98.4, goal 97.9, long 94.5. Overall 97.1."
     validations:
       required: false
