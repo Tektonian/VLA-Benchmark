@@ -1,0 +1,1305 @@
+[
+  {
+    "model": "Hume",
+    "paperTitle": "Hume: Introducing System-2 Thinking in Visual-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2505.21432",
+    "arxivId": "2505.21432",
+    "publishedAt": "May 2025",
+    "organization": "SJTU / Shanghai AI Lab / Fudan / AgiBot / INSAIT / Zhejiang / NPU",
+    "flag": "🇨🇳 🇧🇬",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 98.6 · libero object 99.8 · libero goal 99.4 · libero long 96.7 · overall 98.6.",
+        "overall": 98.6
+      }
+    ]
+  },
+  {
+    "model": "ACoT-VLA (frozen)",
+    "paperTitle": "ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2601.11404",
+    "arxivId": "2601.11404",
+    "publishedAt": "Jan 2026",
+    "organization": "Beihang University / AgiBot",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 99.4 · libero object 99.6 · libero goal 98.8 · libero long 96 · overall 98.5.",
+        "overall": 98.5
+      }
+    ]
+  },
+  {
+    "model": "EO-1",
+    "paperTitle": "EO-1: An Open Unified Embodied Foundation Model for General Robot Control",
+    "paperUrl": "https://arxiv.org/abs/2508.21112",
+    "arxivId": "2508.21112",
+    "publishedAt": "Aug 2025",
+    "organization": "Shanghai AI Lab / Fudan / AgiBot / NPU",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 3: libero spatial 99.7 · libero object 99.8 · libero goal 99.2 · libero long 94.8 · overall 98.4.",
+        "overall": 98.4
+      }
+    ]
+  },
+  {
+    "model": "LangForce",
+    "paperTitle": "LangForce: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+    "paperUrl": "https://arxiv.org/abs/2601.15197",
+    "arxivId": "2601.15197",
+    "publishedAt": "Jan 2026",
+    "organization": "HUST / ZGCA / ZGCI / HIT / HKUST(GZ) / BUAA / ECNU / DeepCybo",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 2: libero spatial 99.2 · libero object 99.6 · libero goal 99.4 · libero long 95.2 · overall 98.4.",
+        "overall": 98.4
+      }
+    ]
+  },
+  {
+    "model": "StarVLA-α (Specialist)",
+    "paperTitle": "StarVLA-α: Reducing Complexity in Vision-Language-Action Systems",
+    "paperUrl": "https://arxiv.org/abs/2604.11757",
+    "arxivId": "2604.11757",
+    "publishedAt": "Apr 2026",
+    "organization": "HKUST / XJTU / CUHK / Tsinghua / Alibaba Tongyi Lab / SmartMore",
+    "flag": "🇭🇰 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 98.7 · libero object 99.7 · libero goal 98.6 · libero long 94.2 · overall 97.8.",
+        "overall": 97.8
+      }
+    ]
+  },
+  {
+    "model": "PALM",
+    "paperTitle": "PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2601.07060",
+    "arxivId": "2601.07060",
+    "publishedAt": "Jan 2026",
+    "organization": "University of Pennsylvania / UIUC / NTU / Oxford / MIT",
+    "flag": "🇺🇸 🇸🇬 🇬🇧",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Table 1: 1 task 96.9 · 2 tasks 93.8 · 3 tasks 89.3 · 4 tasks 85.9 · 5 tasks 82 · overall 4.48.",
+        "overall": 4.48
+      }
+    ]
+  },
+  {
+    "model": "OE-VLA",
+    "paperTitle": "Unveiling the Potential of Vision-Language-Action Models with Open-Ended Multimodal Instructions",
+    "paperUrl": "https://arxiv.org/abs/2505.11214",
+    "arxivId": "2505.11214",
+    "publishedAt": "May 2025",
+    "organization": "Westlake University / Zhejiang University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Table 1: 1 task 91.8 · 2 tasks 73.8 · 3 tasks 56.2 · 4 tasks 44.2 · 5 tasks 33.4 · overall 2.99.",
+        "overall": 2.99
+      }
+    ]
+  },
+  {
+    "model": "StarVLA-OFT",
+    "paperTitle": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+    "paperUrl": "https://arxiv.org/abs/2604.05014",
+    "arxivId": "2604.05014",
+    "publishedAt": "Apr 2026",
+    "organization": "StarVLA Community / Von Neumann Institute / HKUST",
+    "flag": "🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 2: libero spatial 97.8 · libero object 98.8 · libero goal 97.4 · libero long 92 · overall 96.5.",
+        "overall": 96.5
+      }
+    ]
+  },
+  {
+    "model": "GR00T N1.5 + RS-CL",
+    "paperTitle": "Contrastive Representation Regularization for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2510.01711",
+    "arxivId": "2510.01711",
+    "publishedAt": "Oct 2025",
+    "organization": "KAIST / UC Berkeley / RLWRLD",
+    "flag": "🇰🇷 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 2: libero spatial 98.4 · libero object 98.6 · libero goal 98.2 · libero long 90.4 · overall 96.4.",
+        "overall": 96.4
+      }
+    ]
+  },
+  {
+    "model": "DS-VLA + T-MEE",
+    "paperTitle": "Reshaping Action Error Distributions for Reliable Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2602.04228",
+    "arxivId": "2602.04228",
+    "publishedAt": "Feb 2026",
+    "organization": "XJTU / BAAI / UCAS / Peking University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "TABLE I: libero spatial 98.6 · libero object 99.8 · libero goal 97.6 · libero long 96.8 · overall 98.2.",
+        "overall": 98.2
+      }
+    ]
+  },
+  {
+    "model": "DiT4DiT",
+    "paperTitle": "DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control",
+    "paperUrl": "https://arxiv.org/abs/2603.10448",
+    "arxivId": "2603.10448",
+    "publishedAt": "Mar 2026",
+    "organization": "Mondo Robotics / HKUST(GZ) / HKUST",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 98.4 · libero object 99.6 · libero goal 98.6 · libero long 97.6 · overall 98.6.",
+        "overall": 98.6
+      }
+    ]
+  },
+  {
+    "model": "GeoAware VQ-BeT",
+    "paperTitle": "GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2509.14117",
+    "arxivId": "2509.14117",
+    "publishedAt": "Sep 2025",
+    "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+    "flag": "🇦🇪",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table I: libero spatial 95 · libero object 100 · libero goal 99 · libero long 93 · overall 96.8.",
+        "overall": 96.8
+      }
+    ]
+  },
+  {
+    "model": "UniVLA + Dejavu EFN (Vol=1000)",
+    "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Oct 2025",
+    "organization": "Shanghai Jiao Tong University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 98.2 · libero object 98.2 · libero goal 97.6 · libero long 94.6 · overall 97.2.",
+        "overall": 97.2
+      }
+    ]
+  },
+  {
+    "model": "GO-1 + Dejavu EFN (Vol=1000)",
+    "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Oct 2025",
+    "organization": "Shanghai Jiao Tong University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 98.1 · libero object 98.5 · libero goal 97.3 · libero long 92.8 · overall 96.7.",
+        "overall": 96.7
+      }
+    ]
+  },
+  {
+    "model": "TEAM-VLA",
+    "paperTitle": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2512.09927",
+    "arxivId": "2512.09927",
+    "publishedAt": "Dec 2025",
+    "organization": "Hamad Bin Khalifa University / MBZUAI / Zhejiang University",
+    "flag": "🇶🇦 🇦🇪 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table I: libero spatial 99.2 · libero object 96.5 · libero goal 97 · libero long 93.8 · overall 96.6.",
+        "overall": 96.6
+      }
+    ]
+  },
+  {
+    "model": "Dita",
+    "paperTitle": "Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy",
+    "paperUrl": "https://arxiv.org/abs/2503.19757",
+    "arxivId": "2503.19757",
+    "publishedAt": "Jan 2025",
+    "organization": "Shanghai AI Lab / Zhejiang University / CUHK / Peking University / SenseTime / Tsinghua / HKISI-CAS",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 94.5 · 2 tasks 82.5 · 3 tasks 72.8 · 4 tasks 61.3 · 5 tasks 50 | Table 3 | Notes: Uses ABC->D split with 1000 chains, reports avg_len metric. Uses only static RGB camera input. Pretrained on OXE and finetuned on CALVIN. Same score also reported in: https://arxiv.org/abs/2603.03195.",
+        "overall": 3.61
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 82.4,
+        "detail": "Suites: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero 10 63.8 | Tasks: reported avg 82.4 | Table 2 | Notes: Paper reports LIBERO-SPATIAL, OBJECT, GOAL, and LONG (which corresponds to libero_10). Uses modified LIBERO from OpenVLA as data source. However, the paper reports LIBERO-LONG not LIBERO-10, which may differ. The number of demos per task is not explicitly stated. Same score also reported in: https://arxiv.org/abs/2603.03195."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 65.8,
+        "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard). Paper-reported aggregate 65.8 is used as the displayed score. Averaging method: arithmetic."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 67,
+        "detail": "Suites: google robot vm 68.7 · google robot va 65.3 | Tasks: pick coke can vm 83.7 · pick coke can va 85.5 · move near vm 76 · move near va 73 · open close drawer vm 46.3 · open close drawer va 37.5 | Table 1 | Notes: Zero-shot evaluation on SimplerEnv Google Robot tasks. Follows SimplerEnv evaluation protocol with match and variant scenarios. Only 3 tasks reported (pick coke can, move near, drawer) - the standard requires 3 tasks for Google Robot VM/VA suite scores. No WidowX results reported."
+      }
+    ]
+  },
+  {
+    "model": "π₀.₅ (MINT)",
+    "paperTitle": "Mimic Intent, Not Just Trajectories",
+    "paperUrl": "https://arxiv.org/abs/2602.08602",
+    "arxivId": "2602.08602",
+    "publishedAt": "Mar 28, 2026",
+    "organization": "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.15,
+        "detail": "Tasks: chain 1 94.2 · chain 2 89.3 · chain 3 82.7 · chain 4 78.5 · chain 5 70.3 · reported avg 4.15 | Table I | Notes: Protocol does not match ABC→D standard | ABCD→D split."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98.8 · libero object 98.2 · libero goal 98 · libero 10 92.4 · libero 90 96 | Table I | Notes: 4 standard suites.",
+        "overall": 96.8
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "detail": "Suites: camera 53 · robot 50.3 · language 65.7 · light 83.1 · background 77.3 · noise 53.2 · layout 72.7 | Table II | Notes: All 7 dimensions.",
+        "overall": 65
+      }
+    ]
+  },
+  {
+    "model": "VITA",
+    "paperTitle": "Unifying Perception and Action: A Hybrid-Modality Pipeline with Implicit Visual Chain-of-Thought for Robotic Action Generation",
+    "paperUrl": "https://arxiv.org/abs/2511.19859",
+    "arxivId": "2511.19859",
+    "publishedAt": "Jan 2025",
+    "organization": "State Key Laboratory for Novel Software Technology, Nanjing University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 99.1 · 2 tasks 94.9 · 3 tasks 91.2 · 4 tasks 87.8 · 5 tasks 84.5 | Table 1 | Notes: CALVIN ABC-D split, 1000 evaluation rollouts, avg_len metric reported",
+        "overall": 4.73
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero goal 95.1 · libero spatial 95.9 · libero object 98.9 · libero 10 96.8 | Table 2 | Notes: All 4 standard suites reported with 50 demos/task",
+        "overall": 96.7
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 64.45,
+        "detail": "Suites: google robot vm 57.4 · widowx vm 71.5 | Tasks: pick coke can vm 57.5 · move near vm 55.8 · open close drawer vm 58.9 · put spoon on towel vm 84.2 · put carrot on plate vm 68.8 · stack green block on yellow block vm 37.5 · put eggplant in yellow basket vm 95.6 | Table 3, Table 4 | Notes: Standard SimplerEnv VM protocol for Google Robot (3 tasks) and WidowX (4 tasks)"
+      }
+    ]
+  },
+  {
+    "model": "FutureVLA-GT",
+    "paperTitle": "FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2603.10712",
+    "arxivId": "2603.10712",
+    "publishedAt": "Mar 11, 2026",
+    "organization": "Beihang University / Shanghai AI Lab / USTC / CUHK",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.3,
+        "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.6 · libero 10 96 | Tasks: reported avg 98.3 | Table 3 | Notes: Reports 4-suite LIBERO results. Demo count not stated explicitly. 50 episodes per task evaluation mentioned in appendix for LIBERO-Plus, assumed similar for LIBERO."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "detail": "Suites: camera 59.7 · robot 66 · language 88.2 · light 97.4 · background 97.8 · noise 77.3 · layout 82.6 | Table 6 | Notes: Zero-shot evaluation on all 7 LIBERO-Plus perturbation dimensions. Models trained on LIBERO only, evaluated zero-shot.",
+        "overall": 81.3
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 75.867,
+        "detail": "Suites: google robot vm 80.1 · google robot va 75.6 · widowx vm 71.9 | Tasks: pick coke can vm 92.3 · move near vm 74.2 · open close drawer vm 68.5 · put in drawer vm 85.2 · pick coke can va 95.7 · move near va 72.9 · open close drawer va 52.4 · put in drawer va 81.2 | Table 1, Table 2 | Notes: Evaluates on Google Robot (VM and VA) and WidowX tasks. Reports separate suite averages. Google Robot VM uses 4 tasks: Pick Coke Can, Move Near, Open/Close Drawer, Put in Drawer. Paper reports 4-task averages for google_robot_vm and google_robot_va. The standard uses 3-task average (excluding Put in Drawer), so storing the paper's 4-task average. WidowX VM uses Put Spoon on Towel, Put Carrot on..."
+      }
+    ]
+  },
+  {
+    "model": "FutureVLA-OT",
+    "paperTitle": "FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2603.10712",
+    "arxivId": "2603.10712",
+    "publishedAt": "Mar 11, 2026",
+    "organization": "Beihang University / Shanghai AI Lab / USTC / CUHK",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "detail": "Suites: camera 50.4 · robot 68.8 · language 90 · light 97.9 · background 95.4 · noise 72.6 · layout 83.9 | Table 6 | Notes: Zero-shot evaluation on all 7 LIBERO-Plus perturbation dimensions.",
+        "overall": 79.9
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 63.533,
+        "detail": "Suites: google robot vm 77.6 · google robot va 49.4 · widowx vm 63.6 | Tasks: pick coke can vm 97 · move near vm 83.8 · open close drawer vm 55.6 · put in drawer vm 74.1 · pick coke can va 80.5 · move near va 61.5 · open close drawer va 31.7 · put in drawer va 23.8 | Table 1, Table 2 | Notes: Reports Google Robot VM/VA and WidowX VM suites. Note: google_robot_vm/va here are 4-task averages including Put in Drawer; standard uses 3-task average."
+      }
+    ]
+  },
+  {
+    "model": "NS-VLA",
+    "paperTitle": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2603.09542",
+    "arxivId": "2603.09542",
+    "publishedAt": "Mar 10, 2026",
+    "organization": "Beijing University of Posts and Telecommunications / Nanyang Technological University",
+    "flag": "🇨🇳 🇸🇬",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 5 tasks 91.2 | Figure 7(a) | Notes: ABC→D split with avg_len metric reported as 4.72. 5-Task SR = 91.2%.",
+        "overall": 4.72
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 85.7 · libero object 75.3 · libero goal 70.7 · libero 10 45.2 | Table 1 | Notes: All 4 standard LIBERO suites present (Spatial, Object, Goal, Long=libero_10). Training uses 1-shot (1 demo per task) instead of standard 50 demos/task. 1-shot is a valid reduced-data regime per benchmark rules.",
+        "overall": 69.2
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 79.4,
+        "detail": "Tasks: reported avg 79.4 | Table 1 | Notes: Paper reports per-LIBERO-suite averages (Spatial 88.1, Object 79.0, Goal 70.2, Long 80.3) rather than per-perturbation-dimension scores (camera, robot, language, light, background, noise, layout). The 7 canonical perturbation dimensions are not reported. Trained on full LIBERO, evaluated zero-sho..."
+      }
+    ]
+  },
+  {
+    "model": "VLA-Adapter",
+    "paperTitle": ": Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent",
+    "paperUrl": "https://arxiv.org/abs/2511.18810",
+    "arxivId": "2511.18810",
+    "publishedAt": "Mar 11, 2026",
+    "organization": "University of Queensland",
+    "flag": "🇦🇺",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 99.6 · libero object 99.6 · libero goal 98.2 · libero 10 96.4 | Table 1 | Notes: Single-task finetuned (upper bound reference), 4 suites, 50 demos",
+        "overall": 98.4
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 23.3,
+        "detail": "WX 23.3"
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "detail": "Suites: background 76.6 · camera 36.4 · language 73.8 · light 71 · layout 70.2 · robot 37.4 · noise 57.2 | Table 2 | Notes: All 7 perturbations, single-task finetuned reference",
+        "overall": 60.4
+      }
+    ]
+  },
+  {
+    "model": "Cosmos Policy + World2Act",
+    "paperTitle": "World2Act: Latent Action Post-Training via Skill-Compositional World Models",
+    "paperUrl": "https://arxiv.org/abs/2603.10422",
+    "arxivId": "2603.10422",
+    "publishedAt": "Mar 11, 2026",
+    "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+    "flag": "🇦🇪",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98 · libero object 100 · libero goal 98.3 · libero 10 98 | Table 2 | Notes: Standard 4-suite LIBERO evaluation with 50 demos/task, 50 trials per seed across 5 seeds",
+        "overall": 98.6
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 66.3,
+        "detail": "Suites: panda 66.3 | Table 1 | Notes: Standard RoboCasa 24 atomic tasks, 50 trials per seed across 5 seeds"
+      }
+    ]
+  },
+  {
+    "model": "FocusVLA",
+    "paperTitle": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2603.28740",
+    "arxivId": "2603.28740",
+    "publishedAt": "Mar 30, 2026",
+    "organization": "HIT Shenzhen / DaiMon Robotics / Nanjing University / Renmin University of China",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 99.6 · libero object 100 · libero goal 98.8 · libero 10 96.2 | Table 1 | Notes: All 4 standard suites present. 50 demos/task (500 per suite). 500 eval trials per suite. Multi-weight setting (one policy per suite).",
+        "overall": 98.6
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 36.5,
+        "detail": "Suites: easy 58 · hard 15 | Tasks: beat block hammer easy 93 · blocks ranking rgb easy 43 · click alarmclock easy 81 · hanging mug easy 18 · move pillbottle pad easy 20 · place object basket easy 28 · stack blocks two easy 61 · beat block hammer hard 54 · blocks ranking rgb hard 11 · click alarmclock hard 20 · hanging mug hard 5 · move pillbottle pad hard 2 · place object basket hard 4 · stack blocks two hard 10 | Table 5 | Notes: Protocol unknown. Protocol uncertain (50 demos/task, multi-task training). 7 tasks, Easy and Hard. Easy eval=100 trials/task, Hard eval=300 trials/task. Task count=7."
+      }
+    ]
+  },
+  {
+    "model": "LatBot",
+    "paperTitle": "LatBot: Distilling Universal Latent Actions for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2511.23034",
+    "arxivId": "2511.23034",
+    "publishedAt": "Jan 2025",
+    "organization": "Institute of Microelectronics, CAS / UCAS / Microsoft Research",
+    "flag": "🇨🇳 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero goal 98.6 · libero object 98.8 · libero spatial 99 · libero 10 95.4 | Table 3 | Notes: 4 LIBERO suites, 50 demos/task, 50 rollouts per task",
+        "overall": 97.9
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 78.533,
+        "detail": "Suites: google robot vm 78 · google robot va 70.1 · widowx vm 87.5 | Tasks: pick coke can vm 96.7 · move near vm 91.7 · open close drawer vm 90.4 · place apple in drawer vm 33.3 · pick coke can va 95.7 · move near va 78.3 · open close drawer va 73 · place apple in drawer va 33.3 · put spoon on towel vm 95.8 · put carrot on plate vm 87.5 · stack green block on yellow block vm 83.3 · put eggplant in yellow basket vm 83.3 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA with Google Robot 4 tasks and WidowX 4 tasks"
+      }
+    ]
+  },
+  {
+    "model": "VOTE",
+    "paperTitle": "VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting",
+    "paperUrl": "https://arxiv.org/abs/2507.05116",
+    "arxivId": "2507.05116",
+    "publishedAt": "May 2025",
+    "organization": "Northeastern University / EmbodyX",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 97.6 · libero 10 95.6 | Table 2 | Notes: Standard LIBERO 4-suite evaluation with chunk size 8.",
+        "overall": 97.9
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 58.3,
+        "detail": "Suites: widowx vm 58.3 | Tasks: put spoon on towel vm 58.3 · put carrot on plate vm 29.2 · stack green block on yellow block vm 50 · put eggplant in yellow basket vm 95.8 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation with 4 tasks, 24 trials each. Fine-tuned on BridgeDataV2."
+      }
+    ]
+  },
+  {
+    "model": "PTR",
+    "paperTitle": "Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting",
+    "paperUrl": "https://arxiv.org/abs/2603.16542",
+    "arxivId": "2603.16542",
+    "publishedAt": "Mar 17, 2026",
+    "organization": "Peking University / Tsinghua University / BeingBeyond",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98 · libero object 99.2 · libero goal 97.6 · libero 10 97 | Table 1 | Notes: Standard LIBERO 4-suite, 50 episodes per task, 500 per suite, 2000 total",
+        "overall": 97.9
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 55.6,
+        "detail": "Suites: panda 55.6 | Table 1 | Notes: Standard RoboCasa 24 tasks, 50 trials across 5 scene layouts per task, 1200 total"
+      }
+    ]
+  },
+  {
+    "model": "HiMoE-VLA",
+    "paperTitle": "HiMoE-VLA:​ Hierarchical​ Mixture-of-Experts for Generalist Vision-Language-Action Policies",
+    "paperUrl": "https://arxiv.org/abs/2512.05693",
+    "arxivId": "2512.05693",
+    "publishedAt": "May 2025",
+    "organization": "Fudan University / Microsoft Research Asia / XJTU / Tsinghua University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.967,
+        "detail": "Tasks: chain 1 0.932 · chain 2 0.855 · chain 3 0.789 · chain 4 0.731 · chain 5 0.66 · avg len 3.967 | Table 1 | Notes: Protocol does not match ABC→D standard | Uses D→D split, not the standard ABC→D. Paper states 'We adopt the challenging D→D setting'."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98.2 · libero object 99.4 · libero goal 98.6 · libero 10 94.8 | Table 2 | Notes: Reports all 4 standard suites. 50 demos per task. Average = (98.2+99.4+98.6+94.8)/4 = 97.75 ≈ 97.8.",
+        "overall": 97.8
+      }
+    ]
+  },
+  {
+    "model": "HAMLET",
+    "paperTitle": "HAMLET: Switch your Vision-Language- Action Model into a History-Aware Policy",
+    "paperUrl": "https://arxiv.org/abs/2510.00695",
+    "arxivId": "2510.00695",
+    "publishedAt": "Apr 15, 2026",
+    "organization": "KAIST / UC Berkeley / RLWRLD",
+    "flag": "🇰🇷 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 99 · libero object 100 · libero goal 99.2 · libero 10 92.2 | Table 2 | Notes: 4 LIBERO suites, standard 50-demo protocol, applied on GR00T N1.5.",
+        "overall": 97.6
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 65.4,
+        "detail": "Suites: panda 65.4 | Table 2 | Notes: RoboCasa Kitchen, 100 demos, 24 tasks. Applied on GR00T N1.5."
+      }
+    ]
+  },
+  {
+    "model": "GeoPredict",
+    "paperTitle": "GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2512.16811",
+    "arxivId": "2512.16811",
+    "publishedAt": "Apr 7, 2026",
+    "organization": "CUHK Shenzhen / Hunan University / Voyager Research, Didi Chuxing",
+    "flag": "🇭🇰 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98 · libero object 98.2 · libero goal 95.7 · libero 10 94 | Table 2 | Notes: Standard LIBERO protocol: 4 suites, 50 demos per task, 500 trials per suite. Built on pi0 backbone.",
+        "overall": 96.5
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 52.4,
+        "detail": "Suites: panda 52.4 | Table 1 | Notes: 24 tasks, Human-50 setting (50 demos/task), 50 trials per task across 5 scenes."
+      }
+    ]
+  },
+  {
+    "model": "GST-VLA",
+    "paperTitle": "GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2603.09079",
+    "arxivId": "2603.09079",
+    "publishedAt": "Mar 10, 2026",
+    "organization": "Yeungnam University / KAIST",
+    "flag": "🇰🇷",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98.2 · libero object 97.4 · libero goal 97.1 · libero 10 92.6 | TABLE II | Notes: All 4 LIBERO suites evaluated.",
+        "overall": 96.3
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 80.2,
+        "detail": "Suites: google robot vm 80.2 | Tasks: pick coke can vm 83.1 · move near vm 77.5 · open close drawer vm 80.15 | TABLE III | Notes: Reports task progress (%) not success rate. Only Google Robot VM. Drawer is split into Open and Close. No WidowX or VA."
+      }
+    ]
+  },
+  {
+    "model": "LoLA",
+    "paperTitle": "LoLA: Long Horizon Latent Action Learning for General Robot Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2512.20166",
+    "arxivId": "2512.20166",
+    "publishedAt": "Jan 2025",
+    "organization": "Institute of Microelectronics, CAS / UCAS / Microsoft Research",
+    "flag": "🇨🇳 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero goal 97.2 · libero object 99.6 · libero spatial 99.6 · libero 10 88.2 | Table 3 | Notes: All 4 LIBERO suites, 50 demos/task",
+        "overall": 96.1
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 62.667,
+        "detail": "Suites: google robot vm 61.5 · google robot va 54.6 · widowx vm 71.9 | Tasks: pick coke can vm 88 · move near vm 71.7 · open close drawer vm 59.3 · place apple in drawer vm 26.9 · pick coke can va 83.2 · move near va 56.7 · open close drawer va 63.2 · place apple in drawer va 15.3 · put spoon on towel vm 95.8 · put carrot on plate vm 58.3 · stack green block on yellow block vm 54.2 · put eggplant in yellow basket vm 79.2 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA for Google Robot (4 tasks) and WidowX VM (4 tasks). 3-task avg for Google Robot suite scores."
+      }
+    ]
+  },
+  {
+    "model": "Pose-VLA",
+    "paperTitle": "Universal Pose Pretraining for Generalizable Vision-Language-Action Policies",
+    "paperUrl": "https://arxiv.org/abs/2602.19710",
+    "arxivId": "2602.19710",
+    "publishedAt": "Jan 2026",
+    "organization": "Tencent Robotics X / HKUST / Fudan University",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 96.5 · libero object 98 · libero goal 97.1 · libero 10 92.4 | Table III | Notes: Standard 4-suite LIBERO. PaliGemma backbone with pose-pretrained VLM. model_paper inferred from reported_paper (extract did not set it)",
+        "overall": 96
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 79.5,
+        "detail": "Suites: easy 79.91 · hard 79.1 | Table II | Notes: Protocol B: multi-task, 50 clean + 500 DR demos/task. 50 tasks. RGB-only evaluation (depth/raymap masked). Avg 79.5% reported in abstract."
+      }
+    ]
+  },
+  {
+    "model": "F1-VLA (pretrained)",
+    "paperTitle": ": A Vision-Language-Action Model Bridging Understanding and Generation to Actions",
+    "paperUrl": "https://arxiv.org/abs/2509.06951",
+    "arxivId": "2509.06951",
+    "publishedAt": "Jun 2025",
+    "organization": "Shanghai AI Lab / Harbin Institute of Technology Shenzhen",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 98.2 · libero object 97.8 · libero goal 95.4 · libero 10 91.3 | Table 2 | Notes: Standard LIBERO 4-suite evaluation. Pretrained version with OXE + task-specific post-training.",
+        "overall": 95.7
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 72.9,
+        "detail": "Suites: widowx vm 72.9 | Tasks: put carrot on plate vm 70.8 · put eggplant in yellow basket vm 66.7 · put spoon on towel vm 50 · stack green block on yellow block vm 50 | Table 3 | Notes: Standard SimplerEnv Bridge WidowX VM evaluation. Overall avg = (grasp+success averages)/2 per the paper's format, but widowx_vm is the average success."
+      }
+    ]
+  },
+  {
+    "model": "MM-ACT",
+    "paperTitle": "MM-ACT: Learn from Multimodal Parallel Generation to Act",
+    "paperUrl": "https://arxiv.org/abs/2512.00975",
+    "arxivId": "2512.00975",
+    "publishedAt": "Jan 2025",
+    "organization": "Shanghai AI Lab / SJTU / HKU / USTC / Fudan / Zhejiang University",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 97.8 · libero object 99.4 · libero goal 94.8 · libero 10 88 | Table 1 | Notes: Trained on all 4 standard LIBERO suites with 50 demos per task. Separate model per sub-benchmark. Batch size 128, action chunk size 8.",
+        "overall": 95
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 52.375,
+        "detail": "Tasks: adjust bottle 71 · beat block hammer 78 · click bell 95 · dump bin bigbin 13 · move playingcard away 39 · lift pot 31 · place burger fries 73 · place can basket 19 | Table 2 | Notes: Protocol B-like: multi-task training with ~500 DR demos per task, 8 tasks, Agilex Piper dual-arm, evaluated in unseen settings. Context-shared multimodal learning with text, image, and action joint training."
+      }
+    ]
+  },
+  {
+    "model": "DepthVLA",
+    "paperTitle": "DepthVLA: Enhancing Vision-Language-Action Models with Depth-Aware Spatial Reasoning",
+    "paperUrl": "https://arxiv.org/abs/2510.13375",
+    "arxivId": "2510.13375",
+    "publishedAt": "Jan 2025",
+    "organization": "Tsinghua University / Galaxea AI",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 95.8 · libero 10 89.2 | Table II | Notes: Standard LIBERO 4-suite, single model for all suites, 2000 total trials.",
+        "overall": 94.8
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 74.8,
+        "detail": "Tasks: put spoon on towel vm 75.8 · put carrot on plate vm 71.7 · stack green block on yellow block vm 62.5 · put eggplant in basket vm 89.2 | Table I | Notes: WidowX VM tasks, trained on BridgeData V2, evaluated zero-shot."
+      }
+    ]
+  },
+  {
+    "model": "GLaD",
+    "paperTitle": "GLaD: Geometric Latent Distillation for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2512.09619",
+    "arxivId": "2512.09619",
+    "publishedAt": "Sep 2025",
+    "organization": "MBZUAI / University of Illinois Chicago",
+    "flag": "🇦🇪 🇺🇸 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 95 · libero object 97.4 · libero goal 94.4 · libero 10 89.4 | TABLE I | Notes: All 4 standard LIBERO suites evaluated with 50 demos per task training, 50 evaluation episodes per task. Post-trained on LIBERO dataset.",
+        "overall": 94.1
+      },
+      {
+        "label": "LIBERO-Pro",
+        "query": "LIBERO-Pro",
+        "overall": 59.474,
+        "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing. The displayed score is the arithmetic mean of the 19 reported cells and should be treated as incomplete."
+      }
+    ]
+  },
+  {
+    "model": "pi0-FAST (ContextVLA)",
+    "paperTitle": "ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context",
+    "paperUrl": "https://arxiv.org/abs/2510.04246",
+    "arxivId": "2510.04246",
+    "publishedAt": "Apr 2025",
+    "organization": "KAIST / RLWRLD / UC Berkeley",
+    "flag": "🇰🇷 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 96.6 · libero object 96.6 · libero goal 95.2 · libero 10 85.2 | Table 1 | Notes: All 4 standard suites. pi0-FAST fine-tuned by this paper.",
+        "overall": 93.4
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 59,
+        "detail": "Suites: widowx vm 59 | Tasks: spoon on towel vm 59 · carrot on plate vm 79 · stack cube vm 65 · put eggplant in basket vm 33 | Table 2 | Notes: WidowX VM only. Score is a reproduction by the citing paper."
+      }
+    ]
+  },
+  {
+    "model": "ADPro",
+    "paperTitle": "ADPro: a Test-time Adaptive Diffusion Policy via Manifold-constrained Denoising and Task-aware Initialization for Robotic Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2508.06266",
+    "arxivId": "2508.06266",
+    "publishedAt": "Jun 2025",
+    "organization": "École Centrale de Lyon / Dalian University of Technology",
+    "flag": "🇫🇷 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 94.7 · 2 tasks 83 · 3 tasks 73.6 · 4 tasks 61.4 · 5 tasks 51.1 | Table II | Notes: ABC->D zero-shot evaluation, 3 seeds. Test-time adaptation on 3D Diffuser Actor. 25% fewer inference steps.",
+        "overall": 3.64
+      },
+      {
+        "label": "RLBench",
+        "query": "RLBench",
+        "detail": "Tasks: open drawer 93.1 · slide block 100 · sweep to dustpan 97 · put in safe 98.5 · turn tap 99.5 · put in drawer 95.2 · place wine 94 · stack cups 56.5 · sort shape 50 · insert peg 74.5 · drag stick 100 · place cups 25.4 · close jar 96.2 · meat off grill 95.6 · stack blocks 67.3 · push buttons 98.6 · screw bulb 83.1 · put in cupboard 85.9 | Table I | Notes: 18-task PerAct subset evaluation, 3 random seeds averaged. Test-time adaptation on 3D Diffuser Actor. 100 demos/task training.",
+        "overall": 83.9
+      }
+    ]
+  },
+  {
+    "model": "SpatialVLA + DTP",
+    "paperTitle": "DTP:A Simple yet Effective Distracting Token Pruning Framework for Vision-Language Action Models",
+    "paperUrl": "https://arxiv.org/abs/2601.16065",
+    "arxivId": "2601.16065",
+    "publishedAt": "Jan 2026",
+    "organization": "Australian National University / UC San Diego / CAS / Baidu / ByteDance",
+    "flag": "🇦🇺 🇺🇸 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 93 · libero object 77.4 · libero goal 88.4 · libero 10 76.2 | Table 3 | Notes: All 4 LIBERO suites reported",
+        "overall": 83.8
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 66.633,
+        "detail": "Suites: widowx vm 37.5 · google robot vm 81.9 · google robot va 80.5 | Tasks: pick coke can vm 86.7 · move near vm 77.1 · pick coke can va 90.2 · move near va 70.7 | Table 1, Table 2 | Notes: Google Robot VM/VA only reports Pick Coke Can and Move Near (2 tasks), not Open/Close Drawer. WidowX VM reported. Non-standard 2-task Google Robot avg."
+      }
+    ]
+  },
+  {
+    "model": "SpatialVLA",
+    "paperTitle": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2508.19236",
+    "arxivId": "2508.19236",
+    "publishedAt": "Jan 2025",
+    "organization": "Tsinghua University / Dexmal / MEGVII / Tianjin University / HIT / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 88.2 · libero object 89.9 · libero goal 78.6 · libero 10 55.5 · libero 90 46.2 | Table 3 | Notes: Standard 4-suite LIBERO protocol with 50 demonstrations per task. LIBERO-90 also reported.",
+        "overall": 78.1
+      },
+      {
+        "label": "MIKASA",
+        "query": "MIKASA",
+        "overall": 21
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 42.7,
+        "detail": "Suites: widowx vm 42.7 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation. Score is cited as a baseline in the citing paper. Same score also reported in: https://arxiv.org/abs/2603.12730."
+      }
+    ]
+  },
+  {
+    "model": "LAC",
+    "paperTitle": "Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching",
+    "paperUrl": "https://arxiv.org/abs/2602.00686",
+    "arxivId": "2602.00686",
+    "publishedAt": "Jan 2026",
+    "organization": "HIT / HIT Shenzhen / Meituan Academy of Robotics / Central South University / HKUST(GZ)",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 85.6 · libero object 86.2 · libero goal 76.6 · libero 10 59.2 | Table 1 | Notes: All four LIBERO suites evaluated (Spatial, Object, Goal, Long). Uses standard OpenVLA weights and setup with 50 demos per task.",
+        "overall": 76.9
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 69.25,
+        "detail": "Suites: google robot vm 75.5 · google robot va 63 | Tasks: pick coke can vm 92.3 · move near vm 84.2 · open close drawer vm 72.7 · pick coke can va 92.1 · move near va 81.5 · open close drawer va 31.2 | Table 3 | Notes: Only Google Robot evaluated (Visual Matching and Variant Aggregation with 3 tasks each). No WidowX tasks. DrawerApple task included in table but not part of standard 3-task suite average for google_robot_vm/va."
+      }
+    ]
+  },
+  {
+    "model": "Octo-Base",
+    "paperTitle": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2501.15830",
+    "arxivId": "2501.15830",
+    "publishedAt": "Jan 2025",
+    "organization": "Shanghai AI Lab / Fudan / SJTU / Zhejiang / ShanghaiTech / NPU",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 78.9 · libero object 85.7 · libero goal 84.6 · libero 10 51.1 | Table III | Notes: All 4 standard suites reported (Spatial, Object, Goal, Long/10). 50 demos per task, averaged over 3 seeds with 500 trials.",
+        "overall": 75.1
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 10.733,
+        "detail": "Suites: google robot vm 14.6 · google robot va 1.6 · widowx vm 16 | Tasks: pick coke can vm 17 · move near vm 4.2 · open close drawer vm 22.7 · pick coke can va 0.6 · move near va 3.1 · open close drawer va 1.1 · spoon on towel vm 12.5 · carrot on plate vm 8.3 · stack cube vm 0 · put eggplant in basket vm 43.1 | Table I; Table 2 | Notes: Reports standard 3 Google Robot tasks (Pick Coke Can, Move Near, Open/Close Drawer) for both VM and VA settings. Score is cited as a baseline in the citing paper."
+      }
+    ]
+  },
+  {
+    "model": "CogACT + VLA-Cache",
+    "paperTitle": "VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching",
+    "paperUrl": "https://arxiv.org/abs/2502.02175",
+    "arxivId": "2502.02175",
+    "publishedAt": "Feb 2025",
+    "organization": "University of Sydney / Shanghai Jiao Tong University",
+    "flag": "🇦🇺 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 83.8 · libero object 85.8 · libero goal 76.4 · libero 10 52.8 | Table 2 | Notes: All 4 standard suites reported. Standard 50 demos/task setup.",
+        "overall": 74.7
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 74.85,
+        "detail": "Suites: google robot vm 81.9 · google robot va 67.8 | Tasks: pick coke can vm 92 · move near vm 83.3 · open close drawer vm 70.5 · place apple in drawer vm 51.6 · pick coke can va 91.7 · move near va 79.3 · open close drawer va 32.5 · place apple in drawer va 45.8 | Table 3 | Notes: Reports standard Google Robot tasks for VM and VA settings."
+      }
+    ]
+  },
+  {
+    "model": "π₀.₅ (LIBERO-Pro)",
+    "paperTitle": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization",
+    "paperUrl": "https://arxiv.org/abs/2510.03827",
+    "arxivId": "2510.03827",
+    "publishedAt": "Mar 2025",
+    "organization": "HUST / Harvard University / MIT / Wuhan University of Technology / Lehigh University",
+    "flag": "🇨🇳 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97,
+        "detail": "Suites: libero goal 98 · libero object 98 · libero spatial 98 · libero 10 92 | Tasks: reported avg 97 | Table 1 | Notes: Cited baseline from Table 1. Single checkpoint for all suites."
+      },
+      {
+        "label": "LIBERO-Pro",
+        "query": "LIBERO-Pro",
+        "detail": "Suites: goal ori 97 · goal obj 97 · goal pos 38 · goal sem 97 · goal task 0 · spatial ori 98 · spatial obj 97 · spatial pos 20 · spatial sem 97 · spatial task 1 · long ori 93 · long obj 92 · long pos 8 · long sem 93 · long task 1 · object ori 98 · object obj 98 · object pos 17 · object sem 96 · object task 1 · goal env 46 · spatial env 46 · long env 46 · object env 73 | Tables 2-5 | Notes: Third-party evaluation by the LIBERO-Pro paper. All 4 suites × 5 core perturbations plus env. 50 episodes per task. env cells kept out of the 20-cell mean.",
+        "overall": 62
+      }
+    ]
+  },
+  {
+    "model": "FOFPred",
+    "paperTitle": "Future Optical Flow Prediction Improves Robot Control & Video Generation",
+    "paperUrl": "https://arxiv.org/abs/2601.10781",
+    "arxivId": "2601.10781",
+    "publishedAt": "Oct 2026",
+    "organization": "Salesforce AI Research / Stony Brook University",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 98.8 · 2 tasks 95 · 3 tasks 90.4 · 4 tasks 84.6 · 5 tasks 78.7 | Table 1 | Notes: ABC→D split, 100% ABC training data, avg_len metric reported as 4.48 over 1000 chains.",
+        "overall": 4.48
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 68.6,
+        "detail": "Suites: easy 68.6 | Tasks: Handover Block 61 · Handover Mic 87 · Pick Diverse Bottles 67 · Pick Dual Bottles 68 · Place Dual Shoes 60 | Table 2 | Notes: Protocol unknown. 5 tasks from RoboTwin 2.0, Easy setting only. Non-standard subset."
+      }
+    ]
+  },
+  {
+    "model": "HiF-VLA",
+    "paperTitle": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2512.09928",
+    "arxivId": "2512.09928",
+    "publishedAt": "Apr 9, 2026",
+    "organization": "Westlake University / Zhejiang University / HKUST(GZ) / Nanjing University / Westlake Robotics",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Tasks: chain 1 98.5 · chain 2 94.1 · chain 3 88.1 · chain 4 81.4 · chain 5 73.1 | Table 2 | Notes: ABC→D split, 1000 chains, avg_len metric reported. Multi-view (third-person + wrist) setting.",
+        "overall": 4.35
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.4,
+        "detail": "Tasks: reported avg 96.4 | Table 1 | Notes: Paper reports only LIBERO-Long (avg success rate 96.4% with multi-view). Suite-level breakdown not provided for the other 3 suites, so cannot confirm standard 4-suite average. This is the LIBERO-Long multi-view success rate."
+      }
+    ]
+  },
+  {
+    "model": "3D Foresight",
+    "paperTitle": "3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight",
+    "paperUrl": "https://arxiv.org/abs/2502.10028",
+    "arxivId": "2502.10028",
+    "publishedAt": "Mar 26, 2026",
+    "organization": "HKUST Guangzhou / JAKA Robotics",
+    "flag": "🇭🇰 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 96.9 · 2 tasks 92 · 3 tasks 85.7 · 4 tasks 78.8 · 5 tasks 71.3 | Table I | Notes: ABC→D split, 1000 chains, avg_len metric.",
+        "overall": 4.23
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.3,
+        "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, and Long suites but not libero_10. Long is not the same as libero_10. The displayed score is the paper-reported Avg. SR of 95.3 and should be treated as non-standard."
+      }
+    ]
+  },
+  {
+    "model": "PointMapPolicy",
+    "paperTitle": "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning",
+    "paperUrl": "https://arxiv.org/abs/2510.20406",
+    "arxivId": "2510.20406",
+    "publishedAt": "Jan 2025",
+    "organization": "Karlsruhe Institute of Technology / Meta Reality Labs / Johannes Kepler University Linz",
+    "flag": "🇩🇪 🇺🇸 🇦🇹",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 96.1 · 2 tasks 88.6 · 3 tasks 80.5 · 4 tasks 72.3 · 5 tasks 63.6 | Table 2 | Notes: ABC→D split, 1000 chains, avg_len metric. Trained from scratch (no pretraining). 25 epochs.",
+        "overall": 4.01
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 47.22,
+        "detail": "Tasks: reported avg 16tasks panda 47.22 | Table 1 | Notes: Only 16 of 24 tasks. 50 demos, 50 evaluation episodes, 3 seeds."
+      }
+    ]
+  },
+  {
+    "model": "LLaDA-VLA",
+    "paperTitle": "LLaDA-VLA: Vision Language Diffusion Action Models",
+    "paperUrl": "https://arxiv.org/abs/2509.06932",
+    "arxivId": "2509.06932",
+    "publishedAt": "Jun 2025",
+    "organization": "USTC / Nanjing University / Dexmal",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 95.6 · 2 tasks 87.8 · 3 tasks 79.5 · 4 tasks 73.9 · 5 tasks 64.5 | Table 2 | Notes: CALVIN ABC→D split evaluation with 1000 rollouts. Reports avg_len = 4.01.",
+        "overall": 4.01
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 55.5,
+        "detail": "Suites: widowx vm 55.5 | Tasks: put spoon on towel vm 56.9 · put carrot on plate vm 76.3 · stack green block on yellow block vm 30.6 · put eggplant in yellow basket vm 58.3 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation."
+      }
+    ]
+  },
+  {
+    "model": "TLA",
+    "paperTitle": "Chain of World: World Model Thinking in Latent Motion",
+    "paperUrl": "https://arxiv.org/abs/2603.03195",
+    "arxivId": "2603.03195",
+    "publishedAt": "Mar 2026",
+    "organization": "HIT / Li Auto / BAAI / UNSW / Peking University",
+    "flag": "🇨🇳 🇦🇺",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 95.5 · 2 tasks 85.8 · 3 tasks 75.4 · 4 tasks 66.9 · 5 tasks 56.5 | Appendix Table 2 | Notes: ABC→D split with avg_len metric. Cited baseline.",
+        "overall": 3.8
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.2,
+        "detail": "Suites: libero spatial 96.5 · libero object 96.8 · libero goal 95.6 · libero 10 92 | Tasks: reported avg 95.2 | Table 1 | Notes: Cited baseline; 4 standard suites reported."
+      }
+    ]
+  },
+  {
+    "model": "MoDE",
+    "paperTitle": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+    "paperUrl": "https://arxiv.org/abs/2412.12953",
+    "arxivId": "2412.12953",
+    "publishedAt": "Dec 2024",
+    "organization": "Karlsruhe Institute of Technology / MIT",
+    "flag": "🇩🇪 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 91.5 · 2 tasks 79.2 · 3 tasks 67.3 · 4 tasks 55.8 · 5 tasks 45.3 | Table 1 | Notes: ABC→D split (standard). 1000 chains, avg_len metric. Same score also reported in: https://arxiv.org/abs/2502.07837.",
+        "overall": 3.39
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 91.5,
+        "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90. The displayed score is the arithmetic mean of those two reported values; missing libero_spatial, libero_object, and libero_goal make it non-standard."
+      }
+    ]
+  },
+  {
+    "model": "Moto",
+    "paperTitle": "Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos",
+    "paperUrl": "https://arxiv.org/abs/2412.04445",
+    "arxivId": "2412.04445",
+    "publishedAt": "Apr 2024",
+    "organization": "University of Hong Kong / Tencent ARC Lab / CUHK / UC Berkeley",
+    "flag": "🇭🇰 🇨🇳 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Suites: 1 task 89.7 · 2 tasks 72.9 · 3 tasks 60.1 · 4 tasks 48.4 · 5 tasks 38.6 | Table 3 | Notes: ABC→D split, 1000 chains, avg_len metric reported. Uses Static RGB only (no gripper RGB or proprio for Moto).",
+        "overall": 3.1
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 59.2,
+        "detail": "Suites: google robot vm 59.2 | Tasks: pick coke can vm 74 · move near vm 60.4 · open close drawer vm 43.1 | Table 2 | Notes: Reports Google Robot Visual Matching only (no VA, no WidowX). Uses 3 standard tasks. Paper reports on 0-1 scale, converted to 0-100."
+      }
+    ]
+  },
+  {
+    "model": "OFT + T-MEE",
+    "paperTitle": "Reshaping Action Error Distributions for Reliable Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2602.04228",
+    "arxivId": "2602.04228",
+    "publishedAt": "Apr 2026",
+    "organization": "XJTU / BAAI / UCAS / Peking University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 99 · libero object 99.2 · libero goal 96.8 · libero 10 92.8 | TABLE I | Notes: All 4 suites.",
+        "overall": 97
+      }
+    ]
+  },
+  {
+    "model": "GeoAware BAKU",
+    "paperTitle": "GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2509.14117",
+    "arxivId": "2509.14117",
+    "publishedAt": "Mar 8, 2026",
+    "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+    "flag": "🇦🇪",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 95 · libero object 98 · libero goal 98 · libero 10 89.9 | Table I | Notes: Standard 4-suite LIBERO, 50 demos/task, 10 rollouts per task evaluation.",
+        "overall": 95.2
+      }
+    ]
+  },
+  {
+    "model": "GO-1 + Dejavu EFN (Vol=300)",
+    "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Apr 10, 2026",
+    "organization": "Shanghai Jiao Tong University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 97.5 · libero object 98.1 · libero goal 96.8 · libero 10 91.2 | Table 1 | Notes: Uses all 4 standard LIBERO suites (Spatial, Object, Goal, Long). 50 evaluation episodes per task across 3 seeds.",
+        "overall": 95.9
+      }
+    ]
+  },
+  {
+    "model": "UniVLA + Dejavu EFN (Vol=300)",
+    "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Apr 10, 2026",
+    "organization": "Shanghai Jiao Tong University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Suites: libero spatial 97.7 · libero object 97.9 · libero goal 97.2 · libero 10 93.7 | Table 1 | Notes: Uses all 4 standard LIBERO suites (Spatial, Object, Goal, Long). 50 evaluation episodes per task across 3 seeds.",
+        "overall": 96.6
+      }
+    ]
+  },
+  {
+    "model": "CronusVLA",
+    "paperTitle": "CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling",
+    "paperUrl": "https://arxiv.org/abs/2506.19816",
+    "arxivId": "2506.19816",
+    "publishedAt": "Jun 24, 2025",
+    "organization": "USTC",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97
+      },
+      {
+        "label": "MIKASA",
+        "query": "MIKASA",
+        "overall": 18
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 70.9,
+        "detail": "VM 70.9"
+      }
+    ]
+  },
+  {
+    "model": "PD-VLA",
+    "paperTitle": "PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding",
+    "paperUrl": "https://arxiv.org/abs/2503.02310",
+    "arxivId": "2503.02310",
+    "publishedAt": "Mar 4, 2025",
+    "organization": "HKUST (Guangzhou)",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.7
+      }
+    ]
+  },
+  {
+    "model": "VLA-OS",
+    "paperTitle": "VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2506.17561",
+    "arxivId": "2506.17561",
+    "publishedAt": "Jun 21, 2025",
+    "organization": "National University of Singapore",
+    "flag": "🇸🇬",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 85.6
+      }
+    ]
+  }
+]

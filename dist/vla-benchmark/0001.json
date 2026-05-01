@@ -1,0 +1,2095 @@
+[
+  {
+    "model": "OpenVLA-OFT",
+    "paperTitle": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "paperUrl": "https://arxiv.org/abs/2502.19645",
+    "arxivId": "2502.19645",
+    "publishedAt": "Feb 27, 2025",
+    "organization": "Stanford University",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.1,
+        "detail": "Suites: libero spatial 97.6 · libero object 98.4 · libero goal 97.9 · libero 10 94.5 | Table I | Reported in https://arxiv.org/abs/2502.19645 | Details: goal 97.9 · long 94.5 · object 98.4 · spatial 97.6"
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 71.4
+      },
+      {
+        "label": "MIKASA",
+        "query": "MIKASA",
+        "overall": 28.4
+      },
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 5
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 24.6,
+        "detail": "Easy 24.6"
+      }
+    ]
+  },
+  {
+    "model": "GR00T N1",
+    "paperTitle": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "paperUrl": "https://arxiv.org/abs/2503.14734",
+    "arxivId": "2503.14734",
+    "publishedAt": "Mar 18, 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 93.9
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 32.1
+      },
+      {
+        "label": "VLABench",
+        "query": "VLABench",
+        "overall": 39.7
+      }
+    ]
+  },
+  {
+    "model": "SmolVLA",
+    "paperTitle": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+    "paperUrl": "https://arxiv.org/abs/2506.01844",
+    "arxivId": "2506.01844",
+    "publishedAt": "Jun 2, 2025",
+    "organization": "Hugging Face",
+    "flag": "🇺🇸 🇫🇷",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 88.8,
+        "detail": "Suites: libero spatial 93 · libero object 94 · libero goal 91 · libero 10 77 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA",
+    "paperTitle": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2406.09246",
+    "arxivId": "2406.09246",
+    "publishedAt": "Jun 13, 2024",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.27
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 76.5,
+        "detail": "Suites: libero spatial 84.7 · libero object 88.4 · libero goal 79.2 · libero 10 53.7 | Table 12"
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 16.3
+      },
+      {
+        "label": "LIBERO-Pro",
+        "query": "LIBERO-Pro",
+        "overall": 57.5
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 27
+      },
+      {
+        "label": "RoboCerebra",
+        "query": "RoboCerebra",
+        "overall": 4.57
+      },
+      {
+        "label": "VLABench",
+        "query": "VLABench",
+        "overall": 9.835,
+        "detail": "Seen 11.74 · Unseen 7.93"
+      }
+    ]
+  },
+  {
+    "model": "TempoFit (π₀.₅)",
+    "paperTitle": "TempoFit (π₀.₅) model paper (2603.05291)",
+    "paperUrl": "https://arxiv.org/abs/2603.05291",
+    "arxivId": "2603.05291",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.87,
+        "detail": "Tasks: chain 1 93 · chain 2 84.8 · chain 3 77.3 · chain 4 69.4 · chain 5 62 | TABLE II"
+      }
+    ]
+  },
+  {
+    "model": "GHIL-Glue (SuSIE)",
+    "paperTitle": "GHIL-Glue (SuSIE) model paper (2410.20018)",
+    "paperUrl": "https://arxiv.org/abs/2410.20018",
+    "arxivId": "2410.20018",
+    "publishedAt": "Oct 2024",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.69,
+        "detail": "Suites: 1 task 95.2 · 2 tasks 88.5 · 3 tasks 73.2 · 4 tasks 62.5 · 5 tasks 49.8 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "GHIL-Glue (UniPi)",
+    "paperTitle": "GHIL-Glue (UniPi) model paper (2410.20018)",
+    "paperUrl": "https://arxiv.org/abs/2410.20018",
+    "arxivId": "2410.20018",
+    "publishedAt": "Oct 2024",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 1.56,
+        "detail": "Suites: 1 task 75.2 · 2 tasks 44.8 · 3 tasks 19.7 · 4 tasks 11.2 · 5 tasks 5.5 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "SuSIE + GraspCorrect",
+    "paperTitle": "SuSIE + GraspCorrect model paper (2503.15035)",
+    "paperUrl": "https://arxiv.org/abs/2503.15035",
+    "arxivId": "2503.15035",
+    "publishedAt": "Mar 2025",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.5,
+        "detail": "Suites: 1 task 96 · 2 tasks 86 · 3 tasks 72 · 4 tasks 56 · 5 tasks 41 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "π0.5+FASTER",
+    "paperTitle": "π0.5+FASTER model paper (2603.19199)",
+    "paperUrl": "https://arxiv.org/abs/2603.19199",
+    "arxivId": "2603.19199",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.292,
+        "detail": "Suites: 1 task 95.1 · 2 tasks 89.1 · 3 tasks 85 · 4 tasks 81.9 · 5 tasks 78.1 | Table 4"
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.4,
+        "detail": "Suites: libero spatial 98.6 · libero object 97.8 · libero goal 97.8 · libero 10 91.6 | Table 4"
+      }
+    ]
+  },
+  {
+    "model": "X-VLA+FASTER",
+    "paperTitle": "X-VLA+FASTER model paper (2603.19199)",
+    "paperUrl": "https://arxiv.org/abs/2603.19199",
+    "arxivId": "2603.19199",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.058,
+        "detail": "Suites: 1 task 97.7 · 2 tasks 91.1 · 3 tasks 81.2 · 4 tasks 72.1 · 5 tasks 63.7 | Table 4"
+      }
+    ]
+  },
+  {
+    "model": "UD-VLA + Fast-dVLA",
+    "paperTitle": "UD-VLA + Fast-dVLA model paper (2603.25661)",
+    "paperUrl": "https://arxiv.org/abs/2603.25661",
+    "arxivId": "2603.25661",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.54,
+        "detail": "Suites: 1 task 0.984 · 2 tasks 0.952 · 3 tasks 0.922 · 4 tasks 0.87 · 5 tasks 0.812 | Table 3"
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.5,
+        "detail": "Suites: libero spatial 97 · libero object 98.8 · libero goal 97.6 · libero 10 92.8 | Table S3"
+      }
+    ]
+  },
+  {
+    "model": "GR00T + T-MEE",
+    "paperTitle": "GR00T + T-MEE model paper (2602.04228)",
+    "paperUrl": "https://arxiv.org/abs/2602.04228",
+    "arxivId": "2602.04228",
+    "publishedAt": "Feb 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.9,
+        "detail": "Suites: libero spatial 98.8 · libero object 99.4 · libero goal 96.2 · libero 10 93.4 | TABLE I"
+      }
+    ]
+  },
+  {
+    "model": "π₀ + T-MEE",
+    "paperTitle": "π₀ + T-MEE model paper (2602.04228)",
+    "paperUrl": "https://arxiv.org/abs/2602.04228",
+    "arxivId": "2602.04228",
+    "publishedAt": "Feb 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.4,
+        "detail": "Suites: libero spatial 99.8 · libero object 100 · libero goal 98.2 · libero 10 95.6 | TABLE I"
+      }
+    ]
+  },
+  {
+    "model": "AimBot (OpenVLA-OFT)",
+    "paperTitle": "AimBot (OpenVLA-OFT) model paper (2508.08113)",
+    "paperUrl": "https://arxiv.org/abs/2508.08113",
+    "arxivId": "2508.08113",
+    "publishedAt": "Aug 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.9,
+        "detail": "Suites: libero spatial 95.2 · libero object 99.1 · libero goal 94.2 · libero 10 91.2 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "AimBot (pi0)",
+    "paperTitle": "AimBot (pi0) model paper (2508.08113)",
+    "paperUrl": "https://arxiv.org/abs/2508.08113",
+    "arxivId": "2508.08113",
+    "publishedAt": "Aug 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.9,
+        "detail": "Suites: libero spatial 96.9 · libero object 98.4 · libero goal 97.2 · libero 10 91 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "AimBot (pi0-FAST)",
+    "paperTitle": "AimBot (pi0-FAST) model paper (2508.08113)",
+    "paperUrl": "https://arxiv.org/abs/2508.08113",
+    "arxivId": "2508.08113",
+    "publishedAt": "Aug 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 93.7,
+        "detail": "Suites: libero spatial 96.9 · libero object 96.8 · libero goal 94 · libero 10 87.1 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "ThinkAct",
+    "paperTitle": "ThinkAct model paper (2507.16815)",
+    "paperUrl": "https://arxiv.org/abs/2507.16815",
+    "arxivId": "2507.16815",
+    "publishedAt": "Jul 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 84.4,
+        "detail": "Suites: libero spatial 88.3 · libero object 91.4 · libero goal 87.1 · libero 10 70.9 | Table 1 | Details: goal 87.1 · long 70.9 · object 91.4 · spatial 88.3"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 60.133,
+        "detail": "Suites: google robot vm 71.5 · google robot va 65.1 · widowx vm 43.8 | Tasks: pick coke can vm 92 · move near vm 72.4 · open close drawer vm 50 · pick coke can va 84 · move near va 63.8 · open close drawer va 47.6 · put carrot on plate vm 37.5 · stack green block on yellow block vm 8.7 · put spoon on towel vm 58.3 · put eggplant in yellow basket vm 70.8 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "Fast ECoT",
+    "paperTitle": "Fast ECoT model paper (2506.07639)",
+    "paperUrl": "https://arxiv.org/abs/2506.07639",
+    "arxivId": "2506.07639",
+    "publishedAt": "Jun 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 80,
+        "detail": "Suites: libero spatial 85 · libero object 83 · libero goal 83 · libero 10 69 | TABLE I"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA*-Full",
+    "paperTitle": "OpenVLA*-Full model paper (2511.15605)",
+    "paperUrl": "https://arxiv.org/abs/2511.15605",
+    "arxivId": "2511.15605",
+    "publishedAt": "Nov 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 91,
+        "detail": "Suites: libero spatial 91.6 · libero object 95.3 · libero goal 90.6 · libero 10 86.5 | Tasks: reported avg 91 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "VLA-Reasoner (Octo-Small)",
+    "paperTitle": "VLA-Reasoner (Octo-Small) model paper (2509.22643)",
+    "paperUrl": "https://arxiv.org/abs/2509.22643",
+    "arxivId": "2509.22643",
+    "publishedAt": "Sep 2025",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 81,
+        "detail": "Suites: libero spatial 91.2 · libero object 90.6 · libero goal 82.4 · libero 10 59.8 | Table I"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 37.25,
+        "detail": "Tasks: stack green block on yellow block vm 13 · put spoon on towel vm 50 · put carrot on plate vm 32 · put eggplant in basket vm 54 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "AnyCamVLA (π₀.₅)",
+    "paperTitle": "AnyCamVLA (π₀.₅) model paper (2603.05868)",
+    "paperUrl": "https://arxiv.org/abs/2603.05868",
+    "arxivId": "2603.05868",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.5,
+        "detail": "Suites: libero spatial 95.6 · libero object 96.4 · libero goal 96 · libero 10 90 | Tasks: reported avg 94.5 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "FORGE-Tree + Octo",
+    "paperTitle": "FORGE-Tree + Octo model paper (2510.21744)",
+    "paperUrl": "https://arxiv.org/abs/2510.21744",
+    "arxivId": "2510.21744",
+    "publishedAt": "Oct 2025",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 92.3,
+        "detail": "Suites: libero spatial 96.6 · libero object 88.2 · libero goal 93.4 · libero 10 91 | Tasks: reported avg 92.3 | Table II"
+      }
+    ]
+  },
+  {
+    "model": "FORGE-Tree + OpenVLA",
+    "paperTitle": "FORGE-Tree + OpenVLA model paper (2510.21744)",
+    "paperUrl": "https://arxiv.org/abs/2510.21744",
+    "arxivId": "2510.21744",
+    "publishedAt": "Oct 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 89.9,
+        "detail": "Suites: libero spatial 92.4 · libero object 94.7 · libero goal 89.3 · libero 10 83.2 | Tasks: reported avg 89.9 | Table II"
+      }
+    ]
+  },
+  {
+    "model": "Fast-ThinkAct",
+    "paperTitle": "Fast-ThinkAct model paper (2601.09708)",
+    "paperUrl": "https://arxiv.org/abs/2601.09708",
+    "arxivId": "2601.09708",
+    "publishedAt": "Jan 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 89.7,
+        "detail": "Tasks: reported avg 89.7 | Fig. 3"
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 46.05,
+        "detail": "Suites: easy 65.7 · hard 26.4 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "ContextVLA (pi0)",
+    "paperTitle": "ContextVLA (pi0) model paper (2510.04246)",
+    "paperUrl": "https://arxiv.org/abs/2510.04246",
+    "arxivId": "2510.04246",
+    "publishedAt": "Oct 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.5,
+        "detail": "Suites: libero spatial 97.4 · libero object 98.2 · libero goal 96.4 · libero 10 93.8 | Table 1"
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 58.7,
+        "detail": "Suites: panda 58.7 | Table 3"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 56.2,
+        "detail": "Suites: widowx vm 56.2 | Tasks: spoon on towel vm 53.3 · carrot on plate vm 56 · stack cube vm 41.3 · put eggplant in basket vm 74 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "pi_0.5 with MoH",
+    "paperTitle": "pi_0.5 with MoH model paper (2511.19433)",
+    "paperUrl": "https://arxiv.org/abs/2511.19433",
+    "arxivId": "2511.19433",
+    "publishedAt": "Nov 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 99,
+        "detail": "Suites: libero spatial 98.8 · libero object 100 · libero goal 98.8 · libero 10 98.4 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "pi_0 with MoH",
+    "paperTitle": "pi_0 with MoH model paper (2511.19433)",
+    "paperUrl": "https://arxiv.org/abs/2511.19433",
+    "arxivId": "2511.19433",
+    "publishedAt": "Nov 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95,
+        "detail": "Suites: libero spatial 97.6 · libero object 98.8 · libero goal 96.4 · libero 10 87.4 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "Cosmos Policy",
+    "paperTitle": "Cosmos Policy model paper (2601.16163)",
+    "paperUrl": "https://arxiv.org/abs/2601.16163",
+    "arxivId": "2601.16163",
+    "publishedAt": "Jan 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.5,
+        "detail": "Suites: libero spatial 98.1 · libero object 100 · libero goal 98.2 · libero 10 97.6 | Table 1"
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 67.1,
+        "detail": "Suites: panda 67.1 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "MolmoAct-7B-D (fine-tuned)",
+    "paperTitle": "MolmoAct-7B-D (fine-tuned) model paper (2508.07917)",
+    "paperUrl": "https://arxiv.org/abs/2508.07917",
+    "arxivId": "2508.07917",
+    "publishedAt": "Aug 2025",
+    "organization": "Allen Institute for AI",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 86.6,
+        "detail": "Tasks: reported avg 86.6"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 71.85,
+        "detail": "Suites: google robot vm 71.6 · google robot va 72.1 | Tasks: pick coke can vm 77.7 · move near vm 77.1 · open close drawer vm 60 · pick coke can va 76.1 · move near va 61.3 · open close drawer va 78.8 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "GR00T + DepthCache",
+    "paperTitle": "GR00T + DepthCache model paper (2603.10469)",
+    "paperUrl": "https://arxiv.org/abs/2603.10469",
+    "arxivId": "2603.10469",
+    "publishedAt": "Mar 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 92.9,
+        "detail": "Suites: libero spatial 93.3 · libero object 96.4 · libero goal 92.5 · libero 10 89.6 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA + DepthCache",
+    "paperTitle": "OpenVLA + DepthCache model paper (2603.10469)",
+    "paperUrl": "https://arxiv.org/abs/2603.10469",
+    "arxivId": "2603.10469",
+    "publishedAt": "Mar 2026",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 75.7,
+        "detail": "Suites: libero spatial 83.1 · libero object 90.7 · libero goal 77.8 · libero 10 51.2 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "pi_0.5 + DepthCache",
+    "paperTitle": "pi_0.5 + DepthCache model paper (2603.10469)",
+    "paperUrl": "https://arxiv.org/abs/2603.10469",
+    "arxivId": "2603.10469",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.6,
+        "detail": "Suites: libero spatial 98.9 · libero object 97.1 · libero goal 98.3 · libero 10 96.1 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "FASTerVLA",
+    "paperTitle": "FASTerVLA model paper (2512.04952)",
+    "paperUrl": "https://arxiv.org/abs/2512.04952",
+    "arxivId": "2512.04952",
+    "publishedAt": "Dec 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.8,
+        "detail": "Suites: libero spatial 98 · libero object 99.4 · libero goal 98.6 · libero 10 95.4 | Table 1"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 87.9,
+        "detail": "Suites: widowx vm 87.9 | Tasks: put spoon on towel vm 91.7 · put carrot on plate vm 93.3 · stack block vm 67.5 · put eggplant in basket vm 99.2 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA + TTF",
+    "paperTitle": "OpenVLA + TTF model paper (2508.19257)",
+    "paperUrl": "https://arxiv.org/abs/2508.19257",
+    "arxivId": "2508.19257",
+    "publishedAt": "Aug 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 72.4,
+        "detail": "Suites: libero spatial 84.5 · libero object 72.5 · libero goal 79 · libero 10 53.5 | Table 1"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 34.9,
+        "detail": "Suites: google robot vm 34.9 | Tasks: move near vm 52.1 · pick coke can vm 18.7 · open close drawer vm 33.8 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA-FreqPolicy",
+    "paperTitle": "OpenVLA-FreqPolicy model paper (2506.08822)",
+    "paperUrl": "https://arxiv.org/abs/2506.08822",
+    "arxivId": "2506.08822",
+    "publishedAt": "Jun 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.8,
+        "detail": "Suites: libero spatial 97 · libero object 98.6 · libero goal 96 · libero 10 87.6 | Table 3"
+      }
+    ]
+  },
+  {
+    "model": "ROCKET (OpenVLA-7B)",
+    "paperTitle": "ROCKET (OpenVLA-7B) model paper (2602.17951)",
+    "paperUrl": "https://arxiv.org/abs/2602.17951",
+    "arxivId": "2602.17951",
+    "publishedAt": "Feb 2026",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.5,
+        "detail": "Suites: libero spatial 98.2 · libero object 99.8 · libero goal 98.8 · libero 10 97 | Table 5"
+      }
+    ]
+  },
+  {
+    "model": "ROCKET (π₀.₅)",
+    "paperTitle": "ROCKET (π₀.₅) model paper (2602.17951)",
+    "paperUrl": "https://arxiv.org/abs/2602.17951",
+    "arxivId": "2602.17951",
+    "publishedAt": "Feb 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.2,
+        "detail": "Suites: libero spatial 96.4 · libero object 98.8 · libero goal 96.6 · libero 10 89.2 | Table 3"
+      }
+    ]
+  },
+  {
+    "model": "ExpReS-VLA (OpenVLA)",
+    "paperTitle": "ExpReS-VLA (OpenVLA) model paper (2511.06202)",
+    "paperUrl": "https://arxiv.org/abs/2511.06202",
+    "arxivId": "2511.06202",
+    "publishedAt": "Nov 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 88.7,
+        "detail": "Suites: libero spatial 93.1 · libero object 93.9 · libero goal 95.4 · libero 10 72.3 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "ExpReS-VLA (OpenVLA-OFT)",
+    "paperTitle": "ExpReS-VLA (OpenVLA-OFT) model paper (2511.06202)",
+    "paperUrl": "https://arxiv.org/abs/2511.06202",
+    "arxivId": "2511.06202",
+    "publishedAt": "Nov 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.9,
+        "detail": "Suites: libero spatial 97.4 · libero object 98.7 · libero goal 98.1 · libero 10 97.5 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "ExpReS-VLA (pi_0)",
+    "paperTitle": "ExpReS-VLA (pi_0) model paper (2511.06202)",
+    "paperUrl": "https://arxiv.org/abs/2511.06202",
+    "arxivId": "2511.06202",
+    "publishedAt": "Nov 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.8,
+        "detail": "Suites: libero spatial 97.3 · libero object 98.4 · libero goal 97.8 · libero 10 89.5 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "RIPT-VLA (OpenVLA-OFT)",
+    "paperTitle": "RIPT-VLA (OpenVLA-OFT) model paper (2505.17016)",
+    "paperUrl": "https://arxiv.org/abs/2505.17016",
+    "arxivId": "2505.17016",
+    "publishedAt": "May 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.5,
+        "detail": "Suites: libero spatial 98.6 · libero object 98.6 · libero goal 99 · libero 10 93.8 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA + Dejavu EFN (Vol=1000)",
+    "paperTitle": "OpenVLA + Dejavu EFN (Vol=1000) model paper (2510.10181)",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Oct 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 87,
+        "detail": "Suites: libero spatial 89.9 · libero object 92.2 · libero goal 89.2 · libero 10 76.5 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA + Dejavu EFN (Vol=300)",
+    "paperTitle": "OpenVLA + Dejavu EFN (Vol=300) model paper (2510.10181)",
+    "paperUrl": "https://arxiv.org/abs/2510.10181",
+    "arxivId": "2510.10181",
+    "publishedAt": "Oct 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 84.4,
+        "detail": "Suites: libero spatial 88.5 · libero object 91.3 · libero goal 85.7 · libero 10 72.1 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "π0.5+DemoSpeedup",
+    "paperTitle": "π0.5+DemoSpeedup model paper (2603.20658)",
+    "paperUrl": "https://arxiv.org/abs/2603.20658",
+    "arxivId": "2603.20658",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.3,
+        "detail": "Suites: libero spatial 96.4 · libero object 98.8 · libero goal 96.8 · libero 10 93.2 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "π0.5+SuP",
+    "paperTitle": "π0.5+SuP model paper (2603.20658)",
+    "paperUrl": "https://arxiv.org/abs/2603.20658",
+    "arxivId": "2603.20658",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.3,
+        "detail": "Suites: libero spatial 97.2 · libero object 99.4 · libero goal 98.6 · libero 10 94 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "Octo w/ PLD",
+    "paperTitle": "Octo w/ PLD model paper (2511.00091)",
+    "paperUrl": "https://arxiv.org/abs/2511.00091",
+    "arxivId": "2511.00091",
+    "publishedAt": "Nov 2025",
+    "organization": "UC Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.2,
+        "detail": "Suites: libero spatial 97.7 · libero object 98.5 · libero goal 95.3 | Tasks: reported avg 97.2 | Table 1"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 96.625,
+        "detail": "Tasks: put eggplant in basket vm 97.8 · put carrot on plate vm 93.9 · open close drawer vm 99.3 · pick coke can vm 95.5 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "ATA + OpenVLA",
+    "paperTitle": "ATA + OpenVLA model paper (2603.01490)",
+    "paperUrl": "https://arxiv.org/abs/2603.01490",
+    "arxivId": "2603.01490",
+    "publishedAt": "Mar 2026",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 81,
+        "detail": "Suites: libero spatial 88.8 · libero object 94.6 · libero goal 82.6 · libero 10 58.2 | Table II"
+      }
+    ]
+  },
+  {
+    "model": "ATA + pi0-fast",
+    "paperTitle": "ATA + pi0-fast model paper (2603.01490)",
+    "paperUrl": "https://arxiv.org/abs/2603.01490",
+    "arxivId": "2603.01490",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 87.8,
+        "detail": "Suites: libero spatial 98.6 · libero object 98.8 · libero goal 90.8 · libero 10 63.2 | Table II"
+      }
+    ]
+  },
+  {
+    "model": "VLA-Cache (OpenVLA)",
+    "paperTitle": "VLA-Cache (OpenVLA) model paper (2511.18082)",
+    "paperUrl": "https://arxiv.org/abs/2511.18082",
+    "arxivId": "2511.18082",
+    "publishedAt": "Nov 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 74.7,
+        "detail": "Suites: libero spatial 83.8 · libero object 85.8 · libero goal 76.4 · libero 10 52.8 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "Fast-WAM",
+    "paperTitle": "Fast-WAM model paper (2603.16666)",
+    "paperUrl": "https://arxiv.org/abs/2603.16666",
+    "arxivId": "2603.16666",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.6,
+        "detail": "Suites: libero spatial 98.2 · libero object 100 · libero goal 97 · libero 10 95.2 | Table 2"
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 91.83,
+        "detail": "Suites: easy 91.88 · hard 91.78 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "RLinf-VLA (OpenVLA-OFT + GRPO)",
+    "paperTitle": "RLinf-VLA (OpenVLA-OFT + GRPO) model paper (2510.06710)",
+    "paperUrl": "https://arxiv.org/abs/2510.06710",
+    "arxivId": "2510.06710",
+    "publishedAt": "Oct 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.62,
+        "detail": "Suites: libero object 99.67 · libero spatial 98.93 · libero goal 98.32 · libero 10 93.55 · libero 90 98.12 | Table I(b)"
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 84.6,
+        "detail": "Easy 84.6"
+      }
+    ]
+  },
+  {
+    "model": "GeCO (π₀)",
+    "paperTitle": "GeCO (π₀) model paper (2603.17834)",
+    "paperUrl": "https://arxiv.org/abs/2603.17834",
+    "arxivId": "2603.17834",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 93.45,
+        "detail": "Suites: libero spatial 95.8 · libero object 99 · libero goal 95.2 · libero 10 83.8 | Tasks: reported avg 93.45 | Table 1"
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 39,
+        "detail": "Suites: easy 50 · hard 28 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "QuantVLA (GR00T N1.5)",
+    "paperTitle": "QuantVLA (GR00T N1.5) model paper (2602.20309)",
+    "paperUrl": "https://arxiv.org/abs/2602.20309",
+    "arxivId": "2602.20309",
+    "publishedAt": "Feb 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 88,
+        "detail": "Suites: libero spatial 96 · libero object 92 · libero goal 90 · libero 10 74 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "QuantVLA (π0.5)",
+    "paperTitle": "QuantVLA (π0.5) model paper (2602.20309)",
+    "paperUrl": "https://arxiv.org/abs/2602.20309",
+    "arxivId": "2602.20309",
+    "publishedAt": "Feb 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.6,
+        "detail": "Suites: libero spatial 98.5 · libero object 98 · libero goal 98 · libero 10 96 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "CoT-VLA-7B",
+    "paperTitle": "CoT-VLA-7B model paper (2503.22020)",
+    "paperUrl": "https://arxiv.org/abs/2503.22020",
+    "arxivId": "2503.22020",
+    "publishedAt": "Mar 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 83.9,
+        "detail": "Suites: libero spatial 87.5 · libero object 91.6 · libero goal 87.6 · libero 10 69 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "MoLe-OpenVLA",
+    "paperTitle": "MoLe-OpenVLA model paper (2503.20384)",
+    "paperUrl": "https://arxiv.org/abs/2503.20384",
+    "arxivId": "2503.20384",
+    "publishedAt": "Mar 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RLBench",
+        "query": "RLBench",
+        "overall": 55.2,
+        "detail": "Tasks: PutRubbishInBin 12 · CloseBox 80 · CloseLaptopLid 76 · TakeUmbrellaOutOfStand 40 · CloseFridge 96 · SweepToDustpan 72 · PhoneOnBase 20 · ChangeClock 12 · ToiletSeatDown 100 · TakeFrameOffHanger 44 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "ContextVLA (GR00T N1.5)",
+    "paperTitle": "ContextVLA (GR00T N1.5) model paper (2510.04246)",
+    "paperUrl": "https://arxiv.org/abs/2510.04246",
+    "arxivId": "2510.04246",
+    "publishedAt": "Oct 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 64.3,
+        "detail": "Suites: panda 64.3 | Table 3"
+      }
+    ]
+  },
+  {
+    "model": "ContextVLA (pi0-FAST)",
+    "paperTitle": "ContextVLA (pi0-FAST) model paper (2510.04246)",
+    "paperUrl": "https://arxiv.org/abs/2510.04246",
+    "arxivId": "2510.04246",
+    "publishedAt": "Oct 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 62.2,
+        "detail": "Suites: panda 62.2 | Table 3"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 70.7,
+        "detail": "Suites: widowx vm 70.7 | Tasks: spoon on towel vm 60.7 · carrot on plate vm 81.3 · stack cube vm 78.7 · put eggplant in basket vm 62 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "GR00T-N1-2B",
+    "paperTitle": "GR00T-N1-2B model paper (2503.14734)",
+    "paperUrl": "https://arxiv.org/abs/2503.14734",
+    "arxivId": "2503.14734",
+    "publishedAt": "Mar 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 32.1,
+        "detail": "Suites: panda 32.1 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "ACG (GR00T-N1)",
+    "paperTitle": "ACG (GR00T-N1) model paper (2510.22201)",
+    "paperUrl": "https://arxiv.org/abs/2510.22201",
+    "arxivId": "2510.22201",
+    "publishedAt": "Oct 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 39.3,
+        "detail": "Suites: panda 39.3 | Table I"
+      }
+    ]
+  },
+  {
+    "model": "StarVLA-GR00T",
+    "paperTitle": "StarVLA-GR00T model paper (2604.05014)",
+    "paperUrl": "https://arxiv.org/abs/2604.05014",
+    "arxivId": "2604.05014",
+    "publishedAt": "Apr 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 47.8,
+        "detail": "Suites: gr1 47.8 | Table 5"
+      }
+    ]
+  },
+  {
+    "model": "OpenVLA+",
+    "paperTitle": "OpenVLA+ model paper (2509.11417)",
+    "paperUrl": "https://arxiv.org/abs/2509.11417",
+    "arxivId": "2509.11417",
+    "publishedAt": "Sep 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 77.55,
+        "detail": "Suites: google robot vm 78.5 · google robot va 76.6 | Tasks: pick coke can vm 90.3 · move near vm 77.6 · open close drawer vm 92.4 · pick coke can va 87.6 · move near va 82.3 · open close drawer va 87.9 | Table II, Table III"
+      }
+    ]
+  },
+  {
+    "model": "pi0+",
+    "paperTitle": "pi0+ model paper (2509.11417)",
+    "paperUrl": "https://arxiv.org/abs/2509.11417",
+    "arxivId": "2509.11417",
+    "publishedAt": "Sep 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 64.55,
+        "detail": "Suites: google robot vm 69.2 · google robot va 59.9 | Tasks: pick coke can vm 83.4 · move near vm 84.7 · open close drawer vm 44.4 | Table II, Table III"
+      }
+    ]
+  },
+  {
+    "model": "MG-Select* (pi0-FAST)",
+    "paperTitle": "MG-Select* (pi0-FAST) model paper (2510.05681)",
+    "paperUrl": "https://arxiv.org/abs/2510.05681",
+    "arxivId": "2510.05681",
+    "publishedAt": "Oct 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 50.3,
+        "detail": "Suites: widowx vm 50.3 | Tasks: spoon on towel vm 69.4 · carrot on plate vm 75 · stack cubes vm 43.1 · eggplant in basket vm 13.9 | Table 2"
+      }
+    ]
+  },
+  {
+    "model": "BLURR-Pi-0",
+    "paperTitle": "BLURR-Pi-0 model paper (2512.11769)",
+    "paperUrl": "https://arxiv.org/abs/2512.11769",
+    "arxivId": "2512.11769",
+    "publishedAt": "Dec 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 71,
+        "detail": "Suites: widowx vm 71 | Tasks: put carrot on plate vm 54 · put spoon on towel vm 91 · stack green block on yellow block vm 46 · put eggplant in yellow basket vm 93 | Table 3"
+      }
+    ]
+  },
+  {
+    "model": "Dream-VLA + Fast-dVLA",
+    "paperTitle": "Dream-VLA + Fast-dVLA model paper (2603.25661)",
+    "paperUrl": "https://arxiv.org/abs/2603.25661",
+    "arxivId": "2603.25661",
+    "publishedAt": "Mar 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 59.3,
+        "detail": "Suites: widowx vm 59.3 | Table 4"
+      }
+    ]
+  },
+  {
+    "model": "StarVLA-GR00T (Qwen3-VL-4B)",
+    "paperTitle": "StarVLA-GR00T (Qwen3-VL-4B) model paper (2604.05014)",
+    "paperUrl": "https://arxiv.org/abs/2604.05014",
+    "arxivId": "2604.05014",
+    "publishedAt": "Apr 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 65.3,
+        "detail": "Suites: widowx vm 65.3 | Tasks: put spoon on towel vm 83 · put carrot on plate vm 59.4 · stack green block on yellow block vm 18.8 · put eggplant in yellow basket vm 100 | Table 3"
+      }
+    ]
+  },
+  {
+    "model": "StARe-VLA IPI (OpenVLA)",
+    "paperTitle": "StARe-VLA IPI (OpenVLA) model paper (2512.05107)",
+    "paperUrl": "https://arxiv.org/abs/2512.05107",
+    "arxivId": "2512.05107",
+    "publishedAt": "Dec 2025",
+    "organization": "Stanford / Berkeley",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 98,
+        "detail": "Suites: widowx vm 98 | Tasks: put spoon on towel vm 98 · put carrot on plate vm 98.5 · stack green block on yellow block vm 98 · put eggplant in yellow basket vm 97.5 | Table 1"
+      }
+    ]
+  },
+  {
+    "model": "Flower",
+    "paperTitle": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+    "paperUrl": "https://arxiv.org/abs/2509.04996",
+    "arxivId": "2509.04996",
+    "publishedAt": "Sep 2025",
+    "organization": "Microsoft Research",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.9,
+        "detail": "Details: goal 96.1 · long 94.9 · object 99.1 · spatial 97.5"
+      },
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.53,
+        "detail": "Details: sr 1 99.4 · sr 2 95.8 · sr 3 90.7 · sr 4 84.9 · sr 5 77.8 · avg len 4.53"
+      }
+    ]
+  },
+  {
+    "model": "pi0fast",
+    "paperTitle": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2501.09747",
+    "arxivId": "2501.09747",
+    "publishedAt": "Jan 2025",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 85.5,
+        "detail": "Details: goal 88.6 · long 60.2 · object 96.8 · spatial 96.4"
+      }
+    ]
+  },
+  {
+    "model": "smolVLA(0.45b)",
+    "paperTitle": "smolVLA: Scaling Down Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2506.01844",
+    "arxivId": "2506.01844",
+    "publishedAt": "Jun 2025",
+    "organization": "Hugging Face",
+    "flag": "🇺🇸 🇫🇷",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 87.3,
+        "detail": "Details: goal 92 · long 71 · object 96 · spatial 90"
+      },
+      {
+        "label": "Meta-World",
+        "query": "Meta-World",
+        "overall": 57.3,
+        "detail": "Details: easy 82.5 · medium 41.8 · hard 45 · very hard 60"
+      }
+    ]
+  },
+  {
+    "model": "VLA-0",
+    "paperTitle": "VLA-0: Building State-of-the-Art VLAs with Zero Modification",
+    "paperUrl": "https://arxiv.org/abs/2510.13054",
+    "arxivId": "2510.13054",
+    "publishedAt": "Oct 2025",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.7,
+        "detail": "Details: goal 96.2 · long 87.6 · object 97.8 · spatial 97"
+      }
+    ]
+  },
+  {
+    "model": "GR00T N1.5",
+    "paperTitle": "RoboCasa365 multi-task learning leaderboard entry",
+    "paperUrl": "https://arxiv.org/abs/2603.04356",
+    "arxivId": "2603.04356",
+    "publishedAt": "Updated Apr 6, 2026",
+    "organization": "NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa365",
+        "query": "RoboCasa365",
+        "overall": 20,
+        "detail": "Atomic-Seen 43.0 · Composite-Seen 9.6 · Composite-Unseen 4.4"
+      }
+    ]
+  },
+  {
+    "model": "π0.5",
+    "paperTitle": "RoboCasa365 multi-task learning leaderboard entry",
+    "paperUrl": "https://arxiv.org/abs/2603.04356",
+    "arxivId": "2603.04356",
+    "publishedAt": "Updated Apr 6, 2026",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "RoboCasa365",
+        "query": "RoboCasa365",
+        "overall": 16.9,
+        "detail": "Atomic-Seen 39.6 · Composite-Seen 7.1 · Composite-Unseen 1.2"
+      }
+    ]
+  },
+  {
+    "model": "π0",
+    "paperTitle": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "paperUrl": "https://arxiv.org/abs/2410.24164",
+    "arxivId": "2410.24164",
+    "publishedAt": "Oct 31, 2024",
+    "organization": "Physical Intelligence",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.92
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.2
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 56.1
+      },
+      {
+        "label": "LIBERO-Pro",
+        "query": "LIBERO-Pro",
+        "overall": 54.6
+      },
+      {
+        "label": "MIKASA",
+        "query": "MIKASA",
+        "overall": 29.4
+      },
+      {
+        "label": "RoboArena",
+        "query": "RoboArena",
+        "overall": 1475
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 62.5
+      },
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 28.3
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 31.35,
+        "detail": "Easy 46.4 · Hard 16.3"
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 71,
+        "detail": "VM 70.1 · VA 71.9"
+      },
+      {
+        "label": "VLABench",
+        "query": "VLABench",
+        "overall": 37.8
+      },
+      {
+        "label": "RoboCasa365",
+        "query": "RoboCasa365",
+        "overall": 14.8,
+        "detail": "Atomic-Seen 34.6 · Composite-Seen 6.1 · Composite-Unseen 1.1"
+      }
+    ]
+  },
+  {
+    "model": "Xiaomi-Robotics-0",
+    "paperTitle": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+    "paperUrl": "https://arxiv.org/abs/2602.12684",
+    "arxivId": "2602.12684",
+    "publishedAt": "Feb 2026",
+    "organization": "Xiaomi Robotics",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.7,
+        "detail": "Paper Table 1: average success rate 98.7%."
+      },
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.75,
+        "detail": "Paper Table 2: ABC→D average completed tasks 4.75."
+      }
+    ]
+  },
+  {
+    "model": "X-VLA",
+    "paperTitle": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2510.10274",
+    "arxivId": "2510.10274",
+    "publishedAt": "Oct 2025",
+    "organization": "AIR / Tsinghua / Shanghai AI Lab / Peking University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.43,
+        "detail": "Table 14: ABC→D average completed tasks 4.43."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.1,
+        "detail": "Table 12: spatial 98.2 · object 98.6 · goal 97.8 · long 97.6 · avg 98.1."
+      },
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 21.3
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 54.5,
+        "detail": "Table 16: easy 70.0 · hard 39.0."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 86.6,
+        "detail": "VM 88.3 · VA 75.7 · WX 95.8"
+      },
+      {
+        "label": "VLABench",
+        "query": "VLABench",
+        "overall": 51.1,
+        "detail": "Table 15: in-distribution 67.8 · cross-category 25.1 · commonsense 48.2 · semantic instruction 63.1 · avg 51.1."
+      }
+    ]
+  },
+  {
+    "model": "UniVLA",
+    "paperTitle": "Unified Vision-Language-Action Model",
+    "paperUrl": "https://arxiv.org/abs/2506.19850",
+    "arxivId": "2506.19850",
+    "publishedAt": "Jun 2025",
+    "organization": "CASIA / BAAI / Tsinghua / HKIS",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.5,
+        "detail": "Paper Table 2: average success rate 95.5% · LIBERO-Long 94.0%."
+      },
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.41,
+        "detail": "Paper Table 1: ABC→D average completed tasks 4.41."
+      }
+    ]
+  },
+  {
+    "model": "DM0",
+    "paperTitle": "DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI",
+    "paperUrl": "https://arxiv.org/abs/2602.14974",
+    "arxivId": "2602.14974",
+    "publishedAt": "Feb 2026",
+    "organization": "Dexmal / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 62,
+        "detail": "Paper Table 1: Table30 specialist average success rate 62.0%."
+      }
+    ]
+  },
+  {
+    "model": "DM0_generalist",
+    "paperTitle": "DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI",
+    "paperUrl": "https://arxiv.org/abs/2602.14974",
+    "arxivId": "2602.14974",
+    "publishedAt": "Feb 2026",
+    "organization": "Dexmal / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 37.3,
+        "detail": "Paper Table 2: Table30 generalist success rate 37.3% · task score 49.08."
+      }
+    ]
+  },
+  {
+    "model": "DiT Policy",
+    "paperTitle": "Diffusion Transformer Policy",
+    "paperUrl": "https://arxiv.org/abs/2410.15959",
+    "arxivId": "2410.15959",
+    "publishedAt": "Oct 2024",
+    "organization": "Shanghai AI Lab / Zhejiang University / CUHK / SenseTime / Tsinghua",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.61,
+        "detail": "Table 2: 1 task 94.5 · 2 tasks 82.5 · 3 tasks 72.8 · 4 tasks 61.3 · 5 tasks 50 · overall 3.61."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 82.4,
+        "detail": "Table 3: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero long 63.8 · overall 82.4."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 65.8,
+        "detail": "Table 4: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · overall 65.8."
+      }
+    ]
+  },
+  {
+    "model": "AtomicVLA*",
+    "paperTitle": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+    "paperUrl": "https://arxiv.org/abs/2603.07648",
+    "arxivId": "2603.07648",
+    "publishedAt": "Mar 2026",
+    "organization": "Sun Yat-sen University / Peng Cheng Laboratory / Yinwang Intelligent",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.27,
+        "detail": "Table 2: chain 1 94.1 · chain 2 88.7 · chain 3 85.2 · chain 4 81.7 · chain 5 77.6 · overall 4.27."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.8,
+        "detail": "Table 1: libero spatial 98.8 · libero object 98.8 · libero goal 97.2 · libero long 96.2 · overall 97.8."
+      }
+    ]
+  },
+  {
+    "model": "MINT-4B",
+    "paperTitle": "Mimic Intent, Not Just Trajectories",
+    "paperUrl": "https://arxiv.org/abs/2602.08602",
+    "arxivId": "2602.08602",
+    "publishedAt": "Feb 2026",
+    "organization": "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.2,
+        "detail": "Table I: libero spatial 97.4 · libero object 99.6 · libero goal 98.2 · libero long 97.8 · libero 90 98.7 · overall 98.2."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 80.1,
+        "detail": "Table II: camera 72.2 · robot 42.4 · language 85.8 · light 96.6 · background 88.9 · noise 90.1 · layout 84.6 · overall 80.1."
+      }
+    ]
+  },
+  {
+    "model": "AVA-VLA",
+    "paperTitle": "AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention",
+    "paperUrl": "https://arxiv.org/abs/2511.18960",
+    "arxivId": "2511.18960",
+    "publishedAt": "Nov 2025",
+    "organization": "Li Auto / Beijing University of Technology / CUHK Shenzhen",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.65,
+        "detail": "Table 2: 1 task 99.6 · 2 tasks 97.6 · 3 tasks 94.1 · 4 tasks 89.9 · 5 tasks 84.1 · overall 4.65."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98,
+        "detail": "Table 1: libero spatial 97.4 · libero object 99.4 · libero goal 97.4 · libero long 97.6 · overall 98."
+      }
+    ]
+  },
+  {
+    "model": "GeoVLA",
+    "paperTitle": "GeoVLA: Empowering 3D Representations in Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2508.09071",
+    "arxivId": "2508.09071",
+    "publishedAt": "Aug 2025",
+    "organization": "Tianjin University / Dexmal / Tsinghua University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.7,
+        "detail": "Table 1: libero spatial 98.4 · libero object 99 · libero goal 96.6 · libero long 96.6 · libero 90 97.7 · overall 97.7."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 77,
+        "detail": "Table 2: PickCube 90 · StackCube 90 · PickSingleYCB 75 · PickSingleEGAD 85 · PickClutterYCB 45 · overall 77."
+      }
+    ]
+  },
+  {
+    "model": "VLA-JEPA",
+    "paperTitle": "VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
+    "paperUrl": "https://arxiv.org/abs/2602.10098",
+    "arxivId": "2602.10098",
+    "publishedAt": "Feb 2026",
+    "organization": "USTC / Zhongguancun Academy / SJTU / Tsinghua / UCAS",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.2,
+        "detail": "Table 1: libero spatial 96.2 · libero object 99.6 · libero goal 97.2 · libero long 95.8 · overall 97.2."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 79.5,
+        "detail": "Table 3: camera 63.3 · robot 67.1 · language 85.4 · light 95.6 · background 93.6 · noise 66.3 · layout 85.1 · overall 79.5."
+      }
+    ]
+  },
+  {
+    "model": "DivPrune (30%) + DreamVLA",
+    "paperTitle": "VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2603.22991",
+    "arxivId": "2603.22991",
+    "publishedAt": "Mar 2026",
+    "organization": "HKUST / CUHK / South China Normal University / NUDT / USTB",
+    "flag": "🇭🇰 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.19,
+        "detail": "Table 1: 1 task 96.8 · 2 tasks 90.8 · 3 tasks 85 · 4 tasks 76.8 · 5 tasks 69.8 · overall 4.19."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97,
+        "detail": "Table 2: libero spatial 96.6 · libero object 98.8 · libero goal 98 · libero long 94.8 · overall 97."
+      }
+    ]
+  },
+  {
+    "model": "HoloBrain-0-GD",
+    "paperTitle": "HoloBrain-0 Technical Report",
+    "paperUrl": "https://arxiv.org/abs/2602.12062",
+    "arxivId": "2602.12062",
+    "publishedAt": "Feb 2026",
+    "organization": "Horizon Robotics",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.7,
+        "detail": "Table 5: libero spatial 97.8 · libero object 98.2 · libero goal 95.2 · libero long 95.6 · overall 96.7."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 75.3,
+        "detail": "Table 5: camera 65.5 · robot 58.2 · language 78.7 · light 88.1 · background 90.3 · noise 66.9 · layout 79.5 · overall 75.3."
+      }
+    ]
+  },
+  {
+    "model": "MemoryVLA",
+    "paperTitle": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2508.19236",
+    "arxivId": "2508.19236",
+    "publishedAt": "Aug 2025",
+    "organization": "Tsinghua / Dexmal / MEGVII / Tianjin University / HIT / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.7,
+        "detail": "Table 3: libero spatial 98.4 · libero object 98.4 · libero goal 96.4 · libero long 93.4 · libero 90 95.6 · overall 96.7."
+      },
+      {
+        "label": "MIKASA",
+        "query": "MIKASA",
+        "overall": 41.2,
+        "detail": "Table 4: ShellGameTouch 88 · InterceptMedium 24 · RememberColor3 44 · RememberColor5 30 · RememberColor9 20 · overall 41.2."
+      }
+    ]
+  },
+  {
+    "model": "DFM-VLA+Embed",
+    "paperTitle": "DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching",
+    "paperUrl": "https://arxiv.org/abs/2603.26320",
+    "arxivId": "2603.26320",
+    "publishedAt": "Mar 2026",
+    "organization": "HKUST Guangzhou / HIT / ShanghaiTech University / CAS",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.44,
+        "detail": "Table 1: 1 task 97.6 · 2 tasks 94.4 · 3 tasks 89.2 · 4 tasks 84.4 · 5 tasks 78 · overall 4.44."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 95.7,
+        "detail": "Table 2: libero spatial 96.8 · libero object 98.8 · libero goal 94.4 · libero long 92.6 · overall 95.7."
+      }
+    ]
+  },
+  {
+    "model": "UD-VLA",
+    "paperTitle": "Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process",
+    "paperUrl": "https://arxiv.org/abs/2511.01718",
+    "arxivId": "2511.01718",
+    "publishedAt": "Nov 2025",
+    "organization": "HKUST Guangzhou / Westlake University / Zhejiang University / Monash University",
+    "flag": "🇨🇳 🇦🇺",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.64,
+        "detail": "Table 2: 1 task 99.2 · 2 tasks 96.8 · 3 tasks 93.6 · 4 tasks 90.4 · 5 tasks 84 · overall 4.64."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 92.7,
+        "detail": "Table 3: libero spatial 94.1 · libero object 95.7 · libero goal 91.2 · libero long 89.6 · overall 92.7."
+      }
+    ]
+  },
+  {
+    "model": "BEAST-F",
+    "paperTitle": "BEAST: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning",
+    "paperUrl": "https://arxiv.org/abs/2506.06072",
+    "arxivId": "2506.06072",
+    "publishedAt": "Jun 2025",
+    "organization": "KIT / Robotics Institute Germany / Microsoft Research",
+    "flag": "🇩🇪 🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.42,
+        "detail": "Table 1: 1 task 99.8 · 2 tasks 96.5 · 3 tasks 89.3 · 4 tasks 82.7 · 5 tasks 74.4 · overall 4.42."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 92.5,
+        "detail": "Table 2: libero spatial 92.9 · libero object 97.5 · libero goal 93.1 · libero long 86.4 · overall 92.5."
+      }
+    ]
+  },
+  {
+    "model": "TriVLA",
+    "paperTitle": "TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control",
+    "paperUrl": "https://arxiv.org/abs/2507.01424",
+    "arxivId": "2507.01424",
+    "publishedAt": "Jul 2025",
+    "organization": "Fudan University / Shanghai Innovation Institute",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.37,
+        "detail": "Table 1: 1 task 96.8 · 2 tasks 92.4 · 3 tasks 86.8 · 4 tasks 83.2 · 5 tasks 81.8 · overall 4.37."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 87,
+        "detail": "Table 2: libero spatial 91.2 · libero object 93.8 · libero goal 89.8 · libero long 73.2 · overall 87."
+      }
+    ]
+  },
+  {
+    "model": "EnerVerse",
+    "paperTitle": "EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2501.01895",
+    "arxivId": "2501.01895",
+    "publishedAt": "Jan 2025",
+    "organization": "SJTU / AgiBot / Shanghai AI Lab / CUHK / NUS",
+    "flag": "🇨🇳 🇭🇰 🇸🇬",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3,
+        "detail": "Table 3: 1 task 90.8 · 2 tasks 73 · 3 tasks 57.3 · 4 tasks 43.7 · 5 tasks 35.6 · overall 3."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 84.1,
+        "detail": "Table 2: libero spatial 92.1 · libero object 93.2 · libero goal 78.1 · libero long 73 · overall 84.1."
+      }
+    ]
+  },
+  {
+    "model": "3D Diffuser Actor",
+    "paperTitle": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+    "paperUrl": "https://arxiv.org/abs/2402.10885",
+    "arxivId": "2402.10885",
+    "publishedAt": "Feb 2024",
+    "organization": "Carnegie Mellon University",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.35,
+        "detail": "Table 4: 1 task 93.8 · 2 tasks 80.3 · 3 tasks 66.2 · 4 tasks 53.3 · 5 tasks 41.2 · overall 3.35."
+      },
+      {
+        "label": "RLBench",
+        "query": "RLBench",
+        "overall": 81.3,
+        "detail": "Table 1: reported overall 81.3."
+      }
+    ]
+  },
+  {
+    "model": "DB-OFT",
+    "paperTitle": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
+    "paperUrl": "https://arxiv.org/abs/2510.23511",
+    "arxivId": "2510.23511",
+    "publishedAt": "Oct 2025",
+    "organization": "Dexmal / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 3.54,
+        "detail": "Table 4: 1 task 92.8 · 2 tasks 80.7 · 3 tasks 69.2 · 4 tasks 60.2 · 5 tasks 51.1 · overall 3.54."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 63,
+        "detail": "Table 5: PickCube 90 · StackCube 75 · PickSingleYCB 55 · PickSingleEGAD 65 · PickClutterYCB 30 · overall 63."
+      }
+    ]
+  },
+  {
+    "model": "DB-CogACT",
+    "paperTitle": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
+    "paperUrl": "https://arxiv.org/abs/2510.23511",
+    "arxivId": "2510.23511",
+    "publishedAt": "Oct 2025",
+    "organization": "Dexmal / StepFun",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "overall": 4.06,
+        "detail": "Table 4: 1 task 93.5 · 2 tasks 86.7 · 3 tasks 80.3 · 4 tasks 76 · 5 tasks 69.8 · overall 4.06."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 58,
+        "detail": "Table 5: PickCube 90 · StackCube 65 · PickSingleYCB 65 · PickSingleEGAD 40 · PickClutterYCB 30 · overall 58."
+      }
+    ]
+  },
+  {
+    "model": "ABot-M0",
+    "paperTitle": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+    "paperUrl": "https://arxiv.org/abs/2602.11236",
+    "arxivId": "2602.11236",
+    "publishedAt": "Feb 2026",
+    "organization": "AMAP CV Lab",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 3: libero spatial 98.8 · libero object 99.8 · libero goal 99 · libero long 96.6 · overall 98.6.",
+        "overall": 98.6
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "detail": "Table 4: camera 60.4 · robot 67.9 · language 86.4 · light 96.2 · background 91.6 · noise 86.4 · layout 82.6 · overall 81.6.",
+        "overall": 81.6
+      }
+    ]
+  },
+  {
+    "model": "LaMP",
+    "paperTitle": "LaMP: Learning Vision-Language-Action Policy with 3D Scene Flow as Latent Motion Prior",
+    "paperUrl": "https://arxiv.org/abs/2603.25399",
+    "arxivId": "2603.25399",
+    "publishedAt": "Mar 2026",
+    "organization": "Southeast University / SJTU / Zhejiang University / Beihang / Shanghai Innovation Institute",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table I: libero spatial 99.4 · libero object 99.8 · libero goal 97.4 · libero long 96.7 · overall 98.3.",
+        "overall": 98.3
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 80.814,
+        "detail": "Table II: camera 64.5 · robot 69.6 · language 88.2 · light 95.3 · background 97.4 · noise 76.9 · layout 73.8."
+      }
+    ]
+  },
+  {
+    "model": "CoWVLA",
+    "paperTitle": "Chain of World: World Model Thinking in Latent Motion",
+    "paperUrl": "https://arxiv.org/abs/2603.03195",
+    "arxivId": "2603.03195",
+    "publishedAt": "Mar 2026",
+    "organization": "HIT / Li Auto / BAAI / UNSW / Peking University",
+    "flag": "🇨🇳 🇦🇺",
+    "benchmarks": [
+      {
+        "label": "CALVIN",
+        "query": "CALVIN",
+        "detail": "Appendix Table 2: 1 task 96.8 · 2 tasks 91.2 · 3 tasks 84.4 · 4 tasks 77.9 · 5 tasks 70.8 · overall 4.211.",
+        "overall": 4.211
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "detail": "Table 1: libero spatial 97.2 · libero object 97.8 · libero goal 94.6 · libero long 92.8 · overall 95.6.",
+        "overall": 95.6
+      }
+    ]
+  }
+]
