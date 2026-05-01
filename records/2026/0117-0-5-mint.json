@@ -1,0 +1,28 @@
+{
+  "model": "π₀.₅ (MINT)",
+  "paperTitle": "Mimic Intent, Not Just Trajectories",
+  "paperUrl": "https://arxiv.org/abs/2602.08602",
+  "arxivId": "2602.08602",
+  "publishedAt": "Mar 28, 2026",
+  "organization": "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Tasks: chain 1 94.2 · chain 2 89.3 · chain 3 82.7 · chain 4 78.5 · chain 5 70.3 · reported avg 4.15 | Table I | Notes: Protocol does not match ABC→D standard | ABCD→D split."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98.8 · libero object 98.2 · libero goal 98 · libero 10 92.4 · libero 90 96 | Table I | Notes: 4 standard suites.",
+      "overall": 96.8
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Suites: camera 53 · robot 50.3 · language 65.7 · light 83.1 · background 77.3 · noise 53.2 · layout 72.7 | Table II | Notes: All 7 dimensions.",
+      "overall": 65
+    }
+  ]
+}

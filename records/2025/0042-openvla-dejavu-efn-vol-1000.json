@@ -1,0 +1,17 @@
+{
+  "model": "OpenVLA + Dejavu EFN (Vol=1000)",
+  "paperTitle": "OpenVLA + Dejavu EFN (Vol=1000) model paper (2510.10181)",
+  "paperUrl": "https://arxiv.org/abs/2510.10181",
+  "arxivId": "2510.10181",
+  "publishedAt": "Oct 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 87,
+      "detail": "Suites: libero spatial 89.9 · libero object 92.2 · libero goal 89.2 · libero 10 76.5 | Table 1"
+    }
+  ]
+}

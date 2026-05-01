@@ -1,0 +1,16 @@
+{
+  "model": "ACG (GR00T-N1)",
+  "paperTitle": "ACG (GR00T-N1) model paper (2510.22201)",
+  "paperUrl": "https://arxiv.org/abs/2510.22201",
+  "arxivId": "2510.22201",
+  "publishedAt": "Oct 2025",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 39.3 | Table I"
+    }
+  ]
+}

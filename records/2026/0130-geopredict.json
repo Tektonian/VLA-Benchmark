@@ -1,0 +1,22 @@
+{
+  "model": "GeoPredict",
+  "paperTitle": "GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2512.16811",
+  "arxivId": "2512.16811",
+  "publishedAt": "Apr 7, 2026",
+  "organization": "CUHK Shenzhen / Hunan University / Voyager Research, Didi Chuxing",
+  "flag": "🇭🇰 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98 · libero object 98.2 · libero goal 95.7 · libero 10 94 | Table 2 | Notes: Standard LIBERO protocol: 4 suites, 50 demos per task, 500 trials per suite. Built on pi0 backbone.",
+      "overall": 96.5
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 52.4 | Table 1 | Notes: 24 tasks, Human-50 setting (50 demos/task), 50 trials per task across 5 scenes."
+    }
+  ]
+}

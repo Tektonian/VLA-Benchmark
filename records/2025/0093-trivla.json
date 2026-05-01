@@ -1,0 +1,23 @@
+{
+  "model": "TriVLA",
+  "paperTitle": "TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control",
+  "paperUrl": "https://arxiv.org/abs/2507.01424",
+  "arxivId": "2507.01424",
+  "publishedAt": "Jul 2025",
+  "organization": "Fudan University / Shanghai Innovation Institute",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.37,
+      "detail": "Table 1: 1 task 96.8 · 2 tasks 92.4 · 3 tasks 86.8 · 4 tasks 83.2 · 5 tasks 81.8 · overall 4.37."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 87,
+      "detail": "Table 2: libero spatial 91.2 · libero object 93.8 · libero goal 89.8 · libero long 73.2 · overall 87."
+    }
+  ]
+}

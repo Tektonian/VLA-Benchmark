@@ -1,0 +1,23 @@
+{
+  "model": "smolVLA(0.45b)",
+  "paperTitle": "smolVLA: Scaling Down Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2506.01844",
+  "arxivId": "2506.01844",
+  "publishedAt": "Jun 2025",
+  "organization": "Hugging Face",
+  "flag": "🇺🇸 🇫🇷",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 87.3,
+      "detail": "Details: goal 92 · long 71 · object 96 · spatial 90"
+    },
+    {
+      "label": "Meta-World",
+      "query": "Meta-World",
+      "overall": 57.3,
+      "detail": "Details: easy 82.5 · medium 41.8 · hard 45 · very hard 60"
+    }
+  ]
+}

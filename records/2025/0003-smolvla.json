@@ -1,0 +1,17 @@
+{
+  "model": "SmolVLA",
+  "paperTitle": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+  "paperUrl": "https://arxiv.org/abs/2506.01844",
+  "arxivId": "2506.01844",
+  "publishedAt": "Jun 2, 2025",
+  "organization": "Hugging Face",
+  "flag": "🇺🇸 🇫🇷",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 88.8,
+      "detail": "Suites: libero spatial 93 · libero object 94 · libero goal 91 · libero 10 77 | Table 2"
+    }
+  ]
+}

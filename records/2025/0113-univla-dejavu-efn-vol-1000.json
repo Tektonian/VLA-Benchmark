@@ -1,0 +1,17 @@
+{
+  "model": "UniVLA + Dejavu EFN (Vol=1000)",
+  "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+  "paperUrl": "https://arxiv.org/abs/2510.10181",
+  "arxivId": "2510.10181",
+  "publishedAt": "Oct 2025",
+  "organization": "Shanghai Jiao Tong University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 1: libero spatial 98.2 · libero object 98.2 · libero goal 97.6 · libero long 94.6 · overall 97.2.",
+      "overall": 97.2
+    }
+  ]
+}

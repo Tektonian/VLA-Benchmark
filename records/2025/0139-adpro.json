@@ -1,0 +1,23 @@
+{
+  "model": "ADPro",
+  "paperTitle": "ADPro: a Test-time Adaptive Diffusion Policy via Manifold-constrained Denoising and Task-aware Initialization for Robotic Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2508.06266",
+  "arxivId": "2508.06266",
+  "publishedAt": "Jun 2025",
+  "organization": "École Centrale de Lyon / Dalian University of Technology",
+  "flag": "🇫🇷 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 94.7 · 2 tasks 83 · 3 tasks 73.6 · 4 tasks 61.4 · 5 tasks 51.1 | Table II | Notes: ABC->D zero-shot evaluation, 3 seeds. Test-time adaptation on 3D Diffuser Actor. 25% fewer inference steps.",
+      "overall": 3.64
+    },
+    {
+      "label": "RLBench",
+      "query": "RLBench",
+      "detail": "Tasks: open drawer 93.1 · slide block 100 · sweep to dustpan 97 · put in safe 98.5 · turn tap 99.5 · put in drawer 95.2 · place wine 94 · stack cups 56.5 · sort shape 50 · insert peg 74.5 · drag stick 100 · place cups 25.4 · close jar 96.2 · meat off grill 95.6 · stack blocks 67.3 · push buttons 98.6 · screw bulb 83.1 · put in cupboard 85.9 | Table I | Notes: 18-task PerAct subset evaluation, 3 random seeds averaged. Test-time adaptation on 3D Diffuser Actor. 100 demos/task training.",
+      "overall": 83.9
+    }
+  ]
+}

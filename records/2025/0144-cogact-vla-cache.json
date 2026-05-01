@@ -1,0 +1,22 @@
+{
+  "model": "CogACT + VLA-Cache",
+  "paperTitle": "VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching",
+  "paperUrl": "https://arxiv.org/abs/2502.02175",
+  "arxivId": "2502.02175",
+  "publishedAt": "Feb 2025",
+  "organization": "University of Sydney / Shanghai Jiao Tong University",
+  "flag": "🇦🇺 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 83.8 · libero object 85.8 · libero goal 76.4 · libero 10 52.8 | Table 2 | Notes: All 4 standard suites reported. Standard 50 demos/task setup.",
+      "overall": 74.7
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 81.9 · google robot va 67.8 | Tasks: pick coke can vm 92 · move near vm 83.3 · open close drawer vm 70.5 · place apple in drawer vm 51.6 · pick coke can va 91.7 · move near va 79.3 · open close drawer va 32.5 · place apple in drawer va 45.8 | Table 3 | Notes: Reports standard Google Robot tasks for VM and VA settings."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "AtomicVLA*",
+  "paperTitle": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+  "paperUrl": "https://arxiv.org/abs/2603.07648",
+  "arxivId": "2603.07648",
+  "publishedAt": "Mar 2026",
+  "organization": "Sun Yat-sen University / Peng Cheng Laboratory / Yinwang Intelligent",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.27,
+      "detail": "Table 2: chain 1 94.1 · chain 2 88.7 · chain 3 85.2 · chain 4 81.7 · chain 5 77.6 · overall 4.27."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.8,
+      "detail": "Table 1: libero spatial 98.8 · libero object 98.8 · libero goal 97.2 · libero long 96.2 · overall 97.8."
+    }
+  ]
+}

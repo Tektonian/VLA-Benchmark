@@ -1,0 +1,17 @@
+{
+  "model": "GHIL-Glue (SuSIE)",
+  "paperTitle": "GHIL-Glue (SuSIE) model paper (2410.20018)",
+  "paperUrl": "https://arxiv.org/abs/2410.20018",
+  "arxivId": "2410.20018",
+  "publishedAt": "Oct 2024",
+  "organization": "UC Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.69,
+      "detail": "Suites: 1 task 95.2 · 2 tasks 88.5 · 3 tasks 73.2 · 4 tasks 62.5 · 5 tasks 49.8 | Table I"
+    }
+  ]
+}

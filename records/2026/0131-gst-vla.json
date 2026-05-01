@@ -1,0 +1,22 @@
+{
+  "model": "GST-VLA",
+  "paperTitle": "GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2603.09079",
+  "arxivId": "2603.09079",
+  "publishedAt": "Mar 10, 2026",
+  "organization": "Yeungnam University / KAIST",
+  "flag": "🇰🇷",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98.2 · libero object 97.4 · libero goal 97.1 · libero 10 92.6 | TABLE II | Notes: All 4 LIBERO suites evaluated.",
+      "overall": 96.3
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 80.2 | Tasks: pick coke can vm 83.1 · move near vm 77.5 · open close drawer vm 80.15 | TABLE III | Notes: Reports task progress (%) not success rate. Only Google Robot VM. Drawer is split into Open and Close. No WidowX or VA."
+    }
+  ]
+}

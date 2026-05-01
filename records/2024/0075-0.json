@@ -1,0 +1,72 @@
+{
+  "model": "π0",
+  "paperTitle": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+  "paperUrl": "https://arxiv.org/abs/2410.24164",
+  "arxivId": "2410.24164",
+  "publishedAt": "Oct 31, 2024",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.92
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 94.2
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 56.1
+    },
+    {
+      "label": "LIBERO-Pro",
+      "query": "LIBERO-Pro",
+      "overall": 54.6
+    },
+    {
+      "label": "MIKASA",
+      "query": "MIKASA",
+      "overall": 29.4
+    },
+    {
+      "label": "RoboArena",
+      "query": "RoboArena",
+      "overall": 1475
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "overall": 62.5
+    },
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 28.3
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Easy 46.4 · Hard 16.3"
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "VM 70.1 · VA 71.9"
+    },
+    {
+      "label": "VLABench",
+      "query": "VLABench",
+      "overall": 37.8
+    },
+    {
+      "label": "RoboCasa365",
+      "query": "RoboCasa365",
+      "overall": 14.8,
+      "detail": "Atomic-Seen 34.6 · Composite-Seen 6.1 · Composite-Unseen 1.1"
+    }
+  ]
+}

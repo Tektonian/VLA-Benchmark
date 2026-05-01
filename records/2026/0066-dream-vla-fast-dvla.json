@@ -1,0 +1,16 @@
+{
+  "model": "Dream-VLA + Fast-dVLA",
+  "paperTitle": "Dream-VLA + Fast-dVLA model paper (2603.25661)",
+  "paperUrl": "https://arxiv.org/abs/2603.25661",
+  "arxivId": "2603.25661",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 59.3 | Table 4"
+    }
+  ]
+}

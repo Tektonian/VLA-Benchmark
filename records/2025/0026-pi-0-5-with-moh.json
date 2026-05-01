@@ -1,0 +1,17 @@
+{
+  "model": "pi_0.5 with MoH",
+  "paperTitle": "pi_0.5 with MoH model paper (2511.19433)",
+  "paperUrl": "https://arxiv.org/abs/2511.19433",
+  "arxivId": "2511.19433",
+  "publishedAt": "Nov 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 99,
+      "detail": "Suites: libero spatial 98.8 · libero object 100 · libero goal 98.8 · libero 10 98.4 | Table 1"
+    }
+  ]
+}

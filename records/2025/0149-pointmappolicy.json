@@ -1,0 +1,22 @@
+{
+  "model": "PointMapPolicy",
+  "paperTitle": "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning",
+  "paperUrl": "https://arxiv.org/abs/2510.20406",
+  "arxivId": "2510.20406",
+  "publishedAt": "Jan 2025",
+  "organization": "Karlsruhe Institute of Technology / Meta Reality Labs / Johannes Kepler University Linz",
+  "flag": "🇩🇪 🇺🇸 🇦🇹",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 96.1 · 2 tasks 88.6 · 3 tasks 80.5 · 4 tasks 72.3 · 5 tasks 63.6 | Table 2 | Notes: ABC→D split, 1000 chains, avg_len metric. Trained from scratch (no pretraining). 25 epochs.",
+      "overall": 4.01
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Tasks: reported avg 16tasks panda 47.22 | Table 1 | Notes: Only 16 of 24 tasks. 50 demos, 50 evaluation episodes, 3 seeds."
+    }
+  ]
+}

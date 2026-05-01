@@ -1,0 +1,23 @@
+{
+  "model": "EnerVerse",
+  "paperTitle": "EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2501.01895",
+  "arxivId": "2501.01895",
+  "publishedAt": "Jan 2025",
+  "organization": "SJTU / AgiBot / Shanghai AI Lab / CUHK / NUS",
+  "flag": "🇨🇳 🇭🇰 🇸🇬",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3,
+      "detail": "Table 3: 1 task 90.8 · 2 tasks 73 · 3 tasks 57.3 · 4 tasks 43.7 · 5 tasks 35.6 · overall 3."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 84.1,
+      "detail": "Table 2: libero spatial 92.1 · libero object 93.2 · libero goal 78.1 · libero long 73 · overall 84.1."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Xiaomi-Robotics-0",
+  "paperTitle": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+  "paperUrl": "https://arxiv.org/abs/2602.12684",
+  "arxivId": "2602.12684",
+  "publishedAt": "Feb 2026",
+  "organization": "Xiaomi Robotics",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.7,
+      "detail": "Paper Table 1: average success rate 98.7%."
+    },
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.75,
+      "detail": "Paper Table 2: ABC→D average completed tasks 4.75."
+    }
+  ]
+}

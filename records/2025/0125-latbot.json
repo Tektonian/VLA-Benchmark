@@ -1,0 +1,22 @@
+{
+  "model": "LatBot",
+  "paperTitle": "LatBot: Distilling Universal Latent Actions for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2511.23034",
+  "arxivId": "2511.23034",
+  "publishedAt": "Jan 2025",
+  "organization": "Institute of Microelectronics, CAS / UCAS / Microsoft Research",
+  "flag": "🇨🇳 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero goal 98.6 · libero object 98.8 · libero spatial 99 · libero 10 95.4 | Table 3 | Notes: 4 LIBERO suites, 50 demos/task, 50 rollouts per task",
+      "overall": 97.9
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 78 · google robot va 70.1 · widowx vm 87.5 | Tasks: pick coke can vm 96.7 · move near vm 91.7 · open close drawer vm 90.4 · place apple in drawer vm 33.3 · pick coke can va 95.7 · move near va 78.3 · open close drawer va 73 · place apple in drawer va 33.3 · put spoon on towel vm 95.8 · put carrot on plate vm 87.5 · stack green block on yellow block vm 83.3 · put eggplant in yellow basket vm 83.3 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA with Google Robot 4 tasks and WidowX 4 tasks"
+    }
+  ]
+}

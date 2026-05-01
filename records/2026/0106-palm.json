@@ -1,0 +1,17 @@
+{
+  "model": "PALM",
+  "paperTitle": "PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2601.07060",
+  "arxivId": "2601.07060",
+  "publishedAt": "Jan 2026",
+  "organization": "University of Pennsylvania / UIUC / NTU / Oxford / MIT",
+  "flag": "🇺🇸 🇸🇬 🇬🇧",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Table 1: 1 task 96.9 · 2 tasks 93.8 · 3 tasks 89.3 · 4 tasks 85.9 · 5 tasks 82 · overall 4.48.",
+      "overall": 4.48
+    }
+  ]
+}

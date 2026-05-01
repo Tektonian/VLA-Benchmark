@@ -1,0 +1,17 @@
+{
+  "model": "X-VLA+FASTER",
+  "paperTitle": "X-VLA+FASTER model paper (2603.19199)",
+  "paperUrl": "https://arxiv.org/abs/2603.19199",
+  "arxivId": "2603.19199",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.058,
+      "detail": "Suites: 1 task 97.7 · 2 tasks 91.1 · 3 tasks 81.2 · 4 tasks 72.1 · 5 tasks 63.7 | Table 4"
+    }
+  ]
+}

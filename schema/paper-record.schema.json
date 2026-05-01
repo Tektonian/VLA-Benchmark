@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tektonian.com/schema/vla-benchmark/paper-record.schema.json",
+  "title": "VLA Benchmark Paper Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model",
+    "paperTitle",
+    "paperUrl",
+    "arxivId",
+    "publishedAt",
+    "organization",
+    "flag",
+    "benchmarks"
+  ],
+  "properties": {
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paperTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paperUrl": {
+      "type": "string",
+      "minLength": 1
+    },
+    "arxivId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publishedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "flag": {
+      "type": "string",
+      "minLength": 1
+    },
+    "benchmarks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/benchmarkRecord"
+      }
+    }
+  },
+  "$defs": {
+    "benchmarkRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "query"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "overall": {
+          "type": "number"
+        },
+        "detail": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "model": "RLinf-VLA (OpenVLA-OFT + GRPO)",
+  "paperTitle": "RLinf-VLA (OpenVLA-OFT + GRPO) model paper (2510.06710)",
+  "paperUrl": "https://arxiv.org/abs/2510.06710",
+  "arxivId": "2510.06710",
+  "publishedAt": "Oct 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero object 99.67 · libero spatial 98.93 · libero goal 98.32 · libero 10 93.55 · libero 90 98.12 | Table I(b)"
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Easy 84.6"
+    }
+  ]
+}

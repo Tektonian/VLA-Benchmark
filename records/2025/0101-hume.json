@@ -1,0 +1,17 @@
+{
+  "model": "Hume",
+  "paperTitle": "Hume: Introducing System-2 Thinking in Visual-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2505.21432",
+  "arxivId": "2505.21432",
+  "publishedAt": "May 2025",
+  "organization": "SJTU / Shanghai AI Lab / Fudan / AgiBot / INSAIT / Zhejiang / NPU",
+  "flag": "🇨🇳 🇧🇬",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 1: libero spatial 98.6 · libero object 99.8 · libero goal 99.4 · libero long 96.7 · overall 98.6.",
+      "overall": 98.6
+    }
+  ]
+}

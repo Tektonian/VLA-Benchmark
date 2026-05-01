@@ -1,0 +1,22 @@
+{
+  "model": "MoDE",
+  "paperTitle": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+  "paperUrl": "https://arxiv.org/abs/2412.12953",
+  "arxivId": "2412.12953",
+  "publishedAt": "Dec 2024",
+  "organization": "Karlsruhe Institute of Technology / MIT",
+  "flag": "🇩🇪 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 91.5 · 2 tasks 79.2 · 3 tasks 67.3 · 4 tasks 55.8 · 5 tasks 45.3 | Table 1 | Notes: ABC→D split (standard). 1000 chains, avg_len metric. Same score also reported in: https://arxiv.org/abs/2502.07837.",
+      "overall": 3.39
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90 results. Missing libero_spatial, libero_object, libero_goal suites required for overall_score."
+    }
+  ]
+}

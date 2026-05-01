@@ -1,0 +1,17 @@
+{
+  "model": "OE-VLA",
+  "paperTitle": "Unveiling the Potential of Vision-Language-Action Models with Open-Ended Multimodal Instructions",
+  "paperUrl": "https://arxiv.org/abs/2505.11214",
+  "arxivId": "2505.11214",
+  "publishedAt": "May 2025",
+  "organization": "Westlake University / Zhejiang University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Table 1: 1 task 91.8 · 2 tasks 73.8 · 3 tasks 56.2 · 4 tasks 44.2 · 5 tasks 33.4 · overall 2.99.",
+      "overall": 2.99
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "FORGE-Tree + OpenVLA",
+  "paperTitle": "FORGE-Tree + OpenVLA model paper (2510.21744)",
+  "paperUrl": "https://arxiv.org/abs/2510.21744",
+  "arxivId": "2510.21744",
+  "publishedAt": "Oct 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 92.4 · libero object 94.7 · libero goal 89.3 · libero 10 83.2 | Tasks: reported avg 89.9 | Table II"
+    }
+  ]
+}

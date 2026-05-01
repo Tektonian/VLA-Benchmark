@@ -1,0 +1,17 @@
+{
+  "model": "QuantVLA (π0.5)",
+  "paperTitle": "QuantVLA (π0.5) model paper (2602.20309)",
+  "paperUrl": "https://arxiv.org/abs/2602.20309",
+  "arxivId": "2602.20309",
+  "publishedAt": "Feb 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.6,
+      "detail": "Suites: libero spatial 98.5 · libero object 98 · libero goal 98 · libero 10 96 | Table 2"
+    }
+  ]
+}

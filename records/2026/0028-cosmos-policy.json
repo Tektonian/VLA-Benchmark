@@ -1,0 +1,22 @@
+{
+  "model": "Cosmos Policy",
+  "paperTitle": "Cosmos Policy model paper (2601.16163)",
+  "paperUrl": "https://arxiv.org/abs/2601.16163",
+  "arxivId": "2601.16163",
+  "publishedAt": "Jan 2026",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.5,
+      "detail": "Suites: libero spatial 98.1 · libero object 100 · libero goal 98.2 · libero 10 97.6 | Table 1"
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 67.1 | Table 2"
+    }
+  ]
+}

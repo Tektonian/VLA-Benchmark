@@ -1,0 +1,16 @@
+{
+  "model": "GR00T-N1-2B",
+  "paperTitle": "GR00T-N1-2B model paper (2503.14734)",
+  "paperUrl": "https://arxiv.org/abs/2503.14734",
+  "arxivId": "2503.14734",
+  "publishedAt": "Mar 2025",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 32.1 | Table 2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "DivPrune (30%) + DreamVLA",
+  "paperTitle": "VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2603.22991",
+  "arxivId": "2603.22991",
+  "publishedAt": "Mar 2026",
+  "organization": "HKUST / CUHK / South China Normal University / NUDT / USTB",
+  "flag": "🇭🇰 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.19,
+      "detail": "Table 1: 1 task 96.8 · 2 tasks 90.8 · 3 tasks 85 · 4 tasks 76.8 · 5 tasks 69.8 · overall 4.19."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97,
+      "detail": "Table 2: libero spatial 96.6 · libero object 98.8 · libero goal 98 · libero long 94.8 · overall 97."
+    }
+  ]
+}

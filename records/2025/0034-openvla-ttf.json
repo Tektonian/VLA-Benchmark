@@ -1,0 +1,22 @@
+{
+  "model": "OpenVLA + TTF",
+  "paperTitle": "OpenVLA + TTF model paper (2508.19257)",
+  "paperUrl": "https://arxiv.org/abs/2508.19257",
+  "arxivId": "2508.19257",
+  "publishedAt": "Aug 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 72.4,
+      "detail": "Suites: libero spatial 84.5 · libero object 72.5 · libero goal 79 · libero 10 53.5 | Table 1"
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 34.9 | Tasks: move near vm 52.1 · pick coke can vm 18.7 · open close drawer vm 33.8 | Table 2"
+    }
+  ]
+}

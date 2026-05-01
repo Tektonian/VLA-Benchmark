@@ -1,0 +1,22 @@
+{
+  "model": "FocusVLA",
+  "paperTitle": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2603.28740",
+  "arxivId": "2603.28740",
+  "publishedAt": "Mar 30, 2026",
+  "organization": "HIT Shenzhen / DaiMon Robotics / Nanjing University / Renmin University of China",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 99.6 · libero object 100 · libero goal 98.8 · libero 10 96.2 | Table 1 | Notes: All 4 standard suites present. 50 demos/task (500 per suite). 500 eval trials per suite. Multi-weight setting (one policy per suite).",
+      "overall": 98.6
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 58 · hard 15 | Tasks: beat block hammer easy 93 · blocks ranking rgb easy 43 · click alarmclock easy 81 · hanging mug easy 18 · move pillbottle pad easy 20 · place object basket easy 28 · stack blocks two easy 61 · beat block hammer hard 54 · blocks ranking rgb hard 11 · click alarmclock hard 20 · hanging mug hard 5 · move pillbottle pad hard 2 · place object basket hard 4 · stack blocks two hard 10 | Table 5 | Notes: Protocol unknown. Protocol uncertain (50 demos/task, multi-task training). 7 tasks, Easy and Hard. Easy eval=100 trials/task, Hard eval=300 trials/task. Task count=7."
+    }
+  ]
+}

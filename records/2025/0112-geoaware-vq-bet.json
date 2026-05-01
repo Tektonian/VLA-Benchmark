@@ -1,0 +1,17 @@
+{
+  "model": "GeoAware VQ-BeT",
+  "paperTitle": "GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2509.14117",
+  "arxivId": "2509.14117",
+  "publishedAt": "Sep 2025",
+  "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+  "flag": "🇦🇪",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table I: libero spatial 95 · libero object 100 · libero goal 99 · libero long 93 · overall 96.8.",
+      "overall": 96.8
+    }
+  ]
+}

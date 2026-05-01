@@ -1,0 +1,22 @@
+{
+  "model": "HAMLET",
+  "paperTitle": "HAMLET: Switch your Vision-Language- Action Model into a History-Aware Policy",
+  "paperUrl": "https://arxiv.org/abs/2510.00695",
+  "arxivId": "2510.00695",
+  "publishedAt": "Apr 15, 2026",
+  "organization": "KAIST / UC Berkeley / RLWRLD",
+  "flag": "🇰🇷 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 99 · libero object 100 · libero goal 99.2 · libero 10 92.2 | Table 2 | Notes: 4 LIBERO suites, standard 50-demo protocol, applied on GR00T N1.5.",
+      "overall": 97.6
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 65.4 | Table 2 | Notes: RoboCasa Kitchen, 100 demos, 24 tasks. Applied on GR00T N1.5."
+    }
+  ]
+}

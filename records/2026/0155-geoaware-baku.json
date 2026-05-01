@@ -1,0 +1,17 @@
+{
+  "model": "GeoAware BAKU",
+  "paperTitle": "GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2509.14117",
+  "arxivId": "2509.14117",
+  "publishedAt": "Mar 8, 2026",
+  "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+  "flag": "🇦🇪",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 95 · libero object 98 · libero goal 98 · libero 10 89.9 | Table I | Notes: Standard 4-suite LIBERO, 50 demos/task, 10 rollouts per task evaluation.",
+      "overall": 95.2
+    }
+  ]
+}

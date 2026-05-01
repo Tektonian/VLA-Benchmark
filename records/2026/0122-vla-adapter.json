@@ -1,0 +1,28 @@
+{
+  "model": "VLA-Adapter",
+  "paperTitle": ": Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent",
+  "paperUrl": "https://arxiv.org/abs/2511.18810",
+  "arxivId": "2511.18810",
+  "publishedAt": "Mar 11, 2026",
+  "organization": "University of Queensland",
+  "flag": "🇦🇺",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 99.6 · libero object 99.6 · libero goal 98.2 · libero 10 96.4 | Table 1 | Notes: Single-task finetuned (upper bound reference), 4 suites, 50 demos",
+      "overall": 98.4
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "WX 23.3"
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Suites: background 76.6 · camera 36.4 · language 73.8 · light 71 · layout 70.2 · robot 37.4 · noise 57.2 | Table 2 | Notes: All 7 perturbations, single-task finetuned reference",
+      "overall": 60.4
+    }
+  ]
+}

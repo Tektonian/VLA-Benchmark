@@ -1,0 +1,16 @@
+{
+  "model": "OpenVLA+",
+  "paperTitle": "OpenVLA+ model paper (2509.11417)",
+  "paperUrl": "https://arxiv.org/abs/2509.11417",
+  "arxivId": "2509.11417",
+  "publishedAt": "Sep 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 78.5 · google robot va 76.6 | Tasks: pick coke can vm 90.3 · move near vm 77.6 · open close drawer vm 92.4 · pick coke can va 87.6 · move near va 82.3 · open close drawer va 87.9 | Table II, Table III"
+    }
+  ]
+}

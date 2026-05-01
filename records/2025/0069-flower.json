@@ -1,0 +1,23 @@
+{
+  "model": "Flower",
+  "paperTitle": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+  "paperUrl": "https://arxiv.org/abs/2509.04996",
+  "arxivId": "2509.04996",
+  "publishedAt": "Sep 2025",
+  "organization": "Microsoft Research",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 96.9,
+      "detail": "Details: goal 96.1 · long 94.9 · object 99.1 · spatial 97.5"
+    },
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.53,
+      "detail": "Details: sr 1 99.4 · sr 2 95.8 · sr 3 90.7 · sr 4 84.9 · sr 5 77.8 · avg len 4.53"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "OpenVLA + DepthCache",
+  "paperTitle": "OpenVLA + DepthCache model paper (2603.10469)",
+  "paperUrl": "https://arxiv.org/abs/2603.10469",
+  "arxivId": "2603.10469",
+  "publishedAt": "Mar 2026",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 75.7,
+      "detail": "Suites: libero spatial 83.1 · libero object 90.7 · libero goal 77.8 · libero 10 51.2 | Table I"
+    }
+  ]
+}

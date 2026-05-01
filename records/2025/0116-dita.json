@@ -1,0 +1,32 @@
+{
+  "model": "Dita",
+  "paperTitle": "Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy",
+  "paperUrl": "https://arxiv.org/abs/2503.19757",
+  "arxivId": "2503.19757",
+  "publishedAt": "Jan 2025",
+  "organization": "Shanghai AI Lab / Zhejiang University / CUHK / Peking University / SenseTime / Tsinghua / HKISI-CAS",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 94.5 · 2 tasks 82.5 · 3 tasks 72.8 · 4 tasks 61.3 · 5 tasks 50 | Table 3 | Notes: Uses ABC->D split with 1000 chains, reports avg_len metric. Uses only static RGB camera input. Pretrained on OXE and finetuned on CALVIN. Same score also reported in: https://arxiv.org/abs/2603.03195.",
+      "overall": 3.61
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero 10 63.8 | Tasks: reported avg 82.4 | Table 2 | Notes: Paper reports LIBERO-SPATIAL, OBJECT, GOAL, and LONG (which corresponds to libero_10). Uses modified LIBERO from OpenVLA as data source. However, the paper reports LIBERO-LONG not LIBERO-10, which may differ. The number of demos per task is not explicitly stated. Same score also reported in: https://arxiv.org/abs/2603.03195."
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard), so overall_score is null. Averaging method: arithmetic. Paper-reported aggregate (65.8) stored in task_scores.reported_avg."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 68.7 · google robot va 65.3 | Tasks: pick coke can vm 83.7 · pick coke can va 85.5 · move near vm 76 · move near va 73 · open close drawer vm 46.3 · open close drawer va 37.5 | Table 1 | Notes: Zero-shot evaluation on SimplerEnv Google Robot tasks. Follows SimplerEnv evaluation protocol with match and variant scenarios. Only 3 tasks reported (pick coke can, move near, drawer) - the standard requires 3 tasks for Google Robot VM/VA suite scores. No WidowX results reported."
+    }
+  ]
+}

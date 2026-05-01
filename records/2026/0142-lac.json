@@ -1,0 +1,22 @@
+{
+  "model": "LAC",
+  "paperTitle": "Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching",
+  "paperUrl": "https://arxiv.org/abs/2602.00686",
+  "arxivId": "2602.00686",
+  "publishedAt": "Jan 2026",
+  "organization": "HIT / HIT Shenzhen / Meituan Academy of Robotics / Central South University / HKUST(GZ)",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 85.6 · libero object 86.2 · libero goal 76.6 · libero 10 59.2 | Table 1 | Notes: All four LIBERO suites evaluated (Spatial, Object, Goal, Long). Uses standard OpenVLA weights and setup with 50 demos per task.",
+      "overall": 76.9
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 75.5 · google robot va 63 | Tasks: pick coke can vm 92.3 · move near vm 84.2 · open close drawer vm 72.7 · pick coke can va 92.1 · move near va 81.5 · open close drawer va 31.2 | Table 3 | Notes: Only Google Robot evaluated (Visual Matching and Variant Aggregation with 3 tasks each). No WidowX tasks. DrawerApple task included in table but not part of standard 3-task suite average for google_robot_vm/va."
+    }
+  ]
+}

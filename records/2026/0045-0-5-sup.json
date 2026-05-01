@@ -1,0 +1,17 @@
+{
+  "model": "π0.5+SuP",
+  "paperTitle": "π0.5+SuP model paper (2603.20658)",
+  "paperUrl": "https://arxiv.org/abs/2603.20658",
+  "arxivId": "2603.20658",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.3,
+      "detail": "Suites: libero spatial 97.2 · libero object 99.4 · libero goal 98.6 · libero 10 94 | Table 2"
+    }
+  ]
+}

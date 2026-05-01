@@ -1,0 +1,16 @@
+{
+  "model": "AnyCamVLA (π₀.₅)",
+  "paperTitle": "AnyCamVLA (π₀.₅) model paper (2603.05868)",
+  "paperUrl": "https://arxiv.org/abs/2603.05868",
+  "arxivId": "2603.05868",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 95.6 · libero object 96.4 · libero goal 96 · libero 10 90 | Tasks: reported avg 94.5 | Table I"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model": "FOFPred",
+  "paperTitle": "Future Optical Flow Prediction Improves Robot Control & Video Generation",
+  "paperUrl": "https://arxiv.org/abs/2601.10781",
+  "arxivId": "2601.10781",
+  "publishedAt": "Oct 2026",
+  "organization": "Salesforce AI Research / Stony Brook University",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 98.8 · 2 tasks 95 · 3 tasks 90.4 · 4 tasks 84.6 · 5 tasks 78.7 | Table 1 | Notes: ABC→D split, 100% ABC training data, avg_len metric reported as 4.48 over 1000 chains.",
+      "overall": 4.48
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 68.6 | Tasks: Handover Block 61 · Handover Mic 87 · Pick Diverse Bottles 67 · Pick Dual Bottles 68 · Place Dual Shoes 60 | Table 2 | Notes: Protocol unknown. 5 tasks from RoboTwin 2.0, Easy setting only. Non-standard subset."
+    }
+  ]
+}

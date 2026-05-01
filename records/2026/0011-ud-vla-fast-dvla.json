@@ -1,0 +1,23 @@
+{
+  "model": "UD-VLA + Fast-dVLA",
+  "paperTitle": "UD-VLA + Fast-dVLA model paper (2603.25661)",
+  "paperUrl": "https://arxiv.org/abs/2603.25661",
+  "arxivId": "2603.25661",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.54,
+      "detail": "Suites: 1 task 0.984 · 2 tasks 0.952 · 3 tasks 0.922 · 4 tasks 0.87 · 5 tasks 0.812 | Table 3"
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 96.5,
+      "detail": "Suites: libero spatial 97 · libero object 98.8 · libero goal 97.6 · libero 10 92.8 | Table S3"
+    }
+  ]
+}

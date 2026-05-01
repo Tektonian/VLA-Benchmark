@@ -1,0 +1,17 @@
+{
+  "model": "π₀ + T-MEE",
+  "paperTitle": "π₀ + T-MEE model paper (2602.04228)",
+  "paperUrl": "https://arxiv.org/abs/2602.04228",
+  "arxivId": "2602.04228",
+  "publishedAt": "Feb 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.4,
+      "detail": "Suites: libero spatial 99.8 · libero object 100 · libero goal 98.2 · libero 10 95.6 | TABLE I"
+    }
+  ]
+}

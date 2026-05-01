@@ -1,0 +1,22 @@
+{
+  "model": "LoLA",
+  "paperTitle": "LoLA: Long Horizon Latent Action Learning for General Robot Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2512.20166",
+  "arxivId": "2512.20166",
+  "publishedAt": "Jan 2025",
+  "organization": "Institute of Microelectronics, CAS / UCAS / Microsoft Research",
+  "flag": "🇨🇳 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero goal 97.2 · libero object 99.6 · libero spatial 99.6 · libero 10 88.2 | Table 3 | Notes: All 4 LIBERO suites, 50 demos/task",
+      "overall": 96.1
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 61.5 · google robot va 54.6 · widowx vm 71.9 | Tasks: pick coke can vm 88 · move near vm 71.7 · open close drawer vm 59.3 · place apple in drawer vm 26.9 · pick coke can va 83.2 · move near va 56.7 · open close drawer va 63.2 · place apple in drawer va 15.3 · put spoon on towel vm 95.8 · put carrot on plate vm 58.3 · stack green block on yellow block vm 54.2 · put eggplant in yellow basket vm 79.2 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA for Google Robot (4 tasks) and WidowX VM (4 tasks). 3-task avg for Google Robot suite scores."
+    }
+  ]
+}

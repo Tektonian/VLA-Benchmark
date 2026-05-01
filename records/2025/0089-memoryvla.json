@@ -1,0 +1,23 @@
+{
+  "model": "MemoryVLA",
+  "paperTitle": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2508.19236",
+  "arxivId": "2508.19236",
+  "publishedAt": "Aug 2025",
+  "organization": "Tsinghua / Dexmal / MEGVII / Tianjin University / HIT / StepFun",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 96.7,
+      "detail": "Table 3: libero spatial 98.4 · libero object 98.4 · libero goal 96.4 · libero long 93.4 · libero 90 95.6 · overall 96.7."
+    },
+    {
+      "label": "MIKASA",
+      "query": "MIKASA",
+      "overall": 41.2,
+      "detail": "Table 4: ShellGameTouch 88 · InterceptMedium 24 · RememberColor3 44 · RememberColor5 30 · RememberColor9 20 · overall 41.2."
+    }
+  ]
+}

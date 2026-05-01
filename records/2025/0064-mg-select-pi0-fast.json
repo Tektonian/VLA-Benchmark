@@ -1,0 +1,16 @@
+{
+  "model": "MG-Select* (pi0-FAST)",
+  "paperTitle": "MG-Select* (pi0-FAST) model paper (2510.05681)",
+  "paperUrl": "https://arxiv.org/abs/2510.05681",
+  "arxivId": "2510.05681",
+  "publishedAt": "Oct 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 50.3 | Tasks: spoon on towel vm 69.4 · carrot on plate vm 75 · stack cubes vm 43.1 · eggplant in basket vm 13.9 | Table 2"
+    }
+  ]
+}

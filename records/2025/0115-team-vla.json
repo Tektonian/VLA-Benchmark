@@ -1,0 +1,17 @@
+{
+  "model": "TEAM-VLA",
+  "paperTitle": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2512.09927",
+  "arxivId": "2512.09927",
+  "publishedAt": "Dec 2025",
+  "organization": "Hamad Bin Khalifa University / MBZUAI / Zhejiang University",
+  "flag": "🇶🇦 🇦🇪 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table I: libero spatial 99.2 · libero object 96.5 · libero goal 97 · libero long 93.8 · overall 96.6.",
+      "overall": 96.6
+    }
+  ]
+}

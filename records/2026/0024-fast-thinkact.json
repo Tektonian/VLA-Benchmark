@@ -1,0 +1,21 @@
+{
+  "model": "Fast-ThinkAct",
+  "paperTitle": "Fast-ThinkAct model paper (2601.09708)",
+  "paperUrl": "https://arxiv.org/abs/2601.09708",
+  "arxivId": "2601.09708",
+  "publishedAt": "Jan 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Tasks: reported avg 89.7 | Fig. 3"
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 65.7 · hard 26.4 | Table 1"
+    }
+  ]
+}

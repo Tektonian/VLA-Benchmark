@@ -1,0 +1,16 @@
+{
+  "model": "ContextVLA (GR00T N1.5)",
+  "paperTitle": "ContextVLA (GR00T N1.5) model paper (2510.04246)",
+  "paperUrl": "https://arxiv.org/abs/2510.04246",
+  "arxivId": "2510.04246",
+  "publishedAt": "Oct 2025",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 64.3 | Table 3"
+    }
+  ]
+}

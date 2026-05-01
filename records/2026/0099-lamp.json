@@ -1,0 +1,22 @@
+{
+  "model": "LaMP",
+  "paperTitle": "LaMP: Learning Vision-Language-Action Policy with 3D Scene Flow as Latent Motion Prior",
+  "paperUrl": "https://arxiv.org/abs/2603.25399",
+  "arxivId": "2603.25399",
+  "publishedAt": "Mar 2026",
+  "organization": "Southeast University / SJTU / Zhejiang University / Beihang / Shanghai Innovation Institute",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table I: libero spatial 99.4 · libero object 99.8 · libero goal 97.4 · libero long 96.7 · overall 98.3.",
+      "overall": 98.3
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Table II: camera 64.5 · robot 69.6 · language 88.2 · light 95.3 · background 97.4 · noise 76.9 · layout 73.8."
+    }
+  ]
+}

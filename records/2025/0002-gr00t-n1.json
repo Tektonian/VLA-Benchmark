@@ -1,0 +1,26 @@
+{
+  "model": "GR00T N1",
+  "paperTitle": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+  "paperUrl": "https://arxiv.org/abs/2503.14734",
+  "arxivId": "2503.14734",
+  "publishedAt": "Mar 18, 2025",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 93.9
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "overall": 32.1
+    },
+    {
+      "label": "VLABench",
+      "query": "VLABench",
+      "overall": 39.7
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "ROCKET (OpenVLA-7B)",
+  "paperTitle": "ROCKET (OpenVLA-7B) model paper (2602.17951)",
+  "paperUrl": "https://arxiv.org/abs/2602.17951",
+  "arxivId": "2602.17951",
+  "publishedAt": "Feb 2026",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.5,
+      "detail": "Suites: libero spatial 98.2 · libero object 99.8 · libero goal 98.8 · libero 10 97 | Table 5"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "GeCO (π₀)",
+  "paperTitle": "GeCO (π₀) model paper (2603.17834)",
+  "paperUrl": "https://arxiv.org/abs/2603.17834",
+  "arxivId": "2603.17834",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 95.8 · libero object 99 · libero goal 95.2 · libero 10 83.8 | Tasks: reported avg 93.45 | Table 1"
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 50 · hard 28 | Table 2"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model": "Octo-Base",
+  "paperTitle": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2501.15830",
+  "arxivId": "2501.15830",
+  "publishedAt": "Jan 2025",
+  "organization": "Shanghai AI Lab / Fudan / SJTU / Zhejiang / ShanghaiTech / NPU",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 78.9 · libero object 85.7 · libero goal 84.6 · libero 10 51.1 | Table III | Notes: All 4 standard suites reported (Spatial, Object, Goal, Long/10). 50 demos per task, averaged over 3 seeds with 500 trials.",
+      "overall": 75.1
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 14.6 · google robot va 1.6 · widowx vm 16 | Tasks: pick coke can vm 17 · move near vm 4.2 · open close drawer vm 22.7 · pick coke can va 0.6 · move near va 3.1 · open close drawer va 1.1 · spoon on towel vm 12.5 · carrot on plate vm 8.3 · stack cube vm 0 · put eggplant in basket vm 43.1 | Table I; Table 2 | Notes: Reports standard 3 Google Robot tasks (Pick Coke Can, Move Near, Open/Close Drawer) for both VM and VA settings. Score is cited as a baseline in the citing paper."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "SuSIE + GraspCorrect",
+  "paperTitle": "SuSIE + GraspCorrect model paper (2503.15035)",
+  "paperUrl": "https://arxiv.org/abs/2503.15035",
+  "arxivId": "2503.15035",
+  "publishedAt": "Mar 2025",
+  "organization": "UC Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.5,
+      "detail": "Suites: 1 task 96 · 2 tasks 86 · 3 tasks 72 · 4 tasks 56 · 5 tasks 41 | Table 2"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "UniVLA + Dejavu EFN (Vol=300)",
+  "paperTitle": "Dejavu: Towards Experience Feedback Learning for Embodied Intelligence",
+  "paperUrl": "https://arxiv.org/abs/2510.10181",
+  "arxivId": "2510.10181",
+  "publishedAt": "Apr 10, 2026",
+  "organization": "Shanghai Jiao Tong University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 97.7 · libero object 97.9 · libero goal 97.2 · libero 10 93.7 | Table 1 | Notes: Uses all 4 standard LIBERO suites (Spatial, Object, Goal, Long). 50 evaluation episodes per task across 3 seeds.",
+      "overall": 96.6
+    }
+  ]
+}

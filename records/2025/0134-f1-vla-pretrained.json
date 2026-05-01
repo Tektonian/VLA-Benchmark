@@ -1,0 +1,22 @@
+{
+  "model": "F1-VLA (pretrained)",
+  "paperTitle": ": A Vision-Language-Action Model Bridging Understanding and Generation to Actions",
+  "paperUrl": "https://arxiv.org/abs/2509.06951",
+  "arxivId": "2509.06951",
+  "publishedAt": "Jun 2025",
+  "organization": "Shanghai AI Lab / Harbin Institute of Technology Shenzhen",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98.2 · libero object 97.8 · libero goal 95.4 · libero 10 91.3 | Table 2 | Notes: Standard LIBERO 4-suite evaluation. Pretrained version with OXE + task-specific post-training.",
+      "overall": 95.7
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 72.9 | Tasks: put carrot on plate vm 70.8 · put eggplant in yellow basket vm 66.7 · put spoon on towel vm 50 · stack green block on yellow block vm 50 | Table 3 | Notes: Standard SimplerEnv Bridge WidowX VM evaluation. Overall avg = (grasp+success averages)/2 per the paper's format, but widowx_vm is the average success."
+    }
+  ]
+}

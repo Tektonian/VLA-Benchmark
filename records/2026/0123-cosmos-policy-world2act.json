@@ -1,0 +1,22 @@
+{
+  "model": "Cosmos Policy + World2Act",
+  "paperTitle": "World2Act: Latent Action Post-Training via Skill-Compositional World Models",
+  "paperUrl": "https://arxiv.org/abs/2603.10422",
+  "arxivId": "2603.10422",
+  "publishedAt": "Mar 11, 2026",
+  "organization": "Mohamed bin Zayed University of Artificial Intelligence",
+  "flag": "🇦🇪",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98 · libero object 100 · libero goal 98.3 · libero 10 98 | Table 2 | Notes: Standard 4-suite LIBERO evaluation with 50 demos/task, 50 trials per seed across 5 seeds",
+      "overall": 98.6
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 66.3 | Table 1 | Notes: Standard RoboCasa 24 atomic tasks, 50 trials per seed across 5 seeds"
+    }
+  ]
+}

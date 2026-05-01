@@ -1,0 +1,17 @@
+{
+  "model": "QuantVLA (GR00T N1.5)",
+  "paperTitle": "QuantVLA (GR00T N1.5) model paper (2602.20309)",
+  "paperUrl": "https://arxiv.org/abs/2602.20309",
+  "arxivId": "2602.20309",
+  "publishedAt": "Feb 2026",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 88,
+      "detail": "Suites: libero spatial 96 · libero object 92 · libero goal 90 · libero 10 74 | Table 2"
+    }
+  ]
+}

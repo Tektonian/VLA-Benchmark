@@ -1,0 +1,22 @@
+{
+  "model": "Fast-WAM",
+  "paperTitle": "Fast-WAM model paper (2603.16666)",
+  "paperUrl": "https://arxiv.org/abs/2603.16666",
+  "arxivId": "2603.16666",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.6,
+      "detail": "Suites: libero spatial 98.2 · libero object 100 · libero goal 97 · libero 10 95.2 | Table 2"
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 91.88 · hard 91.78 | Table 1"
+    }
+  ]
+}

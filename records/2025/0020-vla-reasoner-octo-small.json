@@ -1,0 +1,22 @@
+{
+  "model": "VLA-Reasoner (Octo-Small)",
+  "paperTitle": "VLA-Reasoner (Octo-Small) model paper (2509.22643)",
+  "paperUrl": "https://arxiv.org/abs/2509.22643",
+  "arxivId": "2509.22643",
+  "publishedAt": "Sep 2025",
+  "organization": "UC Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 81,
+      "detail": "Suites: libero spatial 91.2 · libero object 90.6 · libero goal 82.4 · libero 10 59.8 | Table I"
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Tasks: stack green block on yellow block vm 13 · put spoon on towel vm 50 · put carrot on plate vm 32 · put eggplant in basket vm 54 | Table I"
+    }
+  ]
+}

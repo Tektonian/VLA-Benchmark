@@ -1,0 +1,17 @@
+{
+  "model": "LangForce",
+  "paperTitle": "LangForce: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+  "paperUrl": "https://arxiv.org/abs/2601.15197",
+  "arxivId": "2601.15197",
+  "publishedAt": "Jan 2026",
+  "organization": "HUST / ZGCA / ZGCI / HIT / HKUST(GZ) / BUAA / ECNU / DeepCybo",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 2: libero spatial 99.2 · libero object 99.6 · libero goal 99.4 · libero long 95.2 · overall 98.4.",
+      "overall": 98.4
+    }
+  ]
+}

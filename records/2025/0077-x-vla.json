@@ -1,0 +1,44 @@
+{
+  "model": "X-VLA",
+  "paperTitle": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2510.10274",
+  "arxivId": "2510.10274",
+  "publishedAt": "Oct 2025",
+  "organization": "AIR / Tsinghua / Shanghai AI Lab / Peking University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.43,
+      "detail": "Table 14: ABC→D average completed tasks 4.43."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.1,
+      "detail": "Table 12: spatial 98.2 · object 98.6 · goal 97.8 · long 97.6 · avg 98.1."
+    },
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 21.3
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Table 16: easy 70.0 · hard 39.0."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "VM 88.3 · VA 75.7 · WX 95.8"
+    },
+    {
+      "label": "VLABench",
+      "query": "VLABench",
+      "overall": 51.1,
+      "detail": "Table 15: in-distribution 67.8 · cross-category 25.1 · commonsense 48.2 · semantic instruction 63.1 · avg 51.1."
+    }
+  ]
+}

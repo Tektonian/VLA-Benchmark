@@ -1,0 +1,21 @@
+{
+  "model": "ContextVLA (pi0-FAST)",
+  "paperTitle": "ContextVLA (pi0-FAST) model paper (2510.04246)",
+  "paperUrl": "https://arxiv.org/abs/2510.04246",
+  "arxivId": "2510.04246",
+  "publishedAt": "Oct 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 62.2 | Table 3"
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 70.7 | Tasks: spoon on towel vm 60.7 · carrot on plate vm 81.3 · stack cube vm 78.7 · put eggplant in basket vm 62 | Table 2"
+    }
+  ]
+}

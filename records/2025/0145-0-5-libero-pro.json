@@ -1,0 +1,22 @@
+{
+  "model": "π₀.₅ (LIBERO-Pro)",
+  "paperTitle": "LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization",
+  "paperUrl": "https://arxiv.org/abs/2510.03827",
+  "arxivId": "2510.03827",
+  "publishedAt": "Mar 2025",
+  "organization": "HUST / Harvard University / MIT / Wuhan University of Technology / Lehigh University",
+  "flag": "🇨🇳 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero goal 98 · libero object 98 · libero spatial 98 · libero 10 92 | Tasks: reported avg 97 | Table 1 | Notes: Cited baseline from Table 1. Single checkpoint for all suites."
+    },
+    {
+      "label": "LIBERO-Pro",
+      "query": "LIBERO-Pro",
+      "detail": "Suites: goal ori 97 · goal obj 97 · goal pos 38 · goal sem 97 · goal task 0 · spatial ori 98 · spatial obj 97 · spatial pos 20 · spatial sem 97 · spatial task 1 · long ori 93 · long obj 92 · long pos 8 · long sem 93 · long task 1 · object ori 98 · object obj 98 · object pos 17 · object sem 96 · object task 1 · goal env 46 · spatial env 46 · long env 46 · object env 73 | Tables 2-5 | Notes: Third-party evaluation by the LIBERO-Pro paper. All 4 suites × 5 core perturbations plus env. 50 episodes per task. env cells kept out of the 20-cell mean.",
+      "overall": 62
+    }
+  ]
+}

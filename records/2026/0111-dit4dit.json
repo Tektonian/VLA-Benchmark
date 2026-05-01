@@ -1,0 +1,17 @@
+{
+  "model": "DiT4DiT",
+  "paperTitle": "DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control",
+  "paperUrl": "https://arxiv.org/abs/2603.10448",
+  "arxivId": "2603.10448",
+  "publishedAt": "Mar 2026",
+  "organization": "Mondo Robotics / HKUST(GZ) / HKUST",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 1: libero spatial 98.4 · libero object 99.6 · libero goal 98.6 · libero long 97.6 · overall 98.6.",
+      "overall": 98.6
+    }
+  ]
+}

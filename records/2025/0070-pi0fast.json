@@ -1,0 +1,17 @@
+{
+  "model": "pi0fast",
+  "paperTitle": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2501.09747",
+  "arxivId": "2501.09747",
+  "publishedAt": "Jan 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 85.5,
+      "detail": "Details: goal 88.6 · long 60.2 · object 96.8 · spatial 96.4"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "model": "FutureVLA-GT",
+  "paperTitle": "FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2603.10712",
+  "arxivId": "2603.10712",
+  "publishedAt": "Mar 11, 2026",
+  "organization": "Beihang University / Shanghai AI Lab / USTC / CUHK",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.6 · libero 10 96 | Tasks: reported avg 98.3 | Table 3 | Notes: Reports 4-suite LIBERO results. Demo count not stated explicitly. 50 episodes per task evaluation mentioned in appendix for LIBERO-Plus, assumed similar for LIBERO."
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Suites: camera 59.7 · robot 66 · language 88.2 · light 97.4 · background 97.8 · noise 77.3 · layout 82.6 | Table 6 | Notes: Zero-shot evaluation on all 7 LIBERO-Plus perturbation dimensions. Models trained on LIBERO only, evaluated zero-shot.",
+      "overall": 81.3
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 80.1 · google robot va 75.6 · widowx vm 71.9 | Tasks: pick coke can vm 92.3 · move near vm 74.2 · open close drawer vm 68.5 · put in drawer vm 85.2 · pick coke can va 95.7 · move near va 72.9 · open close drawer va 52.4 · put in drawer va 81.2 | Table 1, Table 2 | Notes: Evaluates on Google Robot (VM and VA) and WidowX tasks. Reports separate suite averages. Google Robot VM uses 4 tasks: Pick Coke Can, Move Near, Open/Close Drawer, Put in Drawer. Paper reports 4-task averages for google_robot_vm and google_robot_va. The standard uses 3-task average (excluding Put in Drawer), so storing the paper's 4-task average. WidowX VM uses Put Spoon on Towel, Put Carrot on..."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "UD-VLA",
+  "paperTitle": "Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process",
+  "paperUrl": "https://arxiv.org/abs/2511.01718",
+  "arxivId": "2511.01718",
+  "publishedAt": "Nov 2025",
+  "organization": "HKUST Guangzhou / Westlake University / Zhejiang University / Monash University",
+  "flag": "🇨🇳 🇦🇺",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.64,
+      "detail": "Table 2: 1 task 99.2 · 2 tasks 96.8 · 3 tasks 93.6 · 4 tasks 90.4 · 5 tasks 84 · overall 4.64."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 92.7,
+      "detail": "Table 3: libero spatial 94.1 · libero object 95.7 · libero goal 91.2 · libero long 89.6 · overall 92.7."
+    }
+  ]
+}

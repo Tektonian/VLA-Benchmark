@@ -1,0 +1,23 @@
+{
+  "model": "UniVLA",
+  "paperTitle": "Unified Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2506.19850",
+  "arxivId": "2506.19850",
+  "publishedAt": "Jun 2025",
+  "organization": "CASIA / BAAI / Tsinghua / HKIS",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 95.5,
+      "detail": "Paper Table 2: average success rate 95.5% · LIBERO-Long 94.0%."
+    },
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.41,
+      "detail": "Paper Table 1: ABC→D average completed tasks 4.41."
+    }
+  ]
+}

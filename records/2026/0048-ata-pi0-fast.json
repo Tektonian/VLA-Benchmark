@@ -1,0 +1,17 @@
+{
+  "model": "ATA + pi0-fast",
+  "paperTitle": "ATA + pi0-fast model paper (2603.01490)",
+  "paperUrl": "https://arxiv.org/abs/2603.01490",
+  "arxivId": "2603.01490",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 87.8,
+      "detail": "Suites: libero spatial 98.6 · libero object 98.8 · libero goal 90.8 · libero 10 63.2 | Table II"
+    }
+  ]
+}

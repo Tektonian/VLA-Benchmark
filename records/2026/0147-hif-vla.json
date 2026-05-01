@@ -1,0 +1,22 @@
+{
+  "model": "HiF-VLA",
+  "paperTitle": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2512.09928",
+  "arxivId": "2512.09928",
+  "publishedAt": "Apr 9, 2026",
+  "organization": "Westlake University / Zhejiang University / HKUST(GZ) / Nanjing University / Westlake Robotics",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Tasks: chain 1 98.5 · chain 2 94.1 · chain 3 88.1 · chain 4 81.4 · chain 5 73.1 | Table 2 | Notes: ABC→D split, 1000 chains, avg_len metric reported. Multi-view (third-person + wrist) setting.",
+      "overall": 4.35
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Tasks: reported avg 96.4 | Table 1 | Notes: Paper reports only LIBERO-Long (avg success rate 96.4% with multi-view). Suite-level breakdown not provided for the other 3 suites, so cannot confirm standard 4-suite average. This is the LIBERO-Long multi-view success rate."
+    }
+  ]
+}

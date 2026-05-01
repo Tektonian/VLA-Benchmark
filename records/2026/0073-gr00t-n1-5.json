@@ -1,0 +1,17 @@
+{
+  "model": "GR00T N1.5",
+  "paperTitle": "RoboCasa365 multi-task learning leaderboard entry",
+  "paperUrl": "https://arxiv.org/abs/2603.04356",
+  "arxivId": "2603.04356",
+  "publishedAt": "Updated Apr 6, 2026",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa365",
+      "query": "RoboCasa365",
+      "overall": 20,
+      "detail": "Atomic-Seen 43.0 · Composite-Seen 9.6 · Composite-Unseen 4.4"
+    }
+  ]
+}

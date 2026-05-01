@@ -1,0 +1,17 @@
+{
+  "model": "ExpReS-VLA (pi_0)",
+  "paperTitle": "ExpReS-VLA (pi_0) model paper (2511.06202)",
+  "paperUrl": "https://arxiv.org/abs/2511.06202",
+  "arxivId": "2511.06202",
+  "publishedAt": "Nov 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 95.8,
+      "detail": "Suites: libero spatial 97.3 · libero object 98.4 · libero goal 97.8 · libero 10 89.5 | Table I"
+    }
+  ]
+}

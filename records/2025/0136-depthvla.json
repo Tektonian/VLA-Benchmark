@@ -1,0 +1,22 @@
+{
+  "model": "DepthVLA",
+  "paperTitle": "DepthVLA: Enhancing Vision-Language-Action Models with Depth-Aware Spatial Reasoning",
+  "paperUrl": "https://arxiv.org/abs/2510.13375",
+  "arxivId": "2510.13375",
+  "publishedAt": "Jan 2025",
+  "organization": "Tsinghua University / Galaxea AI",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 95.8 · libero 10 89.2 | Table II | Notes: Standard LIBERO 4-suite, single model for all suites, 2000 total trials.",
+      "overall": 94.8
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Tasks: put spoon on towel vm 75.8 · put carrot on plate vm 71.7 · stack green block on yellow block vm 62.5 · put eggplant in basket vm 89.2 | Table I | Notes: WidowX VM tasks, trained on BridgeData V2, evaluated zero-shot."
+    }
+  ]
+}

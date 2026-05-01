@@ -1,0 +1,22 @@
+{
+  "model": "GLaD",
+  "paperTitle": "GLaD: Geometric Latent Distillation for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2512.09619",
+  "arxivId": "2512.09619",
+  "publishedAt": "Sep 2025",
+  "organization": "MBZUAI / University of Illinois Chicago",
+  "flag": "🇦🇪 🇺🇸 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 95 · libero object 97.4 · libero goal 94.4 · libero 10 89.4 | TABLE I | Notes: All 4 standard LIBERO suites evaluated with 50 demos per task training, 50 evaluation episodes per task. Post-trained on LIBERO dataset.",
+      "overall": 94.1
+    },
+    {
+      "label": "LIBERO-Pro",
+      "query": "LIBERO-Pro",
+      "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing (shown as dash). 50 episodes per task. overall_score omitted because of the missing cell."
+    }
+  ]
+}

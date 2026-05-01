@@ -1,0 +1,17 @@
+{
+  "model": "OFT + T-MEE",
+  "paperTitle": "Reshaping Action Error Distributions for Reliable Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2602.04228",
+  "arxivId": "2602.04228",
+  "publishedAt": "Apr 2026",
+  "organization": "XJTU / BAAI / UCAS / Peking University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 99 · libero object 99.2 · libero goal 96.8 · libero 10 92.8 | TABLE I | Notes: All 4 suites.",
+      "overall": 97
+    }
+  ]
+}

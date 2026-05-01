@@ -1,0 +1,22 @@
+{
+  "model": "Moto",
+  "paperTitle": "Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos",
+  "paperUrl": "https://arxiv.org/abs/2412.04445",
+  "arxivId": "2412.04445",
+  "publishedAt": "Apr 2024",
+  "organization": "University of Hong Kong / Tencent ARC Lab / CUHK / UC Berkeley",
+  "flag": "🇭🇰 🇨🇳 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 89.7 · 2 tasks 72.9 · 3 tasks 60.1 · 4 tasks 48.4 · 5 tasks 38.6 | Table 3 | Notes: ABC→D split, 1000 chains, avg_len metric reported. Uses Static RGB only (no gripper RGB or proprio for Moto).",
+      "overall": 3.1
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: google robot vm 59.2 | Tasks: pick coke can vm 74 · move near vm 60.4 · open close drawer vm 43.1 | Table 2 | Notes: Reports Google Robot Visual Matching only (no VA, no WidowX). Uses 3 standard tasks. Paper reports on 0-1 scale, converted to 0-100."
+    }
+  ]
+}

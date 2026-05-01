@@ -1,0 +1,23 @@
+{
+  "model": "3D Diffuser Actor",
+  "paperTitle": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+  "paperUrl": "https://arxiv.org/abs/2402.10885",
+  "arxivId": "2402.10885",
+  "publishedAt": "Feb 2024",
+  "organization": "Carnegie Mellon University",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.35,
+      "detail": "Table 4: 1 task 93.8 · 2 tasks 80.3 · 3 tasks 66.2 · 4 tasks 53.3 · 5 tasks 41.2 · overall 3.35."
+    },
+    {
+      "label": "RLBench",
+      "query": "RLBench",
+      "overall": 81.3,
+      "detail": "Table 1: reported overall 81.3."
+    }
+  ]
+}

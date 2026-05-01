@@ -1,0 +1,23 @@
+{
+  "model": "ABot-M0",
+  "paperTitle": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+  "paperUrl": "https://arxiv.org/abs/2602.11236",
+  "arxivId": "2602.11236",
+  "publishedAt": "Feb 2026",
+  "organization": "AMAP CV Lab",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 3: libero spatial 98.8 · libero object 99.8 · libero goal 99 · libero long 96.6 · overall 98.6.",
+      "overall": 98.6
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Table 4: camera 60.4 · robot 67.9 · language 86.4 · light 96.2 · background 91.6 · noise 86.4 · layout 82.6 · overall 81.6.",
+      "overall": 81.6
+    }
+  ]
+}

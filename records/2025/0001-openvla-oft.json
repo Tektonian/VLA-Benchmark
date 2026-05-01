@@ -1,0 +1,37 @@
+{
+  "model": "OpenVLA-OFT",
+  "paperTitle": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+  "paperUrl": "https://arxiv.org/abs/2502.19645",
+  "arxivId": "2502.19645",
+  "publishedAt": "Feb 27, 2025",
+  "organization": "Stanford University",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.1,
+      "detail": "Suites: libero spatial 97.6 · libero object 98.4 · libero goal 97.9 · libero 10 94.5 | Table I | Reported in https://arxiv.org/abs/2502.19645 | Details: goal 97.9 · long 94.5 · object 98.4 · spatial 97.6"
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 71.4
+    },
+    {
+      "label": "MIKASA",
+      "query": "MIKASA",
+      "overall": 28.4
+    },
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 5
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Easy 24.6"
+    }
+  ]
+}

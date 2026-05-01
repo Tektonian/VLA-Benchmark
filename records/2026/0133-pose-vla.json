@@ -1,0 +1,22 @@
+{
+  "model": "Pose-VLA",
+  "paperTitle": "Universal Pose Pretraining for Generalizable Vision-Language-Action Policies",
+  "paperUrl": "https://arxiv.org/abs/2602.19710",
+  "arxivId": "2602.19710",
+  "publishedAt": "Jan 2026",
+  "organization": "Tencent Robotics X / HKUST / Fudan University",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 96.5 · libero object 98 · libero goal 97.1 · libero 10 92.4 | Table III | Notes: Standard 4-suite LIBERO. PaliGemma backbone with pose-pretrained VLM. model_paper inferred from reported_paper (extract did not set it)",
+      "overall": 96
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Suites: easy 79.91 · hard 79.1 | Table II | Notes: Protocol B: multi-task, 50 clean + 500 DR demos/task. 50 tasks. RGB-only evaluation (depth/raymap masked). Avg 79.5% reported in abstract."
+    }
+  ]
+}

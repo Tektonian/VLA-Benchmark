@@ -1,0 +1,22 @@
+{
+  "model": "SpatialVLA + DTP",
+  "paperTitle": "DTP:A Simple yet Effective Distracting Token Pruning Framework for Vision-Language Action Models",
+  "paperUrl": "https://arxiv.org/abs/2601.16065",
+  "arxivId": "2601.16065",
+  "publishedAt": "Jan 2026",
+  "organization": "Australian National University / UC San Diego / CAS / Baidu / ByteDance",
+  "flag": "🇦🇺 🇺🇸 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 93 · libero object 77.4 · libero goal 88.4 · libero 10 76.2 | Table 3 | Notes: All 4 LIBERO suites reported",
+      "overall": 83.8
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 37.5 · google robot vm 81.9 · google robot va 80.5 | Tasks: pick coke can vm 86.7 · move near vm 77.1 · pick coke can va 90.2 · move near va 70.7 | Table 1, Table 2 | Notes: Google Robot VM/VA only reports Pick Coke Can and Move Near (2 tasks), not Open/Close Drawer. WidowX VM reported. Non-standard 2-task Google Robot avg."
+    }
+  ]
+}

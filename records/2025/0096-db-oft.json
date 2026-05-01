@@ -1,0 +1,23 @@
+{
+  "model": "DB-OFT",
+  "paperTitle": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
+  "paperUrl": "https://arxiv.org/abs/2510.23511",
+  "arxivId": "2510.23511",
+  "publishedAt": "Oct 2025",
+  "organization": "Dexmal / StepFun",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.54,
+      "detail": "Table 4: 1 task 92.8 · 2 tasks 80.7 · 3 tasks 69.2 · 4 tasks 60.2 · 5 tasks 51.1 · overall 3.54."
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "overall": 63,
+      "detail": "Table 5: PickCube 90 · StackCube 75 · PickSingleYCB 55 · PickSingleEGAD 65 · PickClutterYCB 30 · overall 63."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model": "LLaDA-VLA",
+  "paperTitle": "LLaDA-VLA: Vision Language Diffusion Action Models",
+  "paperUrl": "https://arxiv.org/abs/2509.06932",
+  "arxivId": "2509.06932",
+  "publishedAt": "Jun 2025",
+  "organization": "USTC / Nanjing University / Dexmal",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 95.6 · 2 tasks 87.8 · 3 tasks 79.5 · 4 tasks 73.9 · 5 tasks 64.5 | Table 2 | Notes: CALVIN ABC→D split evaluation with 1000 rollouts. Reports avg_len = 4.01.",
+      "overall": 4.01
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 55.5 | Tasks: put spoon on towel vm 56.9 · put carrot on plate vm 76.3 · stack green block on yellow block vm 30.6 · put eggplant in yellow basket vm 58.3 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation."
+    }
+  ]
+}

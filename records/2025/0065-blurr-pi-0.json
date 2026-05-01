@@ -1,0 +1,16 @@
+{
+  "model": "BLURR-Pi-0",
+  "paperTitle": "BLURR-Pi-0 model paper (2512.11769)",
+  "paperUrl": "https://arxiv.org/abs/2512.11769",
+  "arxivId": "2512.11769",
+  "publishedAt": "Dec 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 71 | Tasks: put carrot on plate vm 54 · put spoon on towel vm 91 · stack green block on yellow block vm 46 · put eggplant in yellow basket vm 93 | Table 3"
+    }
+  ]
+}

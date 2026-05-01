@@ -1,0 +1,22 @@
+{
+  "model": "PTR",
+  "paperTitle": "Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting",
+  "paperUrl": "https://arxiv.org/abs/2603.16542",
+  "arxivId": "2603.16542",
+  "publishedAt": "Mar 17, 2026",
+  "organization": "Peking University / Tsinghua University / BeingBeyond",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98 · libero object 99.2 · libero goal 97.6 · libero 10 97 | Table 1 | Notes: Standard LIBERO 4-suite, 50 episodes per task, 500 per suite, 2000 total",
+      "overall": 97.9
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: panda 55.6 | Table 1 | Notes: Standard RoboCasa 24 tasks, 50 trials across 5 scene layouts per task, 1200 total"
+    }
+  ]
+}

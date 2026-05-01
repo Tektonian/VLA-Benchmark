@@ -1,0 +1,29 @@
+{
+  "model": "DiT Policy",
+  "paperTitle": "Diffusion Transformer Policy",
+  "paperUrl": "https://arxiv.org/abs/2410.15959",
+  "arxivId": "2410.15959",
+  "publishedAt": "Oct 2024",
+  "organization": "Shanghai AI Lab / Zhejiang University / CUHK / SenseTime / Tsinghua",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.61,
+      "detail": "Table 2: 1 task 94.5 · 2 tasks 82.5 · 3 tasks 72.8 · 4 tasks 61.3 · 5 tasks 50 · overall 3.61."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 82.4,
+      "detail": "Table 3: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero long 63.8 · overall 82.4."
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "overall": 65.8,
+      "detail": "Table 4: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · overall 65.8."
+    }
+  ]
+}

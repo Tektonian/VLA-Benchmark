@@ -1,0 +1,22 @@
+{
+  "model": "3D Foresight",
+  "paperTitle": "3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight",
+  "paperUrl": "https://arxiv.org/abs/2502.10028",
+  "arxivId": "2502.10028",
+  "publishedAt": "Mar 26, 2026",
+  "organization": "HKUST Guangzhou / JAKA Robotics",
+  "flag": "🇭🇰 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 1 task 96.9 · 2 tasks 92 · 3 tasks 85.7 · 4 tasks 78.8 · 5 tasks 71.3 | Table I | Notes: ABC→D split, 1000 chains, avg_len metric.",
+      "overall": 4.23
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, Long suites but not libero_10. Long is not the same as libero_10. Missing libero_10 means overall_score must be null. The Avg. SR of 95.3 includes Long instead of libero_10."
+    }
+  ]
+}

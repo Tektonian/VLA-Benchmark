@@ -1,0 +1,17 @@
+{
+  "model": "RIPT-VLA (OpenVLA-OFT)",
+  "paperTitle": "RIPT-VLA (OpenVLA-OFT) model paper (2505.17016)",
+  "paperUrl": "https://arxiv.org/abs/2505.17016",
+  "arxivId": "2505.17016",
+  "publishedAt": "May 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.5,
+      "detail": "Suites: libero spatial 98.6 · libero object 98.6 · libero goal 99 · libero 10 93.8 | Table 1"
+    }
+  ]
+}

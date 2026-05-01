@@ -1,0 +1,16 @@
+{
+  "model": "MoLe-OpenVLA",
+  "paperTitle": "MoLe-OpenVLA model paper (2503.20384)",
+  "paperUrl": "https://arxiv.org/abs/2503.20384",
+  "arxivId": "2503.20384",
+  "publishedAt": "Mar 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RLBench",
+      "query": "RLBench",
+      "detail": "Tasks: PutRubbishInBin 12 · CloseBox 80 · CloseLaptopLid 76 · TakeUmbrellaOutOfStand 40 · CloseFridge 96 · SweepToDustpan 72 · PhoneOnBase 20 · ChangeClock 12 · ToiletSeatDown 100 · TakeFrameOffHanger 44 | Table 1"
+    }
+  ]
+}

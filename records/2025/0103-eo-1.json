@@ -1,0 +1,17 @@
+{
+  "model": "EO-1",
+  "paperTitle": "EO-1: An Open Unified Embodied Foundation Model for General Robot Control",
+  "paperUrl": "https://arxiv.org/abs/2508.21112",
+  "arxivId": "2508.21112",
+  "publishedAt": "Aug 2025",
+  "organization": "Shanghai AI Lab / Fudan / AgiBot / NPU",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 3: libero spatial 99.7 · libero object 99.8 · libero goal 99.2 · libero long 94.8 · overall 98.4.",
+      "overall": 98.4
+    }
+  ]
+}

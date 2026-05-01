@@ -1,0 +1,60 @@
+name: VLA score update
+description: Submit a VLA benchmark score or correction.
+title: "[Score]: "
+labels:
+  - score
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include the score and a source that lets maintainers verify it.
+
+  - type: input
+    id: model_name
+    attributes:
+      label: Model name
+      placeholder: OpenVLA-OFT
+    validations:
+      required: true
+
+  - type: input
+    id: benchmark_name
+    attributes:
+      label: Benchmark name
+      placeholder: LIBERO, CALVIN, RoboCasa, SimplerEnv
+    validations:
+      required: true
+
+  - type: input
+    id: score
+    attributes:
+      label: Score
+      placeholder: "97.1"
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: https://arxiv.org/abs/2502.19645
+    validations:
+      required: true
+
+  - type: input
+    id: source_location
+    attributes:
+      label: Source location
+      placeholder: Table 1, Appendix B, page 7, official leaderboard row
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional. Add score breakdown, evaluation setting, or correction details.
+      placeholder: "Spatial 97.6, object 98.4, goal 97.9, long 94.5. Overall 97.1."
+    validations:
+      required: false

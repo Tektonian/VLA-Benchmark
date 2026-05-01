@@ -1,0 +1,23 @@
+{
+  "model": "CoWVLA",
+  "paperTitle": "Chain of World: World Model Thinking in Latent Motion",
+  "paperUrl": "https://arxiv.org/abs/2603.03195",
+  "arxivId": "2603.03195",
+  "publishedAt": "Mar 2026",
+  "organization": "HIT / Li Auto / BAAI / UNSW / Peking University",
+  "flag": "🇨🇳 🇦🇺",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Appendix Table 2: 1 task 96.8 · 2 tasks 91.2 · 3 tasks 84.4 · 4 tasks 77.9 · 5 tasks 70.8 · overall 4.211.",
+      "overall": 4.211
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 1: libero spatial 97.2 · libero object 97.8 · libero goal 94.6 · libero long 92.8 · overall 95.6.",
+      "overall": 95.6
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "StARe-VLA IPI (OpenVLA)",
+  "paperTitle": "StARe-VLA IPI (OpenVLA) model paper (2512.05107)",
+  "paperUrl": "https://arxiv.org/abs/2512.05107",
+  "arxivId": "2512.05107",
+  "publishedAt": "Dec 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 98 | Tasks: put spoon on towel vm 98 · put carrot on plate vm 98.5 · stack green block on yellow block vm 98 · put eggplant in yellow basket vm 97.5 | Table 1"
+    }
+  ]
+}

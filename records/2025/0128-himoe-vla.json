@@ -1,0 +1,22 @@
+{
+  "model": "HiMoE-VLA",
+  "paperTitle": "HiMoE-VLA:​ Hierarchical​ Mixture-of-Experts for Generalist Vision-Language-Action Policies",
+  "paperUrl": "https://arxiv.org/abs/2512.05693",
+  "arxivId": "2512.05693",
+  "publishedAt": "May 2025",
+  "organization": "Fudan University / Microsoft Research Asia / XJTU / Tsinghua University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Tasks: chain 1 0.932 · chain 2 0.855 · chain 3 0.789 · chain 4 0.731 · chain 5 0.66 · avg len 3.967 | Table 1 | Notes: Protocol does not match ABC→D standard | Uses D→D split, not the standard ABC→D. Paper states 'We adopt the challenging D→D setting'."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 98.2 · libero object 99.4 · libero goal 98.6 · libero 10 94.8 | Table 2 | Notes: Reports all 4 standard suites. 50 demos per task. Average = (98.2+99.4+98.6+94.8)/4 = 97.75 ≈ 97.8.",
+      "overall": 97.8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "model": "OpenVLA",
+  "paperTitle": "OpenVLA: An Open-Source Vision-Language-Action Model",
+  "paperUrl": "https://arxiv.org/abs/2406.09246",
+  "arxivId": "2406.09246",
+  "publishedAt": "Jun 13, 2024",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.27
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 76.5,
+      "detail": "Suites: libero spatial 84.7 · libero object 88.4 · libero goal 79.2 · libero 10 53.7 | Table 12"
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 16.3
+    },
+    {
+      "label": "LIBERO-Pro",
+      "query": "LIBERO-Pro",
+      "overall": 57.5
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "overall": 27
+    },
+    {
+      "label": "RoboCerebra",
+      "query": "RoboCerebra",
+      "overall": 4.57
+    },
+    {
+      "label": "VLABench",
+      "query": "VLABench",
+      "detail": "Seen 11.74 · Unseen 7.93"
+    }
+  ]
+}

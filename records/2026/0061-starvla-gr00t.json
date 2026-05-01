@@ -1,0 +1,16 @@
+{
+  "model": "StarVLA-GR00T",
+  "paperTitle": "StarVLA-GR00T model paper (2604.05014)",
+  "paperUrl": "https://arxiv.org/abs/2604.05014",
+  "arxivId": "2604.05014",
+  "publishedAt": "Apr 2026",
+  "organization": "NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "detail": "Suites: gr1 47.8 | Table 5"
+    }
+  ]
+}

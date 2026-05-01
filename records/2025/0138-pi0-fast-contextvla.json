@@ -1,0 +1,22 @@
+{
+  "model": "pi0-FAST (ContextVLA)",
+  "paperTitle": "ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context",
+  "paperUrl": "https://arxiv.org/abs/2510.04246",
+  "arxivId": "2510.04246",
+  "publishedAt": "Apr 2025",
+  "organization": "KAIST / RLWRLD / UC Berkeley",
+  "flag": "🇰🇷 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 96.6 · libero object 96.6 · libero goal 95.2 · libero 10 85.2 | Table 1 | Notes: All 4 standard suites. pi0-FAST fine-tuned by this paper.",
+      "overall": 93.4
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 59 | Tasks: spoon on towel vm 59 · carrot on plate vm 79 · stack cube vm 65 · put eggplant in basket vm 33 | Table 2 | Notes: WidowX VM only. Score is a reproduction by the citing paper."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "DM0_generalist",
+  "paperTitle": "DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI",
+  "paperUrl": "https://arxiv.org/abs/2602.14974",
+  "arxivId": "2602.14974",
+  "publishedAt": "Feb 2026",
+  "organization": "Dexmal / StepFun",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 37.3,
+      "detail": "Paper Table 2: Table30 generalist success rate 37.3% · task score 49.08."
+    }
+  ]
+}

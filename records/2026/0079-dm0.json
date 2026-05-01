@@ -1,0 +1,17 @@
+{
+  "model": "DM0",
+  "paperTitle": "DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI",
+  "paperUrl": "https://arxiv.org/abs/2602.14974",
+  "arxivId": "2602.14974",
+  "publishedAt": "Feb 2026",
+  "organization": "Dexmal / StepFun",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 62,
+      "detail": "Paper Table 1: Table30 specialist average success rate 62.0%."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "DFM-VLA+Embed",
+  "paperTitle": "DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching",
+  "paperUrl": "https://arxiv.org/abs/2603.26320",
+  "arxivId": "2603.26320",
+  "publishedAt": "Mar 2026",
+  "organization": "HKUST Guangzhou / HIT / ShanghaiTech University / CAS",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.44,
+      "detail": "Table 1: 1 task 97.6 · 2 tasks 94.4 · 3 tasks 89.2 · 4 tasks 84.4 · 5 tasks 78 · overall 4.44."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 95.7,
+      "detail": "Table 2: libero spatial 96.8 · libero object 98.8 · libero goal 94.4 · libero long 92.6 · overall 95.7."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "PD-VLA",
+  "paperTitle": "PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding",
+  "paperUrl": "https://arxiv.org/abs/2503.02310",
+  "arxivId": "2503.02310",
+  "publishedAt": "Mar 4, 2025",
+  "organization": "HKUST (Guangzhou)",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 94.7
+    }
+  ]
+}

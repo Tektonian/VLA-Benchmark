@@ -1,0 +1,17 @@
+{
+  "model": "ExpReS-VLA (OpenVLA)",
+  "paperTitle": "ExpReS-VLA (OpenVLA) model paper (2511.06202)",
+  "paperUrl": "https://arxiv.org/abs/2511.06202",
+  "arxivId": "2511.06202",
+  "publishedAt": "Nov 2025",
+  "organization": "Stanford / Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 88.7,
+      "detail": "Suites: libero spatial 93.1 · libero object 93.9 · libero goal 95.4 · libero 10 72.3 | Table I"
+    }
+  ]
+}

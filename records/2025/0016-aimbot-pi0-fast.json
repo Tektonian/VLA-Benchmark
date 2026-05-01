@@ -1,0 +1,17 @@
+{
+  "model": "AimBot (pi0-FAST)",
+  "paperTitle": "AimBot (pi0-FAST) model paper (2508.08113)",
+  "paperUrl": "https://arxiv.org/abs/2508.08113",
+  "arxivId": "2508.08113",
+  "publishedAt": "Aug 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 93.7,
+      "detail": "Suites: libero spatial 96.9 · libero object 96.8 · libero goal 94 · libero 10 87.1 | Table 1"
+    }
+  ]
+}

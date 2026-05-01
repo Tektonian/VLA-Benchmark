@@ -1,0 +1,23 @@
+{
+  "model": "GeoVLA",
+  "paperTitle": "GeoVLA: Empowering 3D Representations in Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2508.09071",
+  "arxivId": "2508.09071",
+  "publishedAt": "Aug 2025",
+  "organization": "Tianjin University / Dexmal / Tsinghua University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.7,
+      "detail": "Table 1: libero spatial 98.4 · libero object 99 · libero goal 96.6 · libero long 96.6 · libero 90 97.7 · overall 97.7."
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "overall": 77,
+      "detail": "Table 2: PickCube 90 · StackCube 90 · PickSingleYCB 75 · PickSingleEGAD 85 · PickClutterYCB 45 · overall 77."
+    }
+  ]
+}

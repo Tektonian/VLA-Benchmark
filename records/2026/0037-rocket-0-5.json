@@ -1,0 +1,17 @@
+{
+  "model": "ROCKET (π₀.₅)",
+  "paperTitle": "ROCKET (π₀.₅) model paper (2602.17951)",
+  "paperUrl": "https://arxiv.org/abs/2602.17951",
+  "arxivId": "2602.17951",
+  "publishedAt": "Feb 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 95.2,
+      "detail": "Suites: libero spatial 96.4 · libero object 98.8 · libero goal 96.6 · libero 10 89.2 | Table 3"
+    }
+  ]
+}

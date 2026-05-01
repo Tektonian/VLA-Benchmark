@@ -1,0 +1,28 @@
+{
+  "model": "NS-VLA",
+  "paperTitle": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2603.09542",
+  "arxivId": "2603.09542",
+  "publishedAt": "Mar 10, 2026",
+  "organization": "Beijing University of Posts and Telecommunications / Nanyang Technological University",
+  "flag": "🇨🇳 🇸🇬",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "detail": "Suites: 5 tasks 91.2 | Figure 7(a) | Notes: ABC→D split with avg_len metric reported as 4.72. 5-Task SR = 91.2%.",
+      "overall": 4.72
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 85.7 · libero object 75.3 · libero goal 70.7 · libero 10 45.2 | Table 1 | Notes: All 4 standard LIBERO suites present (Spatial, Object, Goal, Long=libero_10). Training uses 1-shot (1 demo per task) instead of standard 50 demos/task. 1-shot is a valid reduced-data regime per benchmark rules.",
+      "overall": 69.2
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "detail": "Tasks: reported avg 79.4 | Table 1 | Notes: Paper reports per-LIBERO-suite averages (Spatial 88.1, Object 79.0, Goal 70.2, Long 80.3) rather than per-perturbation-dimension scores (camera, robot, language, light, background, noise, layout). The 7 canonical perturbation dimensions are not reported. Trained on full LIBERO, evaluated zero-sho..."
+    }
+  ]
+}

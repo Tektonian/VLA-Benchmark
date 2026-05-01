@@ -1,0 +1,17 @@
+{
+  "model": "ACoT-VLA (frozen)",
+  "paperTitle": "ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2601.11404",
+  "arxivId": "2601.11404",
+  "publishedAt": "Jan 2026",
+  "organization": "Beihang University / AgiBot",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Table 1: libero spatial 99.4 · libero object 99.6 · libero goal 98.8 · libero long 96 · overall 98.5.",
+      "overall": 98.5
+    }
+  ]
+}

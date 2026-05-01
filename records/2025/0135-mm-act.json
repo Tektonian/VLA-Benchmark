@@ -1,0 +1,22 @@
+{
+  "model": "MM-ACT",
+  "paperTitle": "MM-ACT: Learn from Multimodal Parallel Generation to Act",
+  "paperUrl": "https://arxiv.org/abs/2512.00975",
+  "arxivId": "2512.00975",
+  "publishedAt": "Jan 2025",
+  "organization": "Shanghai AI Lab / SJTU / HKU / USTC / Fudan / Zhejiang University",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "detail": "Suites: libero spatial 97.8 · libero object 99.4 · libero goal 94.8 · libero 10 88 | Table 1 | Notes: Trained on all 4 standard LIBERO suites with 50 demos per task. Separate model per sub-benchmark. Batch size 128, action chunk size 8.",
+      "overall": 95
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "detail": "Tasks: adjust bottle 71 · beat block hammer 78 · click bell 95 · dump bin bigbin 13 · move playingcard away 39 · lift pot 31 · place burger fries 73 · place can basket 19 | Table 2 | Notes: Protocol B-like: multi-task training with ~500 DR demos per task, 8 tasks, Agilex Piper dual-arm, evaluated in unseen settings. Context-shared multimodal learning with text, image, and action joint training."
+    }
+  ]
+}

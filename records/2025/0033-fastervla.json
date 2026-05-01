@@ -1,0 +1,22 @@
+{
+  "model": "FASTerVLA",
+  "paperTitle": "FASTerVLA model paper (2512.04952)",
+  "paperUrl": "https://arxiv.org/abs/2512.04952",
+  "arxivId": "2512.04952",
+  "publishedAt": "Dec 2025",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.8,
+      "detail": "Suites: libero spatial 98 · libero object 99.4 · libero goal 98.6 · libero 10 95.4 | Table 1"
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "detail": "Suites: widowx vm 87.9 | Tasks: put spoon on towel vm 91.7 · put carrot on plate vm 93.3 · stack block vm 67.5 · put eggplant in basket vm 99.2 | Table 1"
+    }
+  ]
+}

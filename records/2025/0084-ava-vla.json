@@ -1,0 +1,23 @@
+{
+  "model": "AVA-VLA",
+  "paperTitle": "AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention",
+  "paperUrl": "https://arxiv.org/abs/2511.18960",
+  "arxivId": "2511.18960",
+  "publishedAt": "Nov 2025",
+  "organization": "Li Auto / Beijing University of Technology / CUHK Shenzhen",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.65,
+      "detail": "Table 2: 1 task 99.6 · 2 tasks 97.6 · 3 tasks 94.1 · 4 tasks 89.9 · 5 tasks 84.1 · overall 4.65."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98,
+      "detail": "Table 1: libero spatial 97.4 · libero object 99.4 · libero goal 97.4 · libero long 97.6 · overall 98."
+    }
+  ]
+}

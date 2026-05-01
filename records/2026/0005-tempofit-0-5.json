@@ -1,0 +1,17 @@
+{
+  "model": "TempoFit (π₀.₅)",
+  "paperTitle": "TempoFit (π₀.₅) model paper (2603.05291)",
+  "paperUrl": "https://arxiv.org/abs/2603.05291",
+  "arxivId": "2603.05291",
+  "publishedAt": "Mar 2026",
+  "organization": "Physical Intelligence",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 3.87,
+      "detail": "Tasks: chain 1 93 · chain 2 84.8 · chain 3 77.3 · chain 4 69.4 · chain 5 62 | TABLE II"
+    }
+  ]
+}

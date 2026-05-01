@@ -1,0 +1,17 @@
+{
+  "model": "GHIL-Glue (UniPi)",
+  "paperTitle": "GHIL-Glue (UniPi) model paper (2410.20018)",
+  "paperUrl": "https://arxiv.org/abs/2410.20018",
+  "arxivId": "2410.20018",
+  "publishedAt": "Oct 2024",
+  "organization": "UC Berkeley",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 1.56,
+      "detail": "Suites: 1 task 75.2 · 2 tasks 44.8 · 3 tasks 19.7 · 4 tasks 11.2 · 5 tasks 5.5 | Table I"
+    }
+  ]
+}

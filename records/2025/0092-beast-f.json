@@ -1,0 +1,23 @@
+{
+  "model": "BEAST-F",
+  "paperTitle": "BEAST: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning",
+  "paperUrl": "https://arxiv.org/abs/2506.06072",
+  "arxivId": "2506.06072",
+  "publishedAt": "Jun 2025",
+  "organization": "KIT / Robotics Institute Germany / Microsoft Research",
+  "flag": "🇩🇪 🇺🇸",
+  "benchmarks": [
+    {
+      "label": "CALVIN",
+      "query": "CALVIN",
+      "overall": 4.42,
+      "detail": "Table 1: 1 task 99.8 · 2 tasks 96.5 · 3 tasks 89.3 · 4 tasks 82.7 · 5 tasks 74.4 · overall 4.42."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 92.5,
+      "detail": "Table 2: libero spatial 92.9 · libero object 97.5 · libero goal 93.1 · libero long 86.4 · overall 92.5."
+    }
+  ]
+}
