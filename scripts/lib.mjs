@@ -4,8 +4,8 @@ import path from 'node:path';
 
 export const RECORDS_DIR = new URL('../records/', import.meta.url);
 export const DIST_DIR = new URL('../dist/', import.meta.url);
-export const CHUNK_DIR = new URL('../dist/vla-leaderboard/', import.meta.url);
-export const MANIFEST_PATH = new URL('../dist/vla-leaderboard.manifest.json', import.meta.url);
+export const CHUNK_DIR = new URL('../dist/vla-benchmark/', import.meta.url);
+export const MANIFEST_PATH = new URL('../dist/vla-benchmark.manifest.json', import.meta.url);
 export const CHUNK_SIZE = 100;
 
 const REQUIRED_RECORD_FIELDS = [
@@ -137,7 +137,7 @@ export async function writeDist(records) {
     const id = String(chunks.length + 1).padStart(4, '0');
     const chunkRecords = records.slice(index, index + CHUNK_SIZE);
     const chunkJson = `${JSON.stringify(chunkRecords, null, 2)}\n`;
-    const chunkPath = `vla-leaderboard/${id}.json`;
+    const chunkPath = `vla-benchmark/${id}.json`;
 
     await writeFile(new URL(chunkPath, DIST_DIR), chunkJson);
 

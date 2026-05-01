@@ -1,14 +1,14 @@
 <div align="center">
 
-# VLA Leaderboard
+# VLA Benchmark
 
 **Open VLA benchmark data for robotics researchers and builders.**
 
-[Live Leaderboard](https://tektonian.com/vla-leaderboard) · [Submit a Score](../../issues/new/choose)
+[Live Leaderboard](https://tektonian.com/vla-benchmark) · [Submit a Score](../../issues/new/choose)
 
 </div>
 
-This repository powers the [Tektonian VLA Leaderboard](https://tektonian.com/vla-leaderboard), a public index of vision-language-action models, benchmark scores, source papers, and evaluation notes.
+This repository powers the [Tektonian VLA Leaderboard](https://tektonian.com/vla-benchmark), a public index of vision-language-action models, benchmark scores, source papers, and evaluation notes.
 
 ## Data
 
