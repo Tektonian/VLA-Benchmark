@@ -22,6 +22,7 @@
     {
       "label": "LIBERO-Plus",
       "query": "LIBERO-Plus",
+      "overall": 79.4,
       "detail": "Tasks: reported avg 79.4 | Table 1 | Notes: Paper reports per-LIBERO-suite averages (Spatial 88.1, Object 79.0, Goal 70.2, Long 80.3) rather than per-perturbation-dimension scores (camera, robot, language, light, background, noise, layout). The 7 canonical perturbation dimensions are not reported. Trained on full LIBERO, evaluated zero-sho..."
     }
   ]

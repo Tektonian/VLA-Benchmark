@@ -16,6 +16,7 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 96.4,
       "detail": "Tasks: reported avg 96.4 | Table 1 | Notes: Paper reports only LIBERO-Long (avg success rate 96.4% with multi-view). Suite-level breakdown not provided for the other 3 suites, so cannot confirm standard 4-suite average. This is the LIBERO-Long multi-view success rate."
     }
   ]

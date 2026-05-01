@@ -10,6 +10,7 @@
     {
       "label": "RLBench",
       "query": "RLBench",
+      "overall": 55.2,
       "detail": "Tasks: PutRubbishInBin 12 · CloseBox 80 · CloseLaptopLid 76 · TakeUmbrellaOutOfStand 40 · CloseFridge 96 · SweepToDustpan 72 · PhoneOnBase 20 · ChangeClock 12 · ToiletSeatDown 100 · TakeFrameOffHanger 44 | Table 1"
     }
   ]

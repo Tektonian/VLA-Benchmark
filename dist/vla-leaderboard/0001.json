@@ -32,6 +32,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 24.6,
         "detail": "Easy 24.6"
       }
     ]
@@ -122,6 +123,7 @@
       {
         "label": "VLABench",
         "query": "VLABench",
+        "overall": 9.835,
         "detail": "Seen 11.74 · Unseen 7.93"
       }
     ]
@@ -360,6 +362,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 60.133,
         "detail": "Suites: google robot vm 71.5 · google robot va 65.1 · widowx vm 43.8 | Tasks: pick coke can vm 92 · move near vm 72.4 · open close drawer vm 50 · pick coke can va 84 · move near va 63.8 · open close drawer va 47.6 · put carrot on plate vm 37.5 · stack green block on yellow block vm 8.7 · put spoon on towel vm 58.3 · put eggplant in yellow basket vm 70.8 | Table 1"
       }
     ]
@@ -393,6 +396,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 91,
         "detail": "Suites: libero spatial 91.6 · libero object 95.3 · libero goal 90.6 · libero 10 86.5 | Tasks: reported avg 91 | Table 1"
       }
     ]
@@ -415,6 +419,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 37.25,
         "detail": "Tasks: stack green block on yellow block vm 13 · put spoon on towel vm 50 · put carrot on plate vm 32 · put eggplant in basket vm 54 | Table I"
       }
     ]
@@ -431,6 +436,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 94.5,
         "detail": "Suites: libero spatial 95.6 · libero object 96.4 · libero goal 96 · libero 10 90 | Tasks: reported avg 94.5 | Table I"
       }
     ]
@@ -447,6 +453,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 92.3,
         "detail": "Suites: libero spatial 96.6 · libero object 88.2 · libero goal 93.4 · libero 10 91 | Tasks: reported avg 92.3 | Table II"
       }
     ]
@@ -463,6 +470,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 89.9,
         "detail": "Suites: libero spatial 92.4 · libero object 94.7 · libero goal 89.3 · libero 10 83.2 | Tasks: reported avg 89.9 | Table II"
       }
     ]
@@ -479,11 +487,13 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 89.7,
         "detail": "Tasks: reported avg 89.7 | Fig. 3"
       },
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 46.05,
         "detail": "Suites: easy 65.7 · hard 26.4 | Table 1"
       }
     ]
@@ -506,11 +516,13 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 58.7,
         "detail": "Suites: panda 58.7 | Table 3"
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 56.2,
         "detail": "Suites: widowx vm 56.2 | Tasks: spoon on towel vm 53.3 · carrot on plate vm 56 · stack cube vm 41.3 · put eggplant in basket vm 74 | Table 2"
       }
     ]
@@ -567,6 +579,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 67.1,
         "detail": "Suites: panda 67.1 | Table 2"
       }
     ]
@@ -583,11 +596,13 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 86.6,
         "detail": "Tasks: reported avg 86.6"
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 71.85,
         "detail": "Suites: google robot vm 71.6 · google robot va 72.1 | Tasks: pick coke can vm 77.7 · move near vm 77.1 · open close drawer vm 60 · pick coke can va 76.1 · move near va 61.3 · open close drawer va 78.8 | Table 1"
       }
     ]
@@ -661,6 +676,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 87.9,
         "detail": "Suites: widowx vm 87.9 | Tasks: put spoon on towel vm 91.7 · put carrot on plate vm 93.3 · stack block vm 67.5 · put eggplant in basket vm 99.2 | Table 1"
       }
     ]
@@ -683,6 +699,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 34.9,
         "detail": "Suites: google robot vm 34.9 | Tasks: move near vm 52.1 · pick coke can vm 18.7 · open close drawer vm 33.8 | Table 2"
       }
     ]
@@ -886,11 +903,13 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 97.2,
         "detail": "Suites: libero spatial 97.7 · libero object 98.5 · libero goal 95.3 | Tasks: reported avg 97.2 | Table 1"
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 96.625,
         "detail": "Tasks: put eggplant in basket vm 97.8 · put carrot on plate vm 93.9 · open close drawer vm 99.3 · pick coke can vm 95.5 | Table 2"
       }
     ]
@@ -964,6 +983,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 91.83,
         "detail": "Suites: easy 91.88 · hard 91.78 | Table 1"
       }
     ]
@@ -980,11 +1000,13 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 97.62,
         "detail": "Suites: libero object 99.67 · libero spatial 98.93 · libero goal 98.32 · libero 10 93.55 · libero 90 98.12 | Table I(b)"
       },
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 84.6,
         "detail": "Easy 84.6"
       }
     ]
@@ -1001,11 +1023,13 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 93.45,
         "detail": "Suites: libero spatial 95.8 · libero object 99 · libero goal 95.2 · libero 10 83.8 | Tasks: reported avg 93.45 | Table 1"
       },
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 39,
         "detail": "Suites: easy 50 · hard 28 | Table 2"
       }
     ]
@@ -1073,6 +1097,7 @@
       {
         "label": "RLBench",
         "query": "RLBench",
+        "overall": 55.2,
         "detail": "Tasks: PutRubbishInBin 12 · CloseBox 80 · CloseLaptopLid 76 · TakeUmbrellaOutOfStand 40 · CloseFridge 96 · SweepToDustpan 72 · PhoneOnBase 20 · ChangeClock 12 · ToiletSeatDown 100 · TakeFrameOffHanger 44 | Table 1"
       }
     ]
@@ -1089,6 +1114,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 64.3,
         "detail": "Suites: panda 64.3 | Table 3"
       }
     ]
@@ -1105,11 +1131,13 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 62.2,
         "detail": "Suites: panda 62.2 | Table 3"
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 70.7,
         "detail": "Suites: widowx vm 70.7 | Tasks: spoon on towel vm 60.7 · carrot on plate vm 81.3 · stack cube vm 78.7 · put eggplant in basket vm 62 | Table 2"
       }
     ]
@@ -1126,6 +1154,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 32.1,
         "detail": "Suites: panda 32.1 | Table 2"
       }
     ]
@@ -1142,6 +1171,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 39.3,
         "detail": "Suites: panda 39.3 | Table I"
       }
     ]
@@ -1158,6 +1188,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 47.8,
         "detail": "Suites: gr1 47.8 | Table 5"
       }
     ]
@@ -1174,6 +1205,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 77.55,
         "detail": "Suites: google robot vm 78.5 · google robot va 76.6 | Tasks: pick coke can vm 90.3 · move near vm 77.6 · open close drawer vm 92.4 · pick coke can va 87.6 · move near va 82.3 · open close drawer va 87.9 | Table II, Table III"
       }
     ]
@@ -1190,6 +1222,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 64.55,
         "detail": "Suites: google robot vm 69.2 · google robot va 59.9 | Tasks: pick coke can vm 83.4 · move near vm 84.7 · open close drawer vm 44.4 | Table II, Table III"
       }
     ]
@@ -1206,6 +1239,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 50.3,
         "detail": "Suites: widowx vm 50.3 | Tasks: spoon on towel vm 69.4 · carrot on plate vm 75 · stack cubes vm 43.1 · eggplant in basket vm 13.9 | Table 2"
       }
     ]
@@ -1222,6 +1256,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 71,
         "detail": "Suites: widowx vm 71 | Tasks: put carrot on plate vm 54 · put spoon on towel vm 91 · stack green block on yellow block vm 46 · put eggplant in yellow basket vm 93 | Table 3"
       }
     ]
@@ -1238,6 +1273,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 59.3,
         "detail": "Suites: widowx vm 59.3 | Table 4"
       }
     ]
@@ -1254,6 +1290,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 65.3,
         "detail": "Suites: widowx vm 65.3 | Tasks: put spoon on towel vm 83 · put carrot on plate vm 59.4 · stack green block on yellow block vm 18.8 · put eggplant in yellow basket vm 100 | Table 3"
       }
     ]
@@ -1270,6 +1307,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 98,
         "detail": "Suites: widowx vm 98 | Tasks: put spoon on towel vm 98 · put carrot on plate vm 98.5 · stack green block on yellow block vm 98 · put eggplant in yellow basket vm 97.5 | Table 1"
       }
     ]
@@ -1440,11 +1478,13 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 31.35,
         "detail": "Easy 46.4 · Hard 16.3"
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 71,
         "detail": "VM 70.1 · VA 71.9"
       },
       {
@@ -1512,11 +1552,13 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 54.5,
         "detail": "Table 16: easy 70.0 · hard 39.0."
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 86.6,
         "detail": "VM 88.3 · VA 75.7 · WX 95.8"
       },
       {
@@ -2022,6 +2064,7 @@
       {
         "label": "LIBERO-Plus",
         "query": "LIBERO-Plus",
+        "overall": 80.814,
         "detail": "Table II: camera 64.5 · robot 69.6 · language 88.2 · light 95.3 · background 97.4 · noise 76.9 · layout 73.8."
       }
     ]

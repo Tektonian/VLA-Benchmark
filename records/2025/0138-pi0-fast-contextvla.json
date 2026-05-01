@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 59,
       "detail": "Suites: widowx vm 59 | Tasks: spoon on towel vm 59 · carrot on plate vm 79 · stack cube vm 65 · put eggplant in basket vm 33 | Table 2 | Notes: WidowX VM only. Score is a reproduction by the citing paper."
     }
   ]

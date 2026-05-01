@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 59.2,
       "detail": "Suites: google robot vm 59.2 | Tasks: pick coke can vm 74 · move near vm 60.4 · open close drawer vm 43.1 | Table 2 | Notes: Reports Google Robot Visual Matching only (no VA, no WidowX). Uses 3 standard tasks. Paper reports on 0-1 scale, converted to 0-100."
     }
   ]

@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 37.25,
       "detail": "Tasks: stack green block on yellow block vm 13 · put spoon on towel vm 50 · put carrot on plate vm 32 · put eggplant in basket vm 54 | Table I"
     }
   ]

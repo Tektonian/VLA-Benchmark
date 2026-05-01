@@ -10,6 +10,7 @@
     {
       "label": "CALVIN",
       "query": "CALVIN",
+      "overall": 4.15,
       "detail": "Tasks: chain 1 94.2 · chain 2 89.3 · chain 3 82.7 · chain 4 78.5 · chain 5 70.3 · reported avg 4.15 | Table I | Notes: Protocol does not match ABC→D standard | ABCD→D split."
     },
     {

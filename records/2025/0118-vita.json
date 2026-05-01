@@ -22,6 +22,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 64.45,
       "detail": "Suites: google robot vm 57.4 · widowx vm 71.5 | Tasks: pick coke can vm 57.5 · move near vm 55.8 · open close drawer vm 58.9 · put spoon on towel vm 84.2 · put carrot on plate vm 68.8 · stack green block on yellow block vm 37.5 · put eggplant in yellow basket vm 95.6 | Table 3, Table 4 | Notes: Standard SimplerEnv VM protocol for Google Robot (3 tasks) and WidowX (4 tasks)"
     }
   ]

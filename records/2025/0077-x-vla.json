@@ -27,11 +27,13 @@
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 54.5,
       "detail": "Table 16: easy 70.0 · hard 39.0."
     },
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 86.6,
       "detail": "VM 88.3 · VA 75.7 · WX 95.8"
     },
     {

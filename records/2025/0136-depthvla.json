@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 74.8,
       "detail": "Tasks: put spoon on towel vm 75.8 · put carrot on plate vm 71.7 · stack green block on yellow block vm 62.5 · put eggplant in basket vm 89.2 | Table I | Notes: WidowX VM tasks, trained on BridgeData V2, evaluated zero-shot."
     }
   ]

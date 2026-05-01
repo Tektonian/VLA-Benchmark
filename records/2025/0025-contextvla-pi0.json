@@ -16,11 +16,13 @@
     {
       "label": "RoboCasa",
       "query": "RoboCasa",
+      "overall": 58.7,
       "detail": "Suites: panda 58.7 | Table 3"
     },
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 56.2,
       "detail": "Suites: widowx vm 56.2 | Tasks: spoon on towel vm 53.3 · carrot on plate vm 56 · stack cube vm 41.3 · put eggplant in basket vm 74 | Table 2"
     }
   ]

@@ -16,6 +16,7 @@
     {
       "label": "LIBERO-Plus",
       "query": "LIBERO-Plus",
+      "overall": 80.814,
       "detail": "Table II: camera 64.5 · robot 69.6 · language 88.2 · light 95.3 · background 97.4 · noise 76.9 · layout 73.8."
     }
   ]

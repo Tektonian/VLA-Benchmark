@@ -10,11 +10,13 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 89.7,
       "detail": "Tasks: reported avg 89.7 | Fig. 3"
     },
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 46.05,
       "detail": "Suites: easy 65.7 · hard 26.4 | Table 1"
     }
   ]

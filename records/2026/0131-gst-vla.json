@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 80.2,
       "detail": "Suites: google robot vm 80.2 | Tasks: pick coke can vm 83.1 · move near vm 77.5 · open close drawer vm 80.15 | TABLE III | Notes: Reports task progress (%) not success rate. Only Google Robot VM. Drawer is split into Open and Close. No WidowX or VA."
     }
   ]

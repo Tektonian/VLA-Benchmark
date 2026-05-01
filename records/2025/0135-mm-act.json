@@ -16,6 +16,7 @@
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 52.375,
       "detail": "Tasks: adjust bottle 71 · beat block hammer 78 · click bell 95 · dump bin bigbin 13 · move playingcard away 39 · lift pot 31 · place burger fries 73 · place can basket 19 | Table 2 | Notes: Protocol B-like: multi-task training with ~500 DR demos per task, 8 tasks, Agilex Piper dual-arm, evaluated in unseen settings. Context-shared multimodal learning with text, image, and action joint training."
     }
   ]

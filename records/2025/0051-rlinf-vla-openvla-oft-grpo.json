@@ -10,11 +10,13 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 97.62,
       "detail": "Suites: libero object 99.67 · libero spatial 98.93 · libero goal 98.32 · libero 10 93.55 · libero 90 98.12 | Table I(b)"
     },
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 84.6,
       "detail": "Easy 84.6"
     }
   ]

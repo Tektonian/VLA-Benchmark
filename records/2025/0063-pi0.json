@@ -10,6 +10,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 64.55,
       "detail": "Suites: google robot vm 69.2 · google robot va 59.9 | Tasks: pick coke can vm 83.4 · move near vm 84.7 · open close drawer vm 44.4 | Table II, Table III"
     }
   ]

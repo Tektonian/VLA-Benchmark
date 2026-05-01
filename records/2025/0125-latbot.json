@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 78.533,
       "detail": "Suites: google robot vm 78 · google robot va 70.1 · widowx vm 87.5 | Tasks: pick coke can vm 96.7 · move near vm 91.7 · open close drawer vm 90.4 · place apple in drawer vm 33.3 · pick coke can va 95.7 · move near va 78.3 · open close drawer va 73 · place apple in drawer va 33.3 · put spoon on towel vm 95.8 · put carrot on plate vm 87.5 · stack green block on yellow block vm 83.3 · put eggplant in yellow basket vm 83.3 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA with Google Robot 4 tasks and WidowX 4 tasks"
     }
   ]

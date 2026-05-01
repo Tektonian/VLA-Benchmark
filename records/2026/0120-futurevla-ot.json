@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 63.533,
       "detail": "Suites: google robot vm 77.6 · google robot va 49.4 · widowx vm 63.6 | Tasks: pick coke can vm 97 · move near vm 83.8 · open close drawer vm 55.6 · put in drawer vm 74.1 · pick coke can va 80.5 · move near va 61.5 · open close drawer va 31.7 · put in drawer va 23.8 | Table 1, Table 2 | Notes: Reports Google Robot VM/VA and WidowX VM suites. Note: google_robot_vm/va here are 4-task averages including Put in Drawer; standard uses 3-task average."
     }
   ]

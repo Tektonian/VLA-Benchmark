@@ -10,6 +10,7 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 98.3,
       "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.6 · libero 10 96 | Tasks: reported avg 98.3 | Table 3 | Notes: Reports 4-suite LIBERO results. Demo count not stated explicitly. 50 episodes per task evaluation mentioned in appendix for LIBERO-Plus, assumed similar for LIBERO."
     },
     {
@@ -21,6 +22,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 75.867,
       "detail": "Suites: google robot vm 80.1 · google robot va 75.6 · widowx vm 71.9 | Tasks: pick coke can vm 92.3 · move near vm 74.2 · open close drawer vm 68.5 · put in drawer vm 85.2 · pick coke can va 95.7 · move near va 72.9 · open close drawer va 52.4 · put in drawer va 81.2 | Table 1, Table 2 | Notes: Evaluates on Google Robot (VM and VA) and WidowX tasks. Reports separate suite averages. Google Robot VM uses 4 tasks: Pick Coke Can, Move Near, Open/Close Drawer, Put in Drawer. Paper reports 4-task averages for google_robot_vm and google_robot_va. The standard uses 3-task average (excluding Put in Drawer), so storing the paper's 4-task average. WidowX VM uses Put Spoon on Towel, Put Carrot on..."
     }
   ]

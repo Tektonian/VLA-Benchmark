@@ -16,16 +16,19 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 82.4,
       "detail": "Suites: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero 10 63.8 | Tasks: reported avg 82.4 | Table 2 | Notes: Paper reports LIBERO-SPATIAL, OBJECT, GOAL, and LONG (which corresponds to libero_10). Uses modified LIBERO from OpenVLA as data source. However, the paper reports LIBERO-LONG not LIBERO-10, which may differ. The number of demos per task is not explicitly stated. Same score also reported in: https://arxiv.org/abs/2603.03195."
     },
     {
       "label": "ManiSkill2",
       "query": "ManiSkill2",
-      "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard), so overall_score is null. Averaging method: arithmetic. Paper-reported aggregate (65.8) stored in task_scores.reported_avg."
+      "overall": 65.8,
+      "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard). Paper-reported aggregate 65.8 is used as the displayed score. Averaging method: arithmetic."
     },
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 67,
       "detail": "Suites: google robot vm 68.7 · google robot va 65.3 | Tasks: pick coke can vm 83.7 · pick coke can va 85.5 · move near vm 76 · move near va 73 · open close drawer vm 46.3 · open close drawer va 37.5 | Table 1 | Notes: Zero-shot evaluation on SimplerEnv Google Robot tasks. Follows SimplerEnv evaluation protocol with match and variant scenarios. Only 3 tasks reported (pick coke can, move near, drawer) - the standard requires 3 tasks for Google Robot VM/VA suite scores. No WidowX results reported."
     }
   ]

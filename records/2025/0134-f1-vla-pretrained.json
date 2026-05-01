@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 72.9,
       "detail": "Suites: widowx vm 72.9 | Tasks: put carrot on plate vm 70.8 · put eggplant in yellow basket vm 66.7 · put spoon on towel vm 50 · stack green block on yellow block vm 50 | Table 3 | Notes: Standard SimplerEnv Bridge WidowX VM evaluation. Overall avg = (grasp+success averages)/2 per the paper's format, but widowx_vm is the average success."
     }
   ]

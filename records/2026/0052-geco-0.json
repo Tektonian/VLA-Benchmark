@@ -10,11 +10,13 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 93.45,
       "detail": "Suites: libero spatial 95.8 · libero object 99 · libero goal 95.2 · libero 10 83.8 | Tasks: reported avg 93.45 | Table 1"
     },
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 39,
       "detail": "Suites: easy 50 · hard 28 | Table 2"
     }
   ]

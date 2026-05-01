@@ -16,6 +16,7 @@
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 68.6,
       "detail": "Suites: easy 68.6 | Tasks: Handover Block 61 · Handover Mic 87 · Pick Diverse Bottles 67 · Pick Dual Bottles 68 · Place Dual Shoes 60 | Table 2 | Notes: Protocol unknown. 5 tasks from RoboTwin 2.0, Easy setting only. Non-standard subset."
     }
   ]

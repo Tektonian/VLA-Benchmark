@@ -16,6 +16,7 @@
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 36.5,
       "detail": "Suites: easy 58 · hard 15 | Tasks: beat block hammer easy 93 · blocks ranking rgb easy 43 · click alarmclock easy 81 · hanging mug easy 18 · move pillbottle pad easy 20 · place object basket easy 28 · stack blocks two easy 61 · beat block hammer hard 54 · blocks ranking rgb hard 11 · click alarmclock hard 20 · hanging mug hard 5 · move pillbottle pad hard 2 · place object basket hard 4 · stack blocks two hard 10 | Table 5 | Notes: Protocol unknown. Protocol uncertain (50 demos/task, multi-task training). 7 tasks, Easy and Hard. Easy eval=100 trials/task, Hard eval=300 trials/task. Task count=7."
     }
   ]

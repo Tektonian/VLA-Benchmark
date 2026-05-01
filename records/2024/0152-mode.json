@@ -16,7 +16,8 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
-      "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90 results. Missing libero_spatial, libero_object, libero_goal suites required for overall_score."
+      "overall": 91.5,
+      "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90. The displayed score is the arithmetic mean of those two reported values; missing libero_spatial, libero_object, and libero_goal make it non-standard."
     }
   ]
 }

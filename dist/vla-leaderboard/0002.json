@@ -272,16 +272,19 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 82.4,
         "detail": "Suites: libero spatial 84.2 · libero object 96.3 · libero goal 85.4 · libero 10 63.8 | Tasks: reported avg 82.4 | Table 2 | Notes: Paper reports LIBERO-SPATIAL, OBJECT, GOAL, and LONG (which corresponds to libero_10). Uses modified LIBERO from OpenVLA as data source. However, the paper reports LIBERO-LONG not LIBERO-10, which may differ. The number of demos per task is not explicitly stated. Same score also reported in: https://arxiv.org/abs/2603.03195."
       },
       {
         "label": "ManiSkill2",
         "query": "ManiSkill2",
-        "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard), so overall_score is null. Averaging method: arithmetic. Paper-reported aggregate (65.8) stored in task_scores.reported_avg."
+        "overall": 65.8,
+        "detail": "Tasks: PickCube 79 · StackCube 80 · PickSingleYCB 62 · PickClutterYCB 36 · PickSingleEGAD 72 · reported avg 65.8 | Table 4 | Notes: Same 5 standard tasks but evaluation uses novel camera views from a 300K random camera pool (non-standard). Paper-reported aggregate 65.8 is used as the displayed score. Averaging method: arithmetic."
       },
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 67,
         "detail": "Suites: google robot vm 68.7 · google robot va 65.3 | Tasks: pick coke can vm 83.7 · pick coke can va 85.5 · move near vm 76 · move near va 73 · open close drawer vm 46.3 · open close drawer va 37.5 | Table 1 | Notes: Zero-shot evaluation on SimplerEnv Google Robot tasks. Follows SimplerEnv evaluation protocol with match and variant scenarios. Only 3 tasks reported (pick coke can, move near, drawer) - the standard requires 3 tasks for Google Robot VM/VA suite scores. No WidowX results reported."
       }
     ]
@@ -298,6 +301,7 @@
       {
         "label": "CALVIN",
         "query": "CALVIN",
+        "overall": 4.15,
         "detail": "Tasks: chain 1 94.2 · chain 2 89.3 · chain 3 82.7 · chain 4 78.5 · chain 5 70.3 · reported avg 4.15 | Table I | Notes: Protocol does not match ABC→D standard | ABCD→D split."
       },
       {
@@ -338,6 +342,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 64.45,
         "detail": "Suites: google robot vm 57.4 · widowx vm 71.5 | Tasks: pick coke can vm 57.5 · move near vm 55.8 · open close drawer vm 58.9 · put spoon on towel vm 84.2 · put carrot on plate vm 68.8 · stack green block on yellow block vm 37.5 · put eggplant in yellow basket vm 95.6 | Table 3, Table 4 | Notes: Standard SimplerEnv VM protocol for Google Robot (3 tasks) and WidowX (4 tasks)"
       }
     ]
@@ -354,6 +359,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 98.3,
         "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.6 · libero 10 96 | Tasks: reported avg 98.3 | Table 3 | Notes: Reports 4-suite LIBERO results. Demo count not stated explicitly. 50 episodes per task evaluation mentioned in appendix for LIBERO-Plus, assumed similar for LIBERO."
       },
       {
@@ -365,6 +371,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 75.867,
         "detail": "Suites: google robot vm 80.1 · google robot va 75.6 · widowx vm 71.9 | Tasks: pick coke can vm 92.3 · move near vm 74.2 · open close drawer vm 68.5 · put in drawer vm 85.2 · pick coke can va 95.7 · move near va 72.9 · open close drawer va 52.4 · put in drawer va 81.2 | Table 1, Table 2 | Notes: Evaluates on Google Robot (VM and VA) and WidowX tasks. Reports separate suite averages. Google Robot VM uses 4 tasks: Pick Coke Can, Move Near, Open/Close Drawer, Put in Drawer. Paper reports 4-task averages for google_robot_vm and google_robot_va. The standard uses 3-task average (excluding Put in Drawer), so storing the paper's 4-task average. WidowX VM uses Put Spoon on Towel, Put Carrot on..."
       }
     ]
@@ -387,6 +394,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 63.533,
         "detail": "Suites: google robot vm 77.6 · google robot va 49.4 · widowx vm 63.6 | Tasks: pick coke can vm 97 · move near vm 83.8 · open close drawer vm 55.6 · put in drawer vm 74.1 · pick coke can va 80.5 · move near va 61.5 · open close drawer va 31.7 · put in drawer va 23.8 | Table 1, Table 2 | Notes: Reports Google Robot VM/VA and WidowX VM suites. Note: google_robot_vm/va here are 4-task averages including Put in Drawer; standard uses 3-task average."
       }
     ]
@@ -415,6 +423,7 @@
       {
         "label": "LIBERO-Plus",
         "query": "LIBERO-Plus",
+        "overall": 79.4,
         "detail": "Tasks: reported avg 79.4 | Table 1 | Notes: Paper reports per-LIBERO-suite averages (Spatial 88.1, Object 79.0, Goal 70.2, Long 80.3) rather than per-perturbation-dimension scores (camera, robot, language, light, background, noise, layout). The 7 canonical perturbation dimensions are not reported. Trained on full LIBERO, evaluated zero-sho..."
       }
     ]
@@ -437,6 +446,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 23.3,
         "detail": "WX 23.3"
       },
       {
@@ -465,6 +475,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 66.3,
         "detail": "Suites: panda 66.3 | Table 1 | Notes: Standard RoboCasa 24 atomic tasks, 50 trials per seed across 5 seeds"
       }
     ]
@@ -487,6 +498,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 36.5,
         "detail": "Suites: easy 58 · hard 15 | Tasks: beat block hammer easy 93 · blocks ranking rgb easy 43 · click alarmclock easy 81 · hanging mug easy 18 · move pillbottle pad easy 20 · place object basket easy 28 · stack blocks two easy 61 · beat block hammer hard 54 · blocks ranking rgb hard 11 · click alarmclock hard 20 · hanging mug hard 5 · move pillbottle pad hard 2 · place object basket hard 4 · stack blocks two hard 10 | Table 5 | Notes: Protocol unknown. Protocol uncertain (50 demos/task, multi-task training). 7 tasks, Easy and Hard. Easy eval=100 trials/task, Hard eval=300 trials/task. Task count=7."
       }
     ]
@@ -509,6 +521,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 78.533,
         "detail": "Suites: google robot vm 78 · google robot va 70.1 · widowx vm 87.5 | Tasks: pick coke can vm 96.7 · move near vm 91.7 · open close drawer vm 90.4 · place apple in drawer vm 33.3 · pick coke can va 95.7 · move near va 78.3 · open close drawer va 73 · place apple in drawer va 33.3 · put spoon on towel vm 95.8 · put carrot on plate vm 87.5 · stack green block on yellow block vm 83.3 · put eggplant in yellow basket vm 83.3 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA with Google Robot 4 tasks and WidowX 4 tasks"
       }
     ]
@@ -531,6 +544,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 58.3,
         "detail": "Suites: widowx vm 58.3 | Tasks: put spoon on towel vm 58.3 · put carrot on plate vm 29.2 · stack green block on yellow block vm 50 · put eggplant in yellow basket vm 95.8 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation with 4 tasks, 24 trials each. Fine-tuned on BridgeDataV2."
       }
     ]
@@ -553,6 +567,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 55.6,
         "detail": "Suites: panda 55.6 | Table 1 | Notes: Standard RoboCasa 24 tasks, 50 trials across 5 scene layouts per task, 1200 total"
       }
     ]
@@ -569,6 +584,7 @@
       {
         "label": "CALVIN",
         "query": "CALVIN",
+        "overall": 3.967,
         "detail": "Tasks: chain 1 0.932 · chain 2 0.855 · chain 3 0.789 · chain 4 0.731 · chain 5 0.66 · avg len 3.967 | Table 1 | Notes: Protocol does not match ABC→D standard | Uses D→D split, not the standard ABC→D. Paper states 'We adopt the challenging D→D setting'."
       },
       {
@@ -597,6 +613,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 65.4,
         "detail": "Suites: panda 65.4 | Table 2 | Notes: RoboCasa Kitchen, 100 demos, 24 tasks. Applied on GR00T N1.5."
       }
     ]
@@ -619,6 +636,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 52.4,
         "detail": "Suites: panda 52.4 | Table 1 | Notes: 24 tasks, Human-50 setting (50 demos/task), 50 trials per task across 5 scenes."
       }
     ]
@@ -641,6 +659,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 80.2,
         "detail": "Suites: google robot vm 80.2 | Tasks: pick coke can vm 83.1 · move near vm 77.5 · open close drawer vm 80.15 | TABLE III | Notes: Reports task progress (%) not success rate. Only Google Robot VM. Drawer is split into Open and Close. No WidowX or VA."
       }
     ]
@@ -663,6 +682,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 62.667,
         "detail": "Suites: google robot vm 61.5 · google robot va 54.6 · widowx vm 71.9 | Tasks: pick coke can vm 88 · move near vm 71.7 · open close drawer vm 59.3 · place apple in drawer vm 26.9 · pick coke can va 83.2 · move near va 56.7 · open close drawer va 63.2 · place apple in drawer va 15.3 · put spoon on towel vm 95.8 · put carrot on plate vm 58.3 · stack green block on yellow block vm 54.2 · put eggplant in yellow basket vm 79.2 | Table 1, Table 2 | Notes: Standard SIMPLER VM/VA for Google Robot (4 tasks) and WidowX VM (4 tasks). 3-task avg for Google Robot suite scores."
       }
     ]
@@ -685,6 +705,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 79.5,
         "detail": "Suites: easy 79.91 · hard 79.1 | Table II | Notes: Protocol B: multi-task, 50 clean + 500 DR demos/task. 50 tasks. RGB-only evaluation (depth/raymap masked). Avg 79.5% reported in abstract."
       }
     ]
@@ -707,6 +728,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 72.9,
         "detail": "Suites: widowx vm 72.9 | Tasks: put carrot on plate vm 70.8 · put eggplant in yellow basket vm 66.7 · put spoon on towel vm 50 · stack green block on yellow block vm 50 | Table 3 | Notes: Standard SimplerEnv Bridge WidowX VM evaluation. Overall avg = (grasp+success averages)/2 per the paper's format, but widowx_vm is the average success."
       }
     ]
@@ -729,6 +751,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 52.375,
         "detail": "Tasks: adjust bottle 71 · beat block hammer 78 · click bell 95 · dump bin bigbin 13 · move playingcard away 39 · lift pot 31 · place burger fries 73 · place can basket 19 | Table 2 | Notes: Protocol B-like: multi-task training with ~500 DR demos per task, 8 tasks, Agilex Piper dual-arm, evaluated in unseen settings. Context-shared multimodal learning with text, image, and action joint training."
       }
     ]
@@ -751,6 +774,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 74.8,
         "detail": "Tasks: put spoon on towel vm 75.8 · put carrot on plate vm 71.7 · stack green block on yellow block vm 62.5 · put eggplant in basket vm 89.2 | Table I | Notes: WidowX VM tasks, trained on BridgeData V2, evaluated zero-shot."
       }
     ]
@@ -773,7 +797,8 @@
       {
         "label": "LIBERO-Pro",
         "query": "LIBERO-Pro",
-        "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing (shown as dash). 50 episodes per task. overall_score omitted because of the missing cell."
+        "overall": 59.474,
+        "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing. The displayed score is the arithmetic mean of the 19 reported cells and should be treated as incomplete."
       }
     ]
   },
@@ -795,6 +820,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 59,
         "detail": "Suites: widowx vm 59 | Tasks: spoon on towel vm 59 · carrot on plate vm 79 · stack cube vm 65 · put eggplant in basket vm 33 | Table 2 | Notes: WidowX VM only. Score is a reproduction by the citing paper."
       }
     ]
@@ -840,6 +866,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 66.633,
         "detail": "Suites: widowx vm 37.5 · google robot vm 81.9 · google robot va 80.5 | Tasks: pick coke can vm 86.7 · move near vm 77.1 · pick coke can va 90.2 · move near va 70.7 | Table 1, Table 2 | Notes: Google Robot VM/VA only reports Pick Coke Can and Move Near (2 tasks), not Open/Close Drawer. WidowX VM reported. Non-standard 2-task Google Robot avg."
       }
     ]
@@ -867,6 +894,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 42.7,
         "detail": "Suites: widowx vm 42.7 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation. Score is cited as a baseline in the citing paper. Same score also reported in: https://arxiv.org/abs/2603.12730."
       }
     ]
@@ -889,6 +917,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 69.25,
         "detail": "Suites: google robot vm 75.5 · google robot va 63 | Tasks: pick coke can vm 92.3 · move near vm 84.2 · open close drawer vm 72.7 · pick coke can va 92.1 · move near va 81.5 · open close drawer va 31.2 | Table 3 | Notes: Only Google Robot evaluated (Visual Matching and Variant Aggregation with 3 tasks each). No WidowX tasks. DrawerApple task included in table but not part of standard 3-task suite average for google_robot_vm/va."
       }
     ]
@@ -911,6 +940,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 10.733,
         "detail": "Suites: google robot vm 14.6 · google robot va 1.6 · widowx vm 16 | Tasks: pick coke can vm 17 · move near vm 4.2 · open close drawer vm 22.7 · pick coke can va 0.6 · move near va 3.1 · open close drawer va 1.1 · spoon on towel vm 12.5 · carrot on plate vm 8.3 · stack cube vm 0 · put eggplant in basket vm 43.1 | Table I; Table 2 | Notes: Reports standard 3 Google Robot tasks (Pick Coke Can, Move Near, Open/Close Drawer) for both VM and VA settings. Score is cited as a baseline in the citing paper."
       }
     ]
@@ -933,6 +963,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 74.85,
         "detail": "Suites: google robot vm 81.9 · google robot va 67.8 | Tasks: pick coke can vm 92 · move near vm 83.3 · open close drawer vm 70.5 · place apple in drawer vm 51.6 · pick coke can va 91.7 · move near va 79.3 · open close drawer va 32.5 · place apple in drawer va 45.8 | Table 3 | Notes: Reports standard Google Robot tasks for VM and VA settings."
       }
     ]
@@ -949,6 +980,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 97,
         "detail": "Suites: libero goal 98 · libero object 98 · libero spatial 98 · libero 10 92 | Tasks: reported avg 97 | Table 1 | Notes: Cited baseline from Table 1. Single checkpoint for all suites."
       },
       {
@@ -977,6 +1009,7 @@
       {
         "label": "RoboTwin 2.0",
         "query": "RoboTwin 2.0",
+        "overall": 68.6,
         "detail": "Suites: easy 68.6 | Tasks: Handover Block 61 · Handover Mic 87 · Pick Diverse Bottles 67 · Pick Dual Bottles 68 · Place Dual Shoes 60 | Table 2 | Notes: Protocol unknown. 5 tasks from RoboTwin 2.0, Easy setting only. Non-standard subset."
       }
     ]
@@ -999,6 +1032,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 96.4,
         "detail": "Tasks: reported avg 96.4 | Table 1 | Notes: Paper reports only LIBERO-Long (avg success rate 96.4% with multi-view). Suite-level breakdown not provided for the other 3 suites, so cannot confirm standard 4-suite average. This is the LIBERO-Long multi-view success rate."
       }
     ]
@@ -1021,7 +1055,8 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
-        "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, Long suites but not libero_10. Long is not the same as libero_10. Missing libero_10 means overall_score must be null. The Avg. SR of 95.3 includes Long instead of libero_10."
+        "overall": 95.3,
+        "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, and Long suites but not libero_10. Long is not the same as libero_10. The displayed score is the paper-reported Avg. SR of 95.3 and should be treated as non-standard."
       }
     ]
   },
@@ -1043,6 +1078,7 @@
       {
         "label": "RoboCasa",
         "query": "RoboCasa",
+        "overall": 47.22,
         "detail": "Tasks: reported avg 16tasks panda 47.22 | Table 1 | Notes: Only 16 of 24 tasks. 50 demos, 50 evaluation episodes, 3 seeds."
       }
     ]
@@ -1065,6 +1101,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 55.5,
         "detail": "Suites: widowx vm 55.5 | Tasks: put spoon on towel vm 56.9 · put carrot on plate vm 76.3 · stack green block on yellow block vm 30.6 · put eggplant in yellow basket vm 58.3 | Table 1 | Notes: Standard SimplerEnv WidowX VM evaluation."
       }
     ]
@@ -1087,6 +1124,7 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
+        "overall": 95.2,
         "detail": "Suites: libero spatial 96.5 · libero object 96.8 · libero goal 95.6 · libero 10 92 | Tasks: reported avg 95.2 | Table 1 | Notes: Cited baseline; 4 standard suites reported."
       }
     ]
@@ -1109,7 +1147,8 @@
       {
         "label": "LIBERO",
         "query": "LIBERO",
-        "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90 results. Missing libero_spatial, libero_object, libero_goal suites required for overall_score."
+        "overall": 91.5,
+        "detail": "Suites: libero 10 92 · libero 90 91 | Table 5 | Notes: Only reports LIBERO-10 (Long) and LIBERO-90. The displayed score is the arithmetic mean of those two reported values; missing libero_spatial, libero_object, and libero_goal make it non-standard."
       }
     ]
   },
@@ -1131,6 +1170,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 59.2,
         "detail": "Suites: google robot vm 59.2 | Tasks: pick coke can vm 74 · move near vm 60.4 · open close drawer vm 43.1 | Table 2 | Notes: Reports Google Robot Visual Matching only (no VA, no WidowX). Uses 3 standard tasks. Paper reports on 0-1 scale, converted to 0-100."
       }
     ]
@@ -1225,6 +1265,7 @@
       {
         "label": "SimplerEnv",
         "query": "SimplerEnv",
+        "overall": 70.9,
         "detail": "VM 70.9"
       }
     ]

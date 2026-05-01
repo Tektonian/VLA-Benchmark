@@ -10,11 +10,13 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 86.6,
       "detail": "Tasks: reported avg 86.6"
     },
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 71.85,
       "detail": "Suites: google robot vm 71.6 · google robot va 72.1 | Tasks: pick coke can vm 77.7 · move near vm 77.1 · open close drawer vm 60 · pick coke can va 76.1 · move near va 61.3 · open close drawer va 78.8 | Table 1"
     }
   ]

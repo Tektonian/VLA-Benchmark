@@ -16,6 +16,7 @@
     {
       "label": "RoboCasa",
       "query": "RoboCasa",
+      "overall": 47.22,
       "detail": "Tasks: reported avg 16tasks panda 47.22 | Table 1 | Notes: Only 16 of 24 tasks. 50 demos, 50 evaluation episodes, 3 seeds."
     }
   ]

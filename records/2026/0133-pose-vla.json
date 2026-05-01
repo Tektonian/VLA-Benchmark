@@ -16,6 +16,7 @@
     {
       "label": "RoboTwin 2.0",
       "query": "RoboTwin 2.0",
+      "overall": 79.5,
       "detail": "Suites: easy 79.91 · hard 79.1 | Table II | Notes: Protocol B: multi-task, 50 clean + 500 DR demos/task. 50 tasks. RGB-only evaluation (depth/raymap masked). Avg 79.5% reported in abstract."
     }
   ]

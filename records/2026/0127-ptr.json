@@ -16,6 +16,7 @@
     {
       "label": "RoboCasa",
       "query": "RoboCasa",
+      "overall": 55.6,
       "detail": "Suites: panda 55.6 | Table 1 | Notes: Standard RoboCasa 24 tasks, 50 trials across 5 scene layouts per task, 1200 total"
     }
   ]

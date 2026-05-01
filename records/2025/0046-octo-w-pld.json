@@ -10,11 +10,13 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
+      "overall": 97.2,
       "detail": "Suites: libero spatial 97.7 · libero object 98.5 · libero goal 95.3 | Tasks: reported avg 97.2 | Table 1"
     },
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 96.625,
       "detail": "Tasks: put eggplant in basket vm 97.8 · put carrot on plate vm 93.9 · open close drawer vm 99.3 · pick coke can vm 95.5 | Table 2"
     }
   ]

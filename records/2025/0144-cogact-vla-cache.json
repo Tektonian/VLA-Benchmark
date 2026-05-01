@@ -16,6 +16,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 74.85,
       "detail": "Suites: google robot vm 81.9 · google robot va 67.8 | Tasks: pick coke can vm 92 · move near vm 83.3 · open close drawer vm 70.5 · place apple in drawer vm 51.6 · pick coke can va 91.7 · move near va 79.3 · open close drawer va 32.5 · place apple in drawer va 45.8 | Table 3 | Notes: Reports standard Google Robot tasks for VM and VA settings."
     }
   ]

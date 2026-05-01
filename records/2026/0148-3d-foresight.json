@@ -16,7 +16,8 @@
     {
       "label": "LIBERO",
       "query": "LIBERO",
-      "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, Long suites but not libero_10. Long is not the same as libero_10. Missing libero_10 means overall_score must be null. The Avg. SR of 95.3 includes Long instead of libero_10."
+      "overall": 95.3,
+      "detail": "Suites: libero spatial 96.4 · libero object 98 · libero goal 94.8 | Tasks: reported avg 95.3 | Table II | Notes: Paper reports Spatial, Object, Goal, and Long suites but not libero_10. Long is not the same as libero_10. The displayed score is the paper-reported Avg. SR of 95.3 and should be treated as non-standard."
     }
   ]
 }

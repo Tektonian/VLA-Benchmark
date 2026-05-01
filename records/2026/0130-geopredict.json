@@ -16,6 +16,7 @@
     {
       "label": "RoboCasa",
       "query": "RoboCasa",
+      "overall": 52.4,
       "detail": "Suites: panda 52.4 | Table 1 | Notes: 24 tasks, Human-50 setting (50 demos/task), 50 trials per task across 5 scenes."
     }
   ]

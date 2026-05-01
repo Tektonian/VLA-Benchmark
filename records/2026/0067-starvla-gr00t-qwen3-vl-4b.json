@@ -10,6 +10,7 @@
     {
       "label": "SimplerEnv",
       "query": "SimplerEnv",
+      "overall": 65.3,
       "detail": "Suites: widowx vm 65.3 | Tasks: put spoon on towel vm 83 · put carrot on plate vm 59.4 · stack green block on yellow block vm 18.8 · put eggplant in yellow basket vm 100 | Table 3"
     }
   ]

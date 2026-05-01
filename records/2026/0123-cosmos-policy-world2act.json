@@ -16,6 +16,7 @@
     {
       "label": "RoboCasa",
       "query": "RoboCasa",
+      "overall": 66.3,
       "detail": "Suites: panda 66.3 | Table 1 | Notes: Standard RoboCasa 24 atomic tasks, 50 trials per seed across 5 seeds"
     }
   ]

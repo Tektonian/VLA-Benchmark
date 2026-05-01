@@ -16,7 +16,8 @@
     {
       "label": "LIBERO-Pro",
       "query": "LIBERO-Pro",
-      "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing (shown as dash). 50 episodes per task. overall_score omitted because of the missing cell."
+      "overall": 59.474,
+      "detail": "Suites: goal ori 98 · goal obj 81 · goal pos 4 · goal sem 98 · goal task 10 · spatial ori 97 · spatial obj 98 · spatial pos 12 · spatial sem 97 · long ori 94 · long obj 54 · long pos 2 · long sem 93 · long task 9 · object ori 97 · object obj 86 · object pos 3 · object sem 97 · object task 0 | TABLE II | Notes: First-party result from the GLaD (Geometric Latent Distillation) paper. 19 of 20 core cells reported; spatial_task is missing. The displayed score is the arithmetic mean of the 19 reported cells and should be treated as incomplete."
     }
   ]
 }
