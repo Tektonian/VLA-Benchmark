@@ -72,15 +72,33 @@
     "paperTitle": "StarVLA-α: Reducing Complexity in Vision-Language-Action Systems",
     "paperUrl": "https://arxiv.org/abs/2604.11757",
     "arxivId": "2604.11757",
-    "publishedAt": "Apr 2026",
+    "publishedAt": "Apr 13, 2026",
     "organization": "HKUST / XJTU / CUHK / Tsinghua / Alibaba Tongyi Lab / SmartMore",
     "flag": "🇭🇰 🇨🇳",
     "benchmarks": [
       {
         "label": "LIBERO",
         "query": "LIBERO",
-        "detail": "Table 1: libero spatial 98.7 · libero object 99.7 · libero goal 98.6 · libero long 94.2 · overall 97.8.",
-        "overall": 97.8
+        "overall": 98.8,
+        "detail": "Suites: libero spatial 99.0 · libero object 99.8 · libero goal 98.5 · libero long 94.1 | Table 1 | Notes: Specialist setting; separate models trained on each benchmark-specific dataset with the unified minimal data pipeline."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 70.3,
+        "detail": "Suites: WidowX 64.6 · Google-VA 70.2 · Google-VM 76.0 | Table 1 | Notes: Specialist setting. Overall is the mean of the three paper-reported SimplerEnv suite aggregates because the paper does not report a single SimplerEnv average."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 88.3,
+        "detail": "Suites: clean 50.3 · clean* 88.2 · random* 88.3 | Table 1 | Notes: Specialist setting. Asterisk indicates both clean and random data are used for training. Overall uses the paper-reported random* aggregate over RoboTwin 2.0 tasks; clean/clean* are included for context."
+      },
+      {
+        "label": "RoboCasa-GR1",
+        "query": "RoboCasa-GR1",
+        "overall": 53.8,
+        "detail": "Suites: average over 24 RoboCasa-GR1 tasks 53.8 | Table 1 | Notes: Specialist setting; humanoid/tabletop benchmark built on RoboCasa with 1000 demonstrations per task."
       }
     ]
   },
@@ -1299,6 +1317,169 @@
         "label": "LIBERO",
         "query": "LIBERO",
         "overall": 85.6
+      }
+    ]
+  },
+  {
+    "model": "RLDX-1",
+    "paperTitle": "RLDX-1 Technical Report",
+    "paperUrl": "https://arxiv.org/abs/2605.03269",
+    "arxivId": "2605.03269",
+    "publishedAt": "May 5, 2026",
+    "organization": "RLWRLD / KAIST",
+    "flag": "🇰🇷",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.8,
+        "detail": "Suites: libero spatial 98.0 · libero object 99.3 · libero goal 98.4 · libero long 95.3 | Table 1 and Appendix Table 11 | Notes: Standard 4-suite LIBERO; fine-tuned on concatenated training datasets and evaluated 50 times per task."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 86.7,
+        "detail": "Suites: camera 75.0 · robot 91.8 · language 92.2 · light 97.1 · background 95.5 · noise 80.3 · layout 80.7 | Table 1 and Appendix Table 11 | Notes: Evaluated on all 10,300 LIBERO-Plus perturbation tasks using the same checkpoints as LIBERO."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 76.9,
+        "detail": "Suites: Google-VM 81.5 · Google-VA 77.4 · WidowX 71.9 | Tasks: Google-VM move near 92.0 · close drawer 78.5 · open drawer 58.5 · pick coke can 97.0; Google-VA move near 90.9 · close drawer 93.2 · open drawer 32.3 · pick coke can 93.4; WidowX carrot on plate 83.0 · put eggplant in basket 52.0 · spoon on towel 88.5 · stack cube 64.0 | Table 1 and Appendix Table 12 | Notes: Overall is the mean of the three paper-reported SimplerEnv suite averages. Google-VM and WidowX use 200 evaluations per task; Google-VA uses 100 evaluations per task perturbation."
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 70.6,
+        "detail": "Suites: RoboCasa Kitchen total 70.6 over 24 tasks | Table 1 and Appendix Table 13 | Notes: Fine-tuned on 300 machine-generated demonstrations per task and evaluated over 50 episodes per task."
+      },
+      {
+        "label": "GR-1 Tabletop",
+        "query": "GR-1 Tabletop",
+        "overall": 58.7,
+        "detail": "Suites: total 58.7 over 24 tasks, including 18 object rearrangement and 6 articulated object manipulation tasks | Table 1 and Appendix Table 14 | Notes: GR-1 humanoid tabletop benchmark; fine-tuned on 1,000 machine-generated demonstrations per task and evaluated over 50 episodes per task."
+      },
+      {
+        "label": "RoboCasa365",
+        "query": "RoboCasa365",
+        "overall": 32.1,
+        "detail": "Suites: Atomic-Seen 67.3 · Composite-Seen 19.0 · Composite-Unseen 5.6 | Table 1 and Appendix Table 15 | Notes: Official RoboCasa365 50-task multi-task benchmark after training on the 300-task human pre-training dataset."
+      }
+    ]
+  },
+  {
+    "model": "PRTS",
+    "paperTitle": "PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations",
+    "paperUrl": "https://arxiv.org/abs/2604.27472",
+    "arxivId": "2604.27472",
+    "publishedAt": "Apr 30, 2026",
+    "organization": "Institute of Artificial Intelligence (TeleAI), China Telecom / Tsinghua University / Shanghai Jiao Tong University / Fudan University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.4,
+        "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.4 · libero long 96.6 | Table 2 | Notes: Four standard LIBERO suites. PRTS is post-trained with global batch size 32 for 30K gradient steps."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 81.4,
+        "detail": "Suites: camera 59.5 · robot 72.4 · language 89.6 · light 96.5 · background 96.7 · noise 81.3 · layout 83.3 | Table 3 | Notes: Zero-shot robustness evaluation on 10,030 LIBERO-Plus test tasks using the checkpoint post-trained only on standard LIBERO."
+      },
+      {
+        "label": "LIBERO-Pro",
+        "query": "LIBERO-Pro",
+        "overall": 58.8,
+        "detail": "Suites: semantic 97.0 · object 82.3 · position 24.3 · task 31.5 | Table 4 | Notes: Zero-shot generalization evaluation using the LIBERO-finetuned checkpoint. The paper explicitly omits the Environment perturbation because official assets were not yet released."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 77.1,
+        "detail": "Suites: WidowX visual matching 77.1 | Tasks: put spoon on towel 83.3 · put carrot on plate 66.6 · stack green block on yellow block 58.3 · put eggplant in yellow basket 100.0 | Table 5 | Notes: SimplerEnv BridgeData V2/WidowX track; PRTS is post-trained on BridgeData V2 with global batch size 1024 for 20K gradient steps."
+      }
+    ]
+  },
+  {
+    "model": "StarVLA-α (Generalist)",
+    "paperTitle": "StarVLA-α: Reducing Complexity in Vision-Language-Action Systems",
+    "paperUrl": "https://arxiv.org/abs/2604.11757",
+    "arxivId": "2604.11757",
+    "publishedAt": "Apr 13, 2026",
+    "organization": "HKUST / XJTU / CUHK / Tsinghua / Alibaba Tongyi Lab / SmartMore",
+    "flag": "🇭🇰 🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.8,
+        "detail": "Suites: libero spatial 98.7 · libero object 99.7 · libero goal 98.6 · libero long 94.2 | Table 1 and Table 5 | Notes: Generalist setting; a single model jointly trained across LIBERO, SimplerEnv, RoboTwin 2.0, and RoboCasa-GR1 datasets."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 69.8,
+        "detail": "Suites: WidowX 65.2 · Google-VA 69.8 · Google-VM 74.3 | Table 1 and Table 5 | Notes: Generalist setting. Overall is the mean of the three paper-reported SimplerEnv suite aggregates because the paper does not report a single SimplerEnv average."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 87.8,
+        "detail": "Suites: clean* 88.7 · random* 87.8 | Table 1 and Table 5 | Notes: Generalist setting. Asterisk indicates both clean and random data are used for training. Overall uses the paper-reported random* aggregate over RoboTwin 2.0 tasks; the paper does not report a clean-only Generalist score."
+      },
+      {
+        "label": "RoboCasa-GR1",
+        "query": "RoboCasa-GR1",
+        "overall": 57.3,
+        "detail": "Suites: average over 24 RoboCasa-GR1 tasks 57.3 | Table 1 and Table 5 | Notes: Generalist setting; a single jointly trained model improves over the Specialist StarVLA-α RoboCasa-GR1 score."
+      },
+      {
+        "label": "RoboChallenge",
+        "query": "RoboChallenge",
+        "overall": 33.6,
+        "detail": "Suites: ARX5 standard 11-task set average success rate 33.6 | Tasks: arrange flowers 40.0 · arrange paper cups 20.0 · fold dishcloth 0.0 · open the drawer 20.0 · place shoes on rack 50.0 · put cup on coaster 100.0 · search green boxes 60.0 · sort electronic products 20.0 · turn on light switch 50.0 · water potted plant 10.0 · wipe the table 0.0 | Table 7 | Notes: Public real-world RoboChallenge evaluation as a Generalist; table also reports progress score 54.5, but overall stores success rate."
+      }
+    ]
+  },
+  {
+    "model": "MolmoAct2",
+    "paperTitle": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+    "paperUrl": "https://arxiv.org/abs/2605.02881",
+    "arxivId": "2605.02881",
+    "publishedAt": "May 4, 2026",
+    "organization": "Allen Institute for AI / University of Washington",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.2,
+        "detail": "Suites: libero spatial 97.8 · libero object 100.0 · libero goal 97.8 · libero long 93.2 | Table 8 | Notes: MolmoAct2-LIBERO checkpoint fine-tuned on the full LIBERO training mixture; four standard LIBERO suites."
+      },
+      {
+        "label": "RoboEval",
+        "query": "RoboEval",
+        "overall": 44.3,
+        "detail": "Tasks: reported average over 8 RoboEval manipulation tasks | Figure 6 and Section 6.3 | Notes: Paper reports MolmoAct2 attains 44.3% success rate on RoboEval after fine-tuning the MolmoAct2-Post checkpoint on the RoboEval dataset. Figure 6 shows task-wise bars for Cube Handover, Lift Pot, Lift Tray, Pack Box, Pick Book, Rotate Valve, Stack Book Shelf, and Stack Two Blocks, but the paper text provides only the aggregate numeric score."
+      }
+    ]
+  },
+  {
+    "model": "MolmoAct2-Think",
+    "paperTitle": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+    "paperUrl": "https://arxiv.org/abs/2605.02881",
+    "arxivId": "2605.02881",
+    "publishedAt": "May 4, 2026",
+    "organization": "Allen Institute for AI / University of Washington",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.1,
+        "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.5 · libero long 95.4 | Table 8 | Notes: MolmoAct2-Think-LIBERO adaptive-depth variant fine-tuned with the same full-LIBERO recipe and compute budget as MolmoAct2-LIBERO; four standard LIBERO suites."
       }
     ]
   }

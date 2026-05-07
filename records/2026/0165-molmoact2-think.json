@@ -1,0 +1,17 @@
+{
+  "model": "MolmoAct2-Think",
+  "paperTitle": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+  "paperUrl": "https://arxiv.org/abs/2605.02881",
+  "arxivId": "2605.02881",
+  "publishedAt": "May 4, 2026",
+  "organization": "Allen Institute for AI / University of Washington",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.1,
+      "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.5 · libero long 95.4 | Table 8 | Notes: MolmoAct2-Think-LIBERO adaptive-depth variant fine-tuned with the same full-LIBERO recipe and compute budget as MolmoAct2-LIBERO; four standard LIBERO suites."
+    }
+  ]
+}

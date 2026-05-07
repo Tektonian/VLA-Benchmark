@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "chunkSize": 100,
-  "totalRecords": 160,
+  "totalRecords": 165,
   "totalChunks": 2,
   "chunks": [
     {
@@ -15,10 +15,10 @@
     {
       "id": "0002",
       "path": "vla-benchmark/0002.json",
-      "count": 60,
+      "count": 65,
       "startIndex": 100,
-      "endIndex": 159,
-      "sha256": "b6218e46be30012ce9caa91729cbd2dd67cab38448043c223cbf0711779b3bef"
+      "endIndex": 164,
+      "sha256": "bab7c3911d296ead75b63bd23e0b64ba30f5603094b373f8de9a3f6b6fc055a0"
     }
   ]
 }

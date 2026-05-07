@@ -1,0 +1,35 @@
+{
+  "model": "PRTS",
+  "paperTitle": "PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations",
+  "paperUrl": "https://arxiv.org/abs/2604.27472",
+  "arxivId": "2604.27472",
+  "publishedAt": "Apr 30, 2026",
+  "organization": "Institute of Artificial Intelligence (TeleAI), China Telecom / Tsinghua University / Shanghai Jiao Tong University / Fudan University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.4,
+      "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.4 · libero long 96.6 | Table 2 | Notes: Four standard LIBERO suites. PRTS is post-trained with global batch size 32 for 30K gradient steps."
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 81.4,
+      "detail": "Suites: camera 59.5 · robot 72.4 · language 89.6 · light 96.5 · background 96.7 · noise 81.3 · layout 83.3 | Table 3 | Notes: Zero-shot robustness evaluation on 10,030 LIBERO-Plus test tasks using the checkpoint post-trained only on standard LIBERO."
+    },
+    {
+      "label": "LIBERO-Pro",
+      "query": "LIBERO-Pro",
+      "overall": 58.8,
+      "detail": "Suites: semantic 97.0 · object 82.3 · position 24.3 · task 31.5 | Table 4 | Notes: Zero-shot generalization evaluation using the LIBERO-finetuned checkpoint. The paper explicitly omits the Environment perturbation because official assets were not yet released."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 77.1,
+      "detail": "Suites: WidowX visual matching 77.1 | Tasks: put spoon on towel 83.3 · put carrot on plate 66.6 · stack green block on yellow block 58.3 · put eggplant in yellow basket 100.0 | Table 5 | Notes: SimplerEnv BridgeData V2/WidowX track; PRTS is post-trained on BridgeData V2 with global batch size 1024 for 20K gradient steps."
+    }
+  ]
+}

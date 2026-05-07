@@ -1,0 +1,41 @@
+{
+  "model": "StarVLA-α (Generalist)",
+  "paperTitle": "StarVLA-α: Reducing Complexity in Vision-Language-Action Systems",
+  "paperUrl": "https://arxiv.org/abs/2604.11757",
+  "arxivId": "2604.11757",
+  "publishedAt": "Apr 13, 2026",
+  "organization": "HKUST / XJTU / CUHK / Tsinghua / Alibaba Tongyi Lab / SmartMore",
+  "flag": "🇭🇰 🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.8,
+      "detail": "Suites: libero spatial 98.7 · libero object 99.7 · libero goal 98.6 · libero long 94.2 | Table 1 and Table 5 | Notes: Generalist setting; a single model jointly trained across LIBERO, SimplerEnv, RoboTwin 2.0, and RoboCasa-GR1 datasets."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 69.8,
+      "detail": "Suites: WidowX 65.2 · Google-VA 69.8 · Google-VM 74.3 | Table 1 and Table 5 | Notes: Generalist setting. Overall is the mean of the three paper-reported SimplerEnv suite aggregates because the paper does not report a single SimplerEnv average."
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 87.8,
+      "detail": "Suites: clean* 88.7 · random* 87.8 | Table 1 and Table 5 | Notes: Generalist setting. Asterisk indicates both clean and random data are used for training. Overall uses the paper-reported random* aggregate over RoboTwin 2.0 tasks; the paper does not report a clean-only Generalist score."
+    },
+    {
+      "label": "RoboCasa-GR1",
+      "query": "RoboCasa-GR1",
+      "overall": 57.3,
+      "detail": "Suites: average over 24 RoboCasa-GR1 tasks 57.3 | Table 1 and Table 5 | Notes: Generalist setting; a single jointly trained model improves over the Specialist StarVLA-α RoboCasa-GR1 score."
+    },
+    {
+      "label": "RoboChallenge",
+      "query": "RoboChallenge",
+      "overall": 33.6,
+      "detail": "Suites: ARX5 standard 11-task set average success rate 33.6 | Tasks: arrange flowers 40.0 · arrange paper cups 20.0 · fold dishcloth 0.0 · open the drawer 20.0 · place shoes on rack 50.0 · put cup on coaster 100.0 · search green boxes 60.0 · sort electronic products 20.0 · turn on light switch 50.0 · water potted plant 10.0 · wipe the table 0.0 | Table 7 | Notes: Public real-world RoboChallenge evaluation as a Generalist; table also reports progress score 54.5, but overall stores success rate."
+    }
+  ]
+}

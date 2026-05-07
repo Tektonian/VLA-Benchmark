@@ -1,0 +1,47 @@
+{
+  "model": "RLDX-1",
+  "paperTitle": "RLDX-1 Technical Report",
+  "paperUrl": "https://arxiv.org/abs/2605.03269",
+  "arxivId": "2605.03269",
+  "publishedAt": "May 5, 2026",
+  "organization": "RLWRLD / KAIST",
+  "flag": "🇰🇷",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.8,
+      "detail": "Suites: libero spatial 98.0 · libero object 99.3 · libero goal 98.4 · libero long 95.3 | Table 1 and Appendix Table 11 | Notes: Standard 4-suite LIBERO; fine-tuned on concatenated training datasets and evaluated 50 times per task."
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 86.7,
+      "detail": "Suites: camera 75.0 · robot 91.8 · language 92.2 · light 97.1 · background 95.5 · noise 80.3 · layout 80.7 | Table 1 and Appendix Table 11 | Notes: Evaluated on all 10,300 LIBERO-Plus perturbation tasks using the same checkpoints as LIBERO."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 76.9,
+      "detail": "Suites: Google-VM 81.5 · Google-VA 77.4 · WidowX 71.9 | Tasks: Google-VM move near 92.0 · close drawer 78.5 · open drawer 58.5 · pick coke can 97.0; Google-VA move near 90.9 · close drawer 93.2 · open drawer 32.3 · pick coke can 93.4; WidowX carrot on plate 83.0 · put eggplant in basket 52.0 · spoon on towel 88.5 · stack cube 64.0 | Table 1 and Appendix Table 12 | Notes: Overall is the mean of the three paper-reported SimplerEnv suite averages. Google-VM and WidowX use 200 evaluations per task; Google-VA uses 100 evaluations per task perturbation."
+    },
+    {
+      "label": "RoboCasa",
+      "query": "RoboCasa",
+      "overall": 70.6,
+      "detail": "Suites: RoboCasa Kitchen total 70.6 over 24 tasks | Table 1 and Appendix Table 13 | Notes: Fine-tuned on 300 machine-generated demonstrations per task and evaluated over 50 episodes per task."
+    },
+    {
+      "label": "GR-1 Tabletop",
+      "query": "GR-1 Tabletop",
+      "overall": 58.7,
+      "detail": "Suites: total 58.7 over 24 tasks, including 18 object rearrangement and 6 articulated object manipulation tasks | Table 1 and Appendix Table 14 | Notes: GR-1 humanoid tabletop benchmark; fine-tuned on 1,000 machine-generated demonstrations per task and evaluated over 50 episodes per task."
+    },
+    {
+      "label": "RoboCasa365",
+      "query": "RoboCasa365",
+      "overall": 32.1,
+      "detail": "Suites: Atomic-Seen 67.3 · Composite-Seen 19.0 · Composite-Unseen 5.6 | Table 1 and Appendix Table 15 | Notes: Official RoboCasa365 50-task multi-task benchmark after training on the 300-task human pre-training dataset."
+    }
+  ]
+}
