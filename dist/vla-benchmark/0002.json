@@ -1459,10 +1459,16 @@
         "detail": "Suites: libero spatial 97.8 · libero object 100.0 · libero goal 97.8 · libero long 93.2 | Table 8 | Notes: MolmoAct2-LIBERO checkpoint fine-tuned on the full LIBERO training mixture; four standard LIBERO suites."
       },
       {
+        "label": "MolmoSpaces",
+        "query": "MolmoSpaces",
+        "overall": 37.7,
+        "detail": "Tasks: Pick 43.7±3.1 · Pick & Place 26.7±2.8 · Open 9.5±2.0 · Close 70.8±3.0 | Table 4 | Notes: MolmoAct2-DROID is evaluated zero-shot on MolmoSpaces tasks and reports a 37.7 average success rate, ahead of π0.5-DROID at 34.5."
+      },
+      {
         "label": "RoboEval",
         "query": "RoboEval",
         "overall": 44.3,
-        "detail": "Tasks: reported average over 8 RoboEval manipulation tasks | Figure 6 and Section 6.3 | Notes: Paper reports MolmoAct2 attains 44.3% success rate on RoboEval after fine-tuning the MolmoAct2-Post checkpoint on the RoboEval dataset. Figure 6 shows task-wise bars for Cube Handover, Lift Pot, Lift Tray, Pack Box, Pick Book, Rotate Valve, Stack Book Shelf, and Stack Two Blocks, but the paper text provides only the aggregate numeric score."
+        "detail": "See https://allenai.org/blog/molmoact2 !. Tasks: reported average over 8 RoboEval manipulation tasks | Figure 6 and Section 6.3 | Notes: Paper reports MolmoAct2 attains 44.3% success rate, also presented as a 0.443 RoboEval score, after fine-tuning the MolmoAct2-Post checkpoint on the RoboEval dataset. Figure 6 shows task-wise bars for Cube Handover, Lift Pot, Lift Tray, Pack Box, Pick Book, Rotate Valve, Stack Book Shelf, and Stack Two Blocks, but the paper text provides only the aggregate numeric score."
       }
     ]
   },
