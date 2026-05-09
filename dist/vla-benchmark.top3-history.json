@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "topRankLimit": 3,
+  "scoreDescription": "Matches the vla-leaderboard overall rank score: for each benchmark label, eligible models receive 5/4/3/2/1 points for ranks 1-5 by best overall score, then points are averaged over ranked benchmark count.",
+  "minRankBenchmarkCount": 5,
+  "topRankPoints": [
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "totalRecords": 165,
+  "finalTop": [
+    {
+      "rank": 1,
+      "model": "RLDX-1",
+      "paperTitle": "RLDX-1 Technical Report",
+      "paperUrl": "https://arxiv.org/abs/2605.03269",
+      "arxivId": "2605.03269",
+      "publishedAt": "May 5, 2026",
+      "organization": "RLWRLD / KAIST",
+      "flag": "🇰🇷",
+      "benchmarkCount": 6,
+      "rankedBenchmarkCount": 6,
+      "points": 28,
+      "rankScore": 4.666666666666667
+    },
+    {
+      "rank": 2,
+      "model": "X-VLA",
+      "paperTitle": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+      "paperUrl": "https://arxiv.org/abs/2510.10274",
+      "arxivId": "2510.10274",
+      "publishedAt": "Oct 2025",
+      "organization": "AIR / Tsinghua / Shanghai AI Lab / Peking University",
+      "flag": "🇨🇳",
+      "benchmarkCount": 6,
+      "rankedBenchmarkCount": 6,
+      "points": 27,
+      "rankScore": 4.5
+    },
+    {
+      "rank": 3,
+      "model": "StarVLA-α (Generalist)",
+      "paperTitle": "StarVLA-α: Reducing Complexity in Vision-Language-Action Systems",
+      "paperUrl": "https://arxiv.org/abs/2604.11757",
+      "arxivId": "2604.11757",
+      "publishedAt": "Apr 13, 2026",
+      "organization": "HKUST / XJTU / CUHK / Tsinghua / Alibaba Tongyi Lab / SmartMore",
+      "flag": "🇭🇰 🇨🇳",
+      "benchmarkCount": 5,
+      "rankedBenchmarkCount": 5,
+      "points": 20,
+      "rankScore": 4
+    }
+  ],
+  "history": []
+}

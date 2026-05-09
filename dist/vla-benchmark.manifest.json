@@ -3,6 +3,14 @@
   "chunkSize": 100,
   "totalRecords": 165,
   "totalChunks": 2,
+  "topRankHistory": {
+    "path": "vla-benchmark.top3-history.json",
+    "topRankLimit": 3,
+    "minRankBenchmarkCount": 5,
+    "historyEventCount": 0,
+    "finalTopCount": 3,
+    "sha256": "02b14384e54c42b6a262355770a36da3edd08fd959f632db7699db7270eeb12c"
+  },
   "chunks": [
     {
       "id": "0001",
