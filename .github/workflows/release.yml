@@ -1,0 +1,73 @@
+name: Publish VLA Benchmark Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vla-benchmark-release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm run validate
+      - run: npm run build
+
+      - name: Collect JSON release assets
+        run: |
+          mkdir -p release-assets
+          while IFS= read -r -d '' file; do
+            asset_name="${file#dist/}"
+            asset_name="${asset_name//\//-}"
+            cp "$file" "release-assets/$asset_name"
+          done < <(find dist -type f -name '*.json' -print0)
+          node - <<'NODE'
+          const { readFileSync, writeFileSync } = require('node:fs');
+
+          for (const file of ['release-assets/vla-benchmark.manifest.json', 'release-assets/vla-leaderboard.manifest.json']) {
+            const manifest = JSON.parse(readFileSync(file, 'utf8'));
+            manifest.chunks = manifest.chunks.map((chunk) => ({
+              ...chunk,
+              path: chunk.path.replaceAll('/', '-'),
+            }));
+            writeFileSync(file, `${JSON.stringify(manifest, null, 2)}\n`);
+          }
+          NODE
+
+      - name: Move rolling release tag
+        run: |
+          git tag -f vla-benchmark-data "$GITHUB_SHA"
+          git push -f origin refs/tags/vla-benchmark-data
+
+      - name: Publish rolling release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: vla-benchmark-data
+          TITLE: VLA Benchmark Data
+          NOTES: |
+            Automated VLA benchmark data build.
+
+            Source commit: ${{ github.sha }}
+            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+            gh release edit "$TAG" --title "$TITLE" --notes "$NOTES" --latest
+          else
+            gh release create "$TAG" release-assets/* --title "$TITLE" --notes "$NOTES" --latest
+          fi
