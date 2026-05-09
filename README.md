@@ -39,8 +39,10 @@ Use the same shape as the leaderboard:
   ]
 }
 ```
+## Score calculation
 
-After editing records, rebuild the generated chunks in `dist/`.
+Each benchark gives 5 to 1 points to the top five eligible models, then averages those points over the benchmarks where the model received points.
+
 
 ## Contributing Scores
 
