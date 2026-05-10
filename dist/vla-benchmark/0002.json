@@ -1488,5 +1488,143 @@
         "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.5 · libero long 95.4 | Table 8 | Notes: MolmoAct2-Think-LIBERO adaptive-depth variant fine-tuned with the same full-LIBERO recipe and compute budget as MolmoAct2-LIBERO; four standard LIBERO suites."
       }
     ]
+  },
+  {
+    "model": "ConsisVLA-4D",
+    "paperTitle": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2605.05126",
+    "arxivId": "2605.05126",
+    "publishedAt": "May 7, 2026",
+    "organization": "Harbin Institute of Technology, Shenzhen / ZTE / Shenzhen Loop Area Institute",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.1,
+        "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.0 · libero long 95.6 | Table 1 | Notes: Standard four-suite LIBERO simulation evaluation; table reports task success rates and overall average."
+      },
+      {
+        "label": "ManiSkill2",
+        "query": "ManiSkill2",
+        "overall": 94.3,
+        "detail": "Tasks: PickCube 93.0 · StackCube 95.0 · PushCube 95.0 | Table 2 | Notes: Simulation results on three ManiSkill2 pick-and-place tasks emphasizing spatial scene perception."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 66.7,
+        "detail": "Tasks: Click Alarmclock 87.0 · Turn Switch 52.0 · Put Bottles Dustbin 65.0 · Open Laptop 90.0 · Press Stapler 71.0 · Place Empty Cup 70.0 · Blocks Ranking RGB 32.0 | Figure 5 | Notes: Figure reports seven RoboTwin 2.0 bimanual tasks with 100 trials each; overall is the mean of the seven plotted task success rates."
+      }
+    ]
+  },
+  {
+    "model": "OA-WAM",
+    "paperTitle": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+    "paperUrl": "https://arxiv.org/abs/2605.06481",
+    "arxivId": "2605.06481",
+    "publishedAt": "May 7, 2026",
+    "organization": "Tsinghua University / Shanghai Jiao Tong University / Nanyang Technological University",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.8,
+        "detail": "Suites: libero spatial 98.9 · libero object 99.0 · libero goal 97.4 · libero long 95.9 | Table 1 | Notes: Standard four-suite LIBERO evaluation; all numbers are success rates averaged over three seeds."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 79.3,
+        "detail": "Suites: SimplerEnv WidowX Bridge visual matching 79.3 | Tasks: put spoon on towel 83.0 · put carrot on plate 71.1 · stack cube 65.0 · put eggplant in basket 98.2 | Table 1 and Appendix H | Notes: Official SimplerEnv visual-matching protocol on the WidowX Bridge suite; each task uses 25 episodes per cell repeated over three seeds."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 83.9,
+        "detail": "Suites: camera 80.5 · robot init 89.6 · layout 82.8 · light 96.5 · background 95.9 · language 85.3 · sensor noise 75.6 | Table 2 | Notes: Zero-shot LIBERO-Plus robustness benchmark after training only on standard LIBERO demonstrations; Geo Avg over camera, robot init, and layout is 84.3."
+      }
+    ]
+  },
+  {
+    "model": "Latent Bridge (GR00T-N1.6)",
+    "paperTitle": "Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference",
+    "paperUrl": "https://arxiv.org/abs/2605.02739",
+    "arxivId": "2605.02739",
+    "publishedAt": "May 4, 2026",
+    "organization": "Duke University / Qualcomm AI Research / University of Florida",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 94.54,
+        "detail": "Suites: libero spatial 95.83 · libero object 97.83 · libero goal 95.33 · libero long 89.17 | Table 1 | Notes: Latent Bridge feature-space variant on GR00T-N1.6-3B with phase-aware f=2-4 bridge calls; success rates are means across 3 seeds and 20 episodes per task."
+      },
+      {
+        "label": "RoboCasa",
+        "query": "RoboCasa",
+        "overall": 63.16,
+        "detail": "Suites: RoboCasa GR00T average over 24 kitchen tasks | Tasks: door/drawer 75.83 · appliance 77.17 · coffee 56.67 · pick-and-place 43.83 | Table 2 | Notes: Zero-shot GR00T bridge at f=3; paper reports 95.38% retention relative to the 66.22% synchronous GR00T baseline."
+      }
+    ]
+  },
+  {
+    "model": "Latent Bridge (π0.5)",
+    "paperTitle": "Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference",
+    "paperUrl": "https://arxiv.org/abs/2605.02739",
+    "arxivId": "2605.02739",
+    "publishedAt": "May 4, 2026",
+    "organization": "Duke University / Qualcomm AI Research / University of Florida",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 96.92,
+        "detail": "Suites: libero spatial 99.00 · libero object 97.67 · libero goal 97.33 · libero long 93.67 | Table 1 | Notes: Latent Bridge KV-cache variant on the publicly released π0.5 LIBERO checkpoint at f=4; success rates are means across 3 seeds and 20 episodes per task."
+      }
+    ]
+  },
+  {
+    "model": "LoHo-Manip",
+    "paperTitle": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+    "paperUrl": "https://arxiv.org/abs/2604.21924",
+    "arxivId": "2604.21924",
+    "publishedAt": "Apr 23, 2026",
+    "organization": "University of California, San Diego / NVIDIA",
+    "flag": "🇺🇸",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.5,
+        "detail": "Suites: libero spatial 98.0 · libero object 98.6 · libero goal 98.0 · libero long 95.2 | Table 5 | Notes: End-to-end VLA simulation evaluation using trace-conditioned planning and execution; paper reports the highest average score across the four LIBERO tracks."
+      },
+      {
+        "label": "VLABench",
+        "query": "VLABench",
+        "overall": 0.39,
+        "detail": "Suites: in-distribution 0.54 · cross-category 0.23 · common-sense 0.36 · semantic instruction 0.42 · unseen texture 0.39 | Table 4 | Notes: Paper reports VLABench scores on a 0-1 scale rather than percentages; overall is the table's average column."
+      }
+    ]
+  },
+  {
+    "model": "LaST-R1",
+    "paperTitle": "LaST-R1: Reinforcing Robotic Manipulation via Adaptive Physical Latent Reasoning",
+    "paperUrl": "https://arxiv.org/abs/2604.28192",
+    "arxivId": "2604.28192",
+    "publishedAt": "Apr 30, 2026",
+    "organization": "The Chinese University of Hong Kong / Peking University / Simplexity Robotics",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 99.8,
+        "detail": "Suites: libero spatial 99.8 · libero object 100.0 · libero goal 100.0 · libero long 99.4 | Table 1 | Notes: Values are from the user-provided arXiv v1 PDF. RL uses single-trajectory warm-up and single-view data; performance is measured over 50 held-out test scenarios per task."
+      }
+    ]
   }
 ]
