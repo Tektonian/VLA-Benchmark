@@ -1,0 +1,29 @@
+{
+  "model": "OA-WAM",
+  "paperTitle": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2605.06481",
+  "arxivId": "2605.06481",
+  "publishedAt": "May 7, 2026",
+  "organization": "Tsinghua University / Shanghai Jiao Tong University / Nanyang Technological University",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.8,
+      "detail": "Suites: libero spatial 98.9 · libero object 99.0 · libero goal 97.4 · libero long 95.9 | Table 1 | Notes: Standard four-suite LIBERO evaluation; all numbers are success rates averaged over three seeds."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 79.3,
+      "detail": "Suites: SimplerEnv WidowX Bridge visual matching 79.3 | Tasks: put spoon on towel 83.0 · put carrot on plate 71.1 · stack cube 65.0 · put eggplant in basket 98.2 | Table 1 and Appendix H | Notes: Official SimplerEnv visual-matching protocol on the WidowX Bridge suite; each task uses 25 episodes per cell repeated over three seeds."
+    },
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 83.9,
+      "detail": "Suites: camera 80.5 · robot init 89.6 · layout 82.8 · light 96.5 · background 95.9 · language 85.3 · sensor noise 75.6 | Table 2 | Notes: Zero-shot LIBERO-Plus robustness benchmark after training only on standard LIBERO demonstrations; Geo Avg over camera, robot init, and layout is 84.3."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "LoHo-Manip",
+  "paperTitle": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+  "paperUrl": "https://arxiv.org/abs/2604.21924",
+  "arxivId": "2604.21924",
+  "publishedAt": "Apr 23, 2026",
+  "organization": "University of California, San Diego / NVIDIA",
+  "flag": "🇺🇸",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.5,
+      "detail": "Suites: libero spatial 98.0 · libero object 98.6 · libero goal 98.0 · libero long 95.2 | Table 5 | Notes: End-to-end VLA simulation evaluation using trace-conditioned planning and execution; paper reports the highest average score across the four LIBERO tracks."
+    },
+    {
+      "label": "VLABench",
+      "query": "VLABench",
+      "overall": 0.39,
+      "detail": "Suites: in-distribution 0.54 · cross-category 0.23 · common-sense 0.36 · semantic instruction 0.42 · unseen texture 0.39 | Table 4 | Notes: Paper reports VLABench scores on a 0-1 scale rather than percentages; overall is the table's average column."
+    }
+  ]
+}

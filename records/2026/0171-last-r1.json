@@ -1,0 +1,17 @@
+{
+  "model": "LaST-R1",
+  "paperTitle": "LaST-R1: Reinforcing Robotic Manipulation via Adaptive Physical Latent Reasoning",
+  "paperUrl": "https://arxiv.org/abs/2604.28192",
+  "arxivId": "2604.28192",
+  "publishedAt": "Apr 30, 2026",
+  "organization": "The Chinese University of Hong Kong / Peking University / Simplexity Robotics",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 99.8,
+      "detail": "Suites: libero spatial 99.8 · libero object 100.0 · libero goal 100.0 · libero long 99.4 | Table 1 | Notes: Values are from the user-provided arXiv v1 PDF. RL uses single-trajectory warm-up and single-view data; performance is measured over 50 held-out test scenarios per task."
+    }
+  ]
+}

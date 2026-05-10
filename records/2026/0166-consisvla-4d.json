@@ -1,0 +1,29 @@
+{
+  "model": "ConsisVLA-4D",
+  "paperTitle": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
+  "paperUrl": "https://arxiv.org/abs/2605.05126",
+  "arxivId": "2605.05126",
+  "publishedAt": "May 7, 2026",
+  "organization": "Harbin Institute of Technology, Shenzhen / ZTE / Shenzhen Loop Area Institute",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.1,
+      "detail": "Suites: libero spatial 98.8 · libero object 99.8 · libero goal 98.0 · libero long 95.6 | Table 1 | Notes: Standard four-suite LIBERO simulation evaluation; table reports task success rates and overall average."
+    },
+    {
+      "label": "ManiSkill2",
+      "query": "ManiSkill2",
+      "overall": 94.3,
+      "detail": "Tasks: PickCube 93.0 · StackCube 95.0 · PushCube 95.0 | Table 2 | Notes: Simulation results on three ManiSkill2 pick-and-place tasks emphasizing spatial scene perception."
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 66.7,
+      "detail": "Tasks: Click Alarmclock 87.0 · Turn Switch 52.0 · Put Bottles Dustbin 65.0 · Open Laptop 90.0 · Press Stapler 71.0 · Place Empty Cup 70.0 · Blocks Ranking RGB 32.0 | Figure 5 | Notes: Figure reports seven RoboTwin 2.0 bimanual tasks with 100 trials each; overall is the mean of the seven plotted task success rates."
+    }
+  ]
+}
