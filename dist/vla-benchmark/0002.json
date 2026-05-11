@@ -1632,5 +1632,28 @@
         "detail": "Suites: libero spatial 99.8 · libero object 100.0 · libero goal 100.0 · libero long 99.4 | Table 1 | Notes: Values are from the user-provided arXiv v1 PDF. RL uses single-trajectory warm-up and single-view data; performance is measured over 50 held-out test scenarios per task."
       }
     ]
+  },
+  {
+    "model": "PokéVLA",
+    "paperTitle": "PokéVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
+    "paperUrl": "https://arxiv.org/abs/2604.20834",
+    "arxivId": "2604.20834",
+    "publishedAt": "Apr 22, 2026",
+    "organization": "CASIA / TARS Robotics / Tsinghua University / Fudan University / National University of Singapore / Tongji University",
+    "flag": "🇨🇳 🇸🇬",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.2,
+        "detail": "Suites: libero spatial 99.6 · libero object 99.6 · libero goal 98.4 · libero long 95.2 | Table IV | Notes: Results are from the user-provided arXiv v1 PDF. Models are trained separately on each LIBERO task suite for 150K steps; evaluation uses 10 test subtask samples per suite with 50 executions each."
+      },
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 83.5,
+        "detail": "Suites: spatial 87.3 · object 86.6 · goal 80.0 · long 80.6 | Tasks: camera 98.2 · robot 52.9 · language 71.4 · light 99.0 · background 99.3 · noise 94.0 · layout 77.9 | Table V | Notes: Results are from the user-provided arXiv v1 PDF. Overall is the paper-reported total for PokeVLA trained directly on LIBERO-Plus with mixed training across all four suites for 150K steps; each LIBERO-Plus test sample is executed once."
+      }
+    ]
   }
 ]

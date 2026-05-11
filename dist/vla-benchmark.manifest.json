@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "chunkSize": 100,
-  "totalRecords": 171,
+  "totalRecords": 172,
   "totalChunks": 2,
   "topRankHistory": {
     "path": "vla-benchmark.top3-history.json",
@@ -9,7 +9,7 @@
     "minRankBenchmarkCount": 5,
     "historyEventCount": 0,
     "finalTopCount": 3,
-    "sha256": "b0d09f3b7c888d83a4837d3797897f9c323279555f0a7b8dc2039846ba35a8c5"
+    "sha256": "c0c5c57b43b96bb131def0ce71aacf24afa10513e08f5b342d52ea292301124e"
   },
   "chunks": [
     {
@@ -23,10 +23,10 @@
     {
       "id": "0002",
       "path": "vla-benchmark/0002.json",
-      "count": 71,
+      "count": 72,
       "startIndex": 100,
-      "endIndex": 170,
-      "sha256": "3efcc3e1e408bc08fda2e38924db8971b5cf91ad44b3cf2cc934ce5aa03b839f"
+      "endIndex": 171,
+      "sha256": "5e113fe68bc8349fdd2c06db5a9bbd6fec7b73e6770b4b2941fc0d0e86b24af2"
     }
   ]
 }
