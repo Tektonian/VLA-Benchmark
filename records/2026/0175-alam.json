@@ -1,0 +1,23 @@
+{
+  "model": "ALAM",
+  "paperTitle": "ALAM: Algebraically Consistent Latent Transitions for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2605.10819v1",
+  "arxivId": "2605.10819",
+  "publishedAt": "May 11, 2026",
+  "organization": "Zhejiang University / Alibaba Group / Nanjing University / Shenzhen University of Advanced Technology / Beijing University of Chemical Technology / Chery Auto / Tsinghua University / Queen Mary University of London",
+  "flag": "🇨🇳 🇬🇧",
+  "benchmarks": [
+    {
+      "label": "MetaWorld MT50",
+      "query": "MetaWorld MT50",
+      "overall": 85,
+      "detail": "Suites: Easy 89.3 · Medium 83.6 · Hard 85.0 · Very Hard 82.0 | Table 1 | Notes: Macro-average over four MetaWorld MT50 difficulty tiers for pi0 + ALAM. The paper notes no prior latent-action VLA reports MT50 results under this protocol."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.1,
+      "detail": "Suites: libero spatial 99.2 · libero object 99.6 · libero goal 99.0 · libero long 94.4 | Table 2 | Notes: pi0 + ALAM latent-action policy; average is the mean over the four standard LIBERO suites."
+    }
+  ]
+}

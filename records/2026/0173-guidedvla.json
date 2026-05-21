@@ -1,0 +1,23 @@
+{
+  "model": "GuidedVLA",
+  "paperTitle": "GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization",
+  "paperUrl": "https://arxiv.org/abs/2605.12369",
+  "arxivId": "2605.12369",
+  "publishedAt": "May 12, 2026",
+  "organization": "Fudan University / Shanghai Jiao Tong University / OpenDriveLab, The University of Hong Kong",
+  "flag": "🇨🇳 🇭🇰",
+  "benchmarks": [
+    {
+      "label": "LIBERO-Plus",
+      "query": "LIBERO-Plus",
+      "overall": 75.4,
+      "detail": "Suites: spatial 84.0 · object 80.9 · goal 70.8 · long 66.2 | Tasks: camera 73.7 · robot 51.4 · language 62.6 · light 94.6 · background 89.0 · noise 85.2 · layout 79.9 | Table I and Appendix Table IV | Notes: GuidedVLA with all guided heads; trained on official LIBERO and evaluated zero-shot on LIBERO-Plus."
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 90.63,
+      "detail": "Tasks: Adjust Bottle 99 · Beat Hammer Block 95 · Click Bell 65 · Dump Bin BigBin 93 · Moving PlayingCard away 98 · Lift Pot 99 · Place Burger Fries 98 · Place Can Basket 78 | Figure 5 and Appendix Table V | Notes: GuidedVLA with all heads on 8 representative RoboTwin 2.0 tasks; table reports a 90.63% average."
+    }
+  ]
+}

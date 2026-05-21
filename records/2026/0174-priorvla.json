@@ -1,0 +1,23 @@
+{
+  "model": "PriorVLA",
+  "paperTitle": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models",
+  "paperUrl": "https://arxiv.org/abs/2605.10925",
+  "arxivId": "2605.10925",
+  "publishedAt": "May 11, 2026",
+  "organization": "Institute of Automation, Chinese Academy of Sciences / Dexmal / Zhongguancun Academy / Nanjing University of Aeronautics and Astronautics",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 65,
+      "detail": "Suites: standard Easy 77 · standard Hard 53 | Tasks: 13 RoboTwin 2.0 tasks including Grab Roller, Handover Mic, Lift Pot, Open Laptop, Pick Dual Bottles, Place Object Basket, Stack Blocks Two, and Stack Bowls Two | Table 1 and Table 2 | Notes: Standard training with 50 clean demonstrations per task and 300 evaluation trials per setting. The paper reports Easy and Hard aggregates separately; overall is their mean."
+    },
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 99.1,
+      "detail": "Suites: libero spatial 99.4 · libero object 99.8 · libero goal 99.4 · libero long 97.6 | Table 3 | Notes: Four standard LIBERO suites; the paper reports 99.1% average success."
+    }
+  ]
+}

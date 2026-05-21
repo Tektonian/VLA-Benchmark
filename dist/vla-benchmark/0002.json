@@ -1655,5 +1655,74 @@
         "detail": "Suites: spatial 87.3 · object 86.6 · goal 80.0 · long 80.6 | Tasks: camera 98.2 · robot 52.9 · language 71.4 · light 99.0 · background 99.3 · noise 94.0 · layout 77.9 | Table V | Notes: Results are from the user-provided arXiv v1 PDF. Overall is the paper-reported total for PokeVLA trained directly on LIBERO-Plus with mixed training across all four suites for 150K steps; each LIBERO-Plus test sample is executed once."
       }
     ]
+  },
+  {
+    "model": "GuidedVLA",
+    "paperTitle": "GuidedVLA: Specifying Task-Relevant Factors via Plug-and-Play Action Attention Specialization",
+    "paperUrl": "https://arxiv.org/abs/2605.12369",
+    "arxivId": "2605.12369",
+    "publishedAt": "May 12, 2026",
+    "organization": "Fudan University / Shanghai Jiao Tong University / OpenDriveLab, The University of Hong Kong",
+    "flag": "🇨🇳 🇭🇰",
+    "benchmarks": [
+      {
+        "label": "LIBERO-Plus",
+        "query": "LIBERO-Plus",
+        "overall": 75.4,
+        "detail": "Suites: spatial 84.0 · object 80.9 · goal 70.8 · long 66.2 | Tasks: camera 73.7 · robot 51.4 · language 62.6 · light 94.6 · background 89.0 · noise 85.2 · layout 79.9 | Table I and Appendix Table IV | Notes: GuidedVLA with all guided heads; trained on official LIBERO and evaluated zero-shot on LIBERO-Plus."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 90.63,
+        "detail": "Tasks: Adjust Bottle 99 · Beat Hammer Block 95 · Click Bell 65 · Dump Bin BigBin 93 · Moving PlayingCard away 98 · Lift Pot 99 · Place Burger Fries 98 · Place Can Basket 78 | Figure 5 and Appendix Table V | Notes: GuidedVLA with all heads on 8 representative RoboTwin 2.0 tasks; table reports a 90.63% average."
+      }
+    ]
+  },
+  {
+    "model": "PriorVLA",
+    "paperTitle": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2605.10925",
+    "arxivId": "2605.10925",
+    "publishedAt": "May 11, 2026",
+    "organization": "Institute of Automation, Chinese Academy of Sciences / Dexmal / Zhongguancun Academy / Nanjing University of Aeronautics and Astronautics",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 65,
+        "detail": "Suites: standard Easy 77 · standard Hard 53 | Tasks: 13 RoboTwin 2.0 tasks including Grab Roller, Handover Mic, Lift Pot, Open Laptop, Pick Dual Bottles, Place Object Basket, Stack Blocks Two, and Stack Bowls Two | Table 1 and Table 2 | Notes: Standard training with 50 clean demonstrations per task and 300 evaluation trials per setting. The paper reports Easy and Hard aggregates separately; overall is their mean."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 99.1,
+        "detail": "Suites: libero spatial 99.4 · libero object 99.8 · libero goal 99.4 · libero long 97.6 | Table 3 | Notes: Four standard LIBERO suites; the paper reports 99.1% average success."
+      }
+    ]
+  },
+  {
+    "model": "ALAM",
+    "paperTitle": "ALAM: Algebraically Consistent Latent Transitions for Vision-Language-Action Models",
+    "paperUrl": "https://arxiv.org/abs/2605.10819v1",
+    "arxivId": "2605.10819",
+    "publishedAt": "May 11, 2026",
+    "organization": "Zhejiang University / Alibaba Group / Nanjing University / Shenzhen University of Advanced Technology / Beijing University of Chemical Technology / Chery Auto / Tsinghua University / Queen Mary University of London",
+    "flag": "🇨🇳 🇬🇧",
+    "benchmarks": [
+      {
+        "label": "MetaWorld MT50",
+        "query": "MetaWorld MT50",
+        "overall": 85,
+        "detail": "Suites: Easy 89.3 · Medium 83.6 · Hard 85.0 · Very Hard 82.0 | Table 1 | Notes: Macro-average over four MetaWorld MT50 difficulty tiers for pi0 + ALAM. The paper notes no prior latent-action VLA reports MT50 results under this protocol."
+      },
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.1,
+        "detail": "Suites: libero spatial 99.2 · libero object 99.6 · libero goal 99.0 · libero long 94.4 | Table 2 | Notes: pi0 + ALAM latent-action policy; average is the mean over the four standard LIBERO suites."
+      }
+    ]
   }
 ]
