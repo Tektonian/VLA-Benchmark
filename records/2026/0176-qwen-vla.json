@@ -1,0 +1,35 @@
+{
+  "model": "Qwen-VLA-Instruct",
+  "paperTitle": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+  "paperUrl": "https://arxiv.org/abs/2605.30280",
+  "arxivId": "2605.30280",
+  "publishedAt": "May 28, 2026",
+  "organization": "Qwen Team / Alibaba",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 97.9,
+      "detail": "Suites: aggregate LIBERO success rate 97.9 | Table: Manipulation & Navigation results | Notes: Qwen-VLA-Instruct is a single generalist policy trained jointly across embodiments and evaluated without per-benchmark adaptation."
+    },
+    {
+      "label": "RoboCasa-GR1",
+      "query": "RoboCasa-GR1",
+      "overall": 56.7,
+      "detail": "Suites: RoboCasa-GR1 aggregate success rate 56.7 | Table: Manipulation & Navigation results | Notes: Generalist setting; the paper compares against task-specific specialist baselines."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 73.7,
+      "detail": "Suites: Simpler-WidowX success rate 73.7 | Table: Manipulation & Navigation results | Notes: Final Qwen-VLA-Instruct checkpoint after SFT and RL refinement."
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 87.2,
+      "detail": "Suites: RoboTwin-Easy 86.1 · RoboTwin-Hard 87.2 | Table: Manipulation & Navigation results | Notes: The paper reports Easy and Hard splits rather than one single aggregate; overall stores the Hard split."
+    }
+  ]
+}

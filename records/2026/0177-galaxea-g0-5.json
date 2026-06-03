@@ -1,0 +1,29 @@
+{
+  "model": "Galaxea G0.5",
+  "paperTitle": "Galaxea G0.5 Technical Report",
+  "paperUrl": "https://opengalaxea.github.io/G05/Galaxea_G0_5.pdf",
+  "arxivId": "galaxea2026g05",
+  "publishedAt": "May 31, 2026",
+  "organization": "Galaxea AI",
+  "flag": "🇨🇳",
+  "benchmarks": [
+    {
+      "label": "LIBERO",
+      "query": "LIBERO",
+      "overall": 98.9,
+      "detail": "Suites: spatial 98.4 · object 100.0 · goal 98.6 · long 98.6 · average 98.9 | Table: LIBERO success rate by suite | Notes: G0.5 is evaluated as an autoregressive VLA with one action-token stream."
+    },
+    {
+      "label": "RoboTwin 2.0",
+      "query": "RoboTwin 2.0",
+      "overall": 93.3,
+      "detail": "Suites: clean 93.7 · random 92.8 · average 93.3 | Table: RoboTwin 2.0 success rate | Notes: Simulation benchmark result from the G0.5 technical report/project page."
+    },
+    {
+      "label": "SimplerEnv",
+      "query": "SimplerEnv",
+      "overall": 87.3,
+      "detail": "Suites: SimplerEnv-Bridge average 87.3 | Tasks: Spoon 97.5 · Carrot 75.0 · Stack 83.3 · Eggplant 93.3 | Table: SimplerEnv-Bridge success rate by task | Notes: Compared with π0.5, GR00T-N1.5, MemoryVLA, and Xiaomi-Robotics-0."
+    }
+  ]
+}

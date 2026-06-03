@@ -1724,5 +1724,69 @@
         "detail": "Suites: libero spatial 99.2 · libero object 99.6 · libero goal 99.0 · libero long 94.4 | Table 2 | Notes: pi0 + ALAM latent-action policy; average is the mean over the four standard LIBERO suites."
       }
     ]
+  },
+  {
+    "model": "Qwen-VLA-Instruct",
+    "paperTitle": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+    "paperUrl": "https://arxiv.org/abs/2605.30280",
+    "arxivId": "2605.30280",
+    "publishedAt": "May 28, 2026",
+    "organization": "Qwen Team / Alibaba",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 97.9,
+        "detail": "Suites: aggregate LIBERO success rate 97.9 | Table: Manipulation & Navigation results | Notes: Qwen-VLA-Instruct is a single generalist policy trained jointly across embodiments and evaluated without per-benchmark adaptation."
+      },
+      {
+        "label": "RoboCasa-GR1",
+        "query": "RoboCasa-GR1",
+        "overall": 56.7,
+        "detail": "Suites: RoboCasa-GR1 aggregate success rate 56.7 | Table: Manipulation & Navigation results | Notes: Generalist setting; the paper compares against task-specific specialist baselines."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 73.7,
+        "detail": "Suites: Simpler-WidowX success rate 73.7 | Table: Manipulation & Navigation results | Notes: Final Qwen-VLA-Instruct checkpoint after SFT and RL refinement."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 87.2,
+        "detail": "Suites: RoboTwin-Easy 86.1 · RoboTwin-Hard 87.2 | Table: Manipulation & Navigation results | Notes: The paper reports Easy and Hard splits rather than one single aggregate; overall stores the Hard split."
+      }
+    ]
+  },
+  {
+    "model": "Galaxea G0.5",
+    "paperTitle": "Galaxea G0.5 Technical Report",
+    "paperUrl": "https://opengalaxea.github.io/G05/Galaxea_G0_5.pdf",
+    "arxivId": "galaxea2026g05",
+    "publishedAt": "May 31, 2026",
+    "organization": "Galaxea AI",
+    "flag": "🇨🇳",
+    "benchmarks": [
+      {
+        "label": "LIBERO",
+        "query": "LIBERO",
+        "overall": 98.9,
+        "detail": "Suites: spatial 98.4 · object 100.0 · goal 98.6 · long 98.6 · average 98.9 | Table: LIBERO success rate by suite | Notes: G0.5 is evaluated as an autoregressive VLA with one action-token stream."
+      },
+      {
+        "label": "RoboTwin 2.0",
+        "query": "RoboTwin 2.0",
+        "overall": 93.3,
+        "detail": "Suites: clean 93.7 · random 92.8 · average 93.3 | Table: RoboTwin 2.0 success rate | Notes: Simulation benchmark result from the G0.5 technical report/project page."
+      },
+      {
+        "label": "SimplerEnv",
+        "query": "SimplerEnv",
+        "overall": 87.3,
+        "detail": "Suites: SimplerEnv-Bridge average 87.3 | Tasks: Spoon 97.5 · Carrot 75.0 · Stack 83.3 · Eggplant 93.3 | Table: SimplerEnv-Bridge success rate by task | Notes: Compared with π0.5, GR00T-N1.5, MemoryVLA, and Xiaomi-Robotics-0."
+      }
+    ]
   }
 ]
